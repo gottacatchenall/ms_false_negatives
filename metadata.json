@@ -1,42 +1,51 @@
 {
-  "title": "Template to prepare preprints and manuscripts using markdown and github actions",
-  "authors": [
-    {
-      "affiliations": [
-        "Université de Montréal",
-        "Québec Centre for Biodiversity Sciences"
-      ],
-      "familyname": "Poisot",
-      "givennames": "Timothée",
-      "email": "timothee.poisot@umontreal.ca",
-      "orcid": "0000-0002-0735-5184",
-      "status": ["corresponding", "equal"]
-    },
-    {
-      "affiliations": [
-        "Inn of the Prancing Pony",
-        "Fellowship of the Ring"
-      ],
-      "familyname": "Took",
-      "givennames": "Peregrin",
-      "email": "pippin@took.shire"
-    },
-    {
-      "affiliations": [
-        "Green Dragon Inn",
-        "Fellowship of the Ring"
-      ],
-      "familyname": "Brandybuck",
-      "givennames": "Merriadoc",
-      "email": "merry@fellowship.ring",
-      "status": ["equal"]
+    "title": "The missing link: discerning true from false negatives when sampling species interaction networks",
+    "license": "CC-BY",
+    "language": "en",
+    "creators": [
+      {
+        "affiliations": [
+          "McGill University",
+          "Québec Centre for Biodiversity Sciences"
+        ],
+        "familyname": "Catchen",
+        "givennames": "Michael D.",
+        "status": ["corresponding"],
+        "email": "michael.catchen@mail.mcgill.ca",
+        "orcid": "0000-0002-6506-6487"
+      },
+      {
+     "affiliations": [
+       "Université de Montréal",
+       "Québec Centre for Biodiversity Sciences"
+     ],
+     "familyname": "Poisot",
+     "givennames": "Timothée",
+     "email": "timothee.poisot@umontreal.ca",
+     "orcid": "0000-0002-0735-5184"
+   },
+   {
+     "affiliations": [
+       "McGill University",
+       "Québec Centre for Biodiversity Sciences"
+     ],
+     "familyname": "Pollock",
+     "givennames": "Laura",
+     "email": "laura.pollock@mcgill.ca",
+     "orcid": "0000-0002-6004-4027"
+   },
+   {
+    "affiliations": [
+      "McGill University",
+      "Québec Centre for Biodiversity Sciences"
+    ],
+    "familyname": "Gonzalez",
+    "givennames": "Andrew",
+    "email": "andrew.gonzalez@mcgill.ca",
+    "orcid": "0000-0001-6075-8081"
     }
-  ],
-  "abstract": {
-    "Purpose": "This template provides a series of scripts to render a markdown document into an interactive website and a series of PDFs.",
-    "Motivation": "It makes collaborating on text with GitHub easier, and means that we never need to think about the output.",
-    "Internals": "GitHub actions and a series of python scritpts. The markdown is handled with `pandoc`."
-  },
+ ],
+  "abstract": "Species interactions and the networks that emerge from them structure ecosystem processes and enable biodiversity to persist through time. Still a robust understanding of interactions between species, how human activity is effecting these intearctions, and how these change will effect Earth's ecosystems in the future remains elusive. This knowledge-gap is largely driven by a shortfall of data---although species occurence data has rapidly increased in the last decade, species interaction data has lagged behind, largely due to the intrinsic difficulty of sampling interations. These sampling challenges bias data. Here, we demonstrate that the realized false-negative rate can be quite highly biased toward species with high relative abundance. We then simulate observation on both 243 empirical food webs and generated models to estimate the sampling effort required to reduce the false-negative rate to less than 10%. We then assess how false negatives effect measurements of network properties and models of network prediction. We conclude by discussing how understanding of false-negatives can inform how we design sampling of species interactions and the networks they form.",
   "keywords": [
     "pandoc",
     "pandoc-crossref",
