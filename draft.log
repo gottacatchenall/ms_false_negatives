@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.1)  18 SEP 2022 21:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.1)  18 SEP 2022 21:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -838,12 +838,6 @@ ne 167.
 File: ls2stix2tt.fd 2018/04/02 v2.0.0-latex stix2 typewriter LS2 font definitio
 ns
 )
-LaTeX Font Info:    Trying to load font information for TS1+stix2 on input line
- 181.
-
-(/opt/texlive/texdir/texmf-dist/tex/latex/stix2-type1/ts1stix2.fd
-File: ts1stix2.fd 2018/04/02 v2.0.0-latex stix2 TS1 font definitions
-)
 LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 18
 4.
 
@@ -858,80 +852,166 @@ LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
 
 {/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 210.
+(Font)              scaled to size 5.69998pt on input line 202.
  [2
 
 
 ]
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 308.
- [3]
-LaTeX Font Info:    Font shape `T1/zi4/b/n' will be
-(Font)              scaled to size 10.95pt on input line 313.
- [4] [5]
-LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 4
-11.
 
-(/opt/texlive/texdir/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
-File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
-)
-LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
-(Font)              scaled to size 10.95pt on input line 411.
+LaTeX Warning: Reference `fig:taxonomy' on page 3 undefined on input line 266.
+
+
+LaTeX Warning: Reference `fig:taxonomy' on page 3 undefined on input line 270.
+
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 310.
+[3]
+
+LaTeX Warning: Reference `fig:negativebinom' on page 4 undefined on input line 
+324.
+
+
+LaTeX Warning: Reference `fig:negativebinom' on page 4 undefined on input line 
+342.
+
+[4] [5]
 \openout4 = `draft.fff'.
 
  (draft.fff)
-[6] [7]
+
+LaTeX Warning: Reference `fig:totalobs' on page 6 undefined on input line 432.
+
+
+LaTeX Warning: Reference `fig:negativebinom' on page 6 undefined on input line 
+437.
+
+
+LaTeX Warning: Reference `fig:totalobs' on page 6 undefined on input line 449.
+
+
+LaTeX Warning: Reference `fig:totalobs' on page 6 undefined on input line 462.
+
+[6]
+
+LaTeX Warning: Reference `fig:negativebinom' on page 7 undefined on input line 
+490.
+
+[7] [8] [9] [10]
+
+LaTeX Warning: Reference `fig:negativebinom' on page 11 undefined on input line
+ 698.
+
 ! You can't use `\vadjust' in vertical mode.
-l.547 \leavevmode\vadjust
-                          pre{\hypertarget{ref-Camerano1880EquViv}{}}%
+l.731 \leavevmode\vadjust
+                          pre{\hypertarget{ref-Banville2021ManJl}{}}%
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-
+[11] [12] [13] 
 AED: lastpage setting LastPage
-[8] AED endfloat: Processing end Figures and Tables (./draft.fff
-<figures/figure.png, id=151, 1806.75pt x 1204.5pt>
-File: figures/figure.png Graphic file (type png)
-<use figures/figure.png>
-Package pdftex.def Info: figures/figure.png  used on input line 9.
-(pdftex.def)             Requested size: 489.10307pt x 326.06479pt.
-) [9 <./figures/figure.png>] (./draft.aux)
+[14] AED endfloat: Processing end Figures and Tables (./draft.fff
+<./figures/fig1.png, id=274, 2609.75pt x 2409.0pt>
+File: ./figures/fig1.png Graphic file (type png)
+<use ./figures/fig1.png>
+Package pdftex.def Info: ./figures/fig1.png  used on input line 25.
+(pdftex.def)             Requested size: 489.10307pt x 451.46585pt.
+
+
+LaTeX Warning: Text page 15 contains only floats.
+
+[15
+
+
+
+ <./figures/fig1.png>]
+
+LaTeX Warning: File `./figures/positiveassociations.png' not found on input lin
+e 37.
+
+
+! Package pdftex.def Error: File `./figures/positiveassociations.png' not found
+: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 }
+      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[16]
+
+LaTeX Warning: File `./figures/props_specrad.png' not found on input line 49.
+
+
+! Package pdftex.def Error: File `./figures/props_specrad.png' not found: using
+ draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 }
+      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[17]
+
+LaTeX Warning: File `./figures/rocpr_falsenegatives.png' not found on input lin
+e 62.
+
+
+! Package pdftex.def Error: File `./figures/rocpr_falsenegatives.png' not found
+: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 }
+      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) [18] (./draft.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `draft.out' has not changed.
-(rerunfilecheck)             Checksum: 929C425E4A51D8BBB6E7B353729BCC72;2166.
+(rerunfilecheck)             Checksum: 8A2E4D3A663506D99320E02807399755;2623.
  ) 
 Here is how much of TeX's memory you used:
- 19039 strings out of 477529
- 309993 string characters out of 5827605
- 586821 words of memory out of 5000000
- 37639 multiletter control sequences out of 15000+600000
- 571459 words of font info for 94 fonts, out of 8000000 for 9000
+ 19111 strings out of 477529
+ 314196 string characters out of 5827605
+ 588147 words of memory out of 5000000
+ 37666 multiletter control sequences out of 15000+600000
+ 570175 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,11n,117p,396b,535s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathcal.enc
-}{/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathscr.enc}
-{/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{/opt/te
-xlive/texdir/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathex.enc}{/opt/texl
-ive/texdir/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathrm.enc}{/opt/texliv
-e/texdir/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathit.enc}{/opt/texlive/
-texdir/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}{/opt/texlive/texdir/
-texmf-dist/fonts/enc/dvips/base/8r.enc}{/opt/texlive/texdir/texmf-dist/fonts/en
-c/dvips/stix2-type1/stix2-t1.enc}{/opt/texlive/texdir/texmf-dist/fonts/enc/dvip
-s/stix2-type1/stix2-ts1.enc}</opt/texlive/texdir/texmf-dist/fonts/type1/public/
-inconsolata/Inconsolata-zi4b.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/pu
-blic/inconsolata/Inconsolata-zi4r.pfb></opt/texlive/texdir/texmf-dist/fonts/typ
-e1/public/stix2-type1/STIX2Math.pfb></opt/texlive/texdir/texmf-dist/fonts/type1
-/public/stix2-type1/STIX2Text-Bold.pfb></opt/texlive/texdir/texmf-dist/fonts/ty
-pe1/public/stix2-type1/STIX2Text-Italic.pfb></opt/texlive/texdir/texmf-dist/fon
-ts/type1/public/stix2-type1/STIX2Text-Regular.pfb></opt/texlive/texdir/texmf-di
-st/fonts/type1/public/ccicons/ccicons.pfb></opt/texlive/texdir/texmf-dist/fonts
-/type1/urw/helvetic/uhvb8a.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/urw/
-helvetic/uhvr8a.pfb>
-Output written on draft.pdf (9 pages, 942770 bytes).
+ 72i,11n,117p,1478b,557s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathsf.enc}
+{/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathcal.enc}{
+/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathrm.enc}{/o
+pt/texlive/texdir/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathit.enc}{/opt
+/texlive/texdir/texmf-dist/fonts/enc/dvips/base/8r.enc}{/opt/texlive/texdir/tex
+mf-dist/fonts/enc/dvips/stix2-type1/stix2-t1.enc}{/opt/texlive/texdir/texmf-dis
+t/fonts/enc/dvips/inconsolata/i4-t1-0.enc}</opt/texlive/texdir/texmf-dist/fonts
+/type1/public/inconsolata/Inconsolata-zi4r.pfb></opt/texlive/texdir/texmf-dist/
+fonts/type1/public/stix2-type1/STIX2Math.pfb></opt/texlive/texdir/texmf-dist/fo
+nts/type1/public/stix2-type1/STIX2Text-Bold.pfb></opt/texlive/texdir/texmf-dist
+/fonts/type1/public/stix2-type1/STIX2Text-Italic.pfb></opt/texlive/texdir/texmf
+-dist/fonts/type1/public/stix2-type1/STIX2Text-Regular.pfb></opt/texlive/texdir
+/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></opt/texlive/texdir/texmf-d
+ist/fonts/type1/urw/helvetic/uhvb8a.pfb></opt/texlive/texdir/texmf-dist/fonts/t
+ype1/urw/helvetic/uhvr8a.pfb>
+Output written on draft.pdf (18 pages, 1627224 bytes).
 PDF statistics:
- 232 PDF objects out of 1000 (max. 8388607)
- 194 compressed objects within 2 object streams
- 53 named destinations out of 1000 (max. 500000)
- 134 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 365 PDF objects out of 1000 (max. 8388607)
+ 321 compressed objects within 4 object streams
+ 88 named destinations out of 1000 (max. 500000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 

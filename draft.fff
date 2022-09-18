@@ -1,10 +1,63 @@
 \begin{figure}
-\hypertarget{fig:figure}{%
+\hypertarget{fig:fig1}{%
 \centering
-\includegraphics{figures/figure.png}
-\caption{This is the legend of the figure, which will be shown in the
-margin in preprint mode, and underneath the figure in draft mode. The
-legend can contain references, etc. It is advised to use a resolution of
-at least 600dpi for the figures.}\label{fig:figure}
+\includegraphics{./figures/fig1.png}
+\caption{A) The probability an observed interaction is a true negative
+(y-axis) given how many times it has been sampled as a non-interaction
+(x-axis). Each color reflects a different value of \(p_{fn}\), the
+false-negative rate (FNR). this is effectively the cdf of the
+negative-binomial distribution with \(r=1\). (B) The expected needed
+observations of all individuals of all species (y-axis) required to
+obtain a goal number of observations (colors) of a particular species,
+and a function of the relative abundance of that focal species (x-axis).
+(C) and (D): False negative rate (y-axis) as a function of total
+sampling effort (x-axis) and network size, computed using the method
+described above. For 500 independent draws from the niche model
+Williams2000SimRul at varying levels of species richness (colors) with
+connectance drawn according to the flexible-links model
+MacDonald2020RevLin as described in the main text. For each draw from
+the niche model, 200 sets of 1500 observations are simulated, for which
+each the mean false negative rate at each observation-step is computed.
+Means denoted with points, with \(1\sigma\) in the first shade and
+\(2\sigma\) in the second. B: empirical food webs from Mangal database
+in teal, applied to the same process as the A. The outlier on panel B is
+a 714 species food-web}\label{fig:fig1}
+}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\hypertarget{fig:associations}{%
+\centering
+\includegraphics{./figures/positiveassociations.png}
+\caption{Top: Hadfield, Bottom: NZ Stream Foodwebs. Effectively a
+version of Cazelles \emph{et al.} (2016) figure 1 panel A. Both
+distributions have \(\mu \neq 0\) with
+\(p < 10^{-50}\)}\label{fig:associations}
+}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\hypertarget{fig:properties}{%
+\centering
+\includegraphics{./figures/props_specrad.png}
+\caption{The mean-squared error (y-axis) of various network properties
+(different colors) across various simulated false-negative rates
+(x-axis). Means denoted with points, with \(1\sigma\) in the first shade
+and \(2\sigma\) in the second.}\label{fig:properties}
+}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\hypertarget{fig:rocpr}{%
+\centering
+\includegraphics{./figures/rocpr_falsenegatives.png}
+\caption{Receiver-operating-characteristic (left) and precision-recall
+(right) curves for the model on varying levels of false-negatives in the
+data (colors). For each value of FNR, we run 30 random training/test
+splits on 80/20 percent of the data. Replica of figure 1 in Strydom
+\emph{et al.} (2021)}\label{fig:rocpr}
 }
 \end{figure}
