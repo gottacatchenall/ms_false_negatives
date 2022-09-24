@@ -4,17 +4,16 @@ bibliography: [references.bib]
 
 # Introduction
 
-Community ecology is fundamentaly about understanding species interactions.
-Understanding how species interact underlies many  question in
-evolutionary biology, community ecology, and is an increasing imperative to mitigate the anthropogoenic
-change on  Earth's biodiversity [@Makiola2020KeyQue; @Jordano2016ChaEco] and to predict
-potential spillover of zoonotic disease [@Becker2021OptPre]. Over the past
-couple decades biodiversity data has become increasingly
-available---remote-sensing has enabled collection of data on spatial scales and
-resolutions previously unimaginable, and improved in-situ sensing
-[@Stephenson2020TecAdv] and adoption of open data practices [@Kenall2014OpeFut]
+Understanding which and how species interact underlies many questions in
+evolutionary biology and ecology, but also is an increasing imperative to both
+mitigate the anthropogenic change on Earth's biodiversity [@Makiola2020KeyQue;
+@Jordano2016ChaEco] and to predict potential spillover of zoonotic disease
+[@Becker2021OptPre]. Over the past few decades biodiversity data has become
+increasingly available: remote-sensing has enabled collection of data on spatial
+scales and resolutions previously unimaginable, automation of in-situ sensing
+[@Stephenson2020TecAdv], and adoption of open data practices [@Kenall2014OpeFut]
 have substantially amount of data available to ecologists. Still, widespread
-data about species _interactions_ remains elusive  [@TIM_DATASET_PAPER]. Often,
+data about species _interactions_ remains elusive [@TIM_DATASET_PAPER]. Often,
 observing an interaction between two species requires human sampling, typically
 because remote sampling methods can only detect co-occurrence, and this itself
 is not necessarily indicative of interaction [@Blanchet2020CooNot]. This

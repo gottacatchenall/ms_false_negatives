@@ -4,133 +4,218 @@ using ProgressMeter
 using Plots
 using DataFrames
 using CSV
-
+using BSON
 datasets()
 
 
 sets = Dict(
-    "hawkins_goeden_1984" => "Hawkins & Goeden (1984)",     
+    #"hawkins_goeden_1984" => "Hawkins & Goeden (1984)",      # not enough samples
     "kolpelke_et_al_2017" => "Kopelke et al. (2017)",
     "hadfield_2014" => "Hafield et al (2014)",
     "havens_1992" => "Havens (1992)", 
-    "ricciardi_2010" => "Ricciardi & MacIsaac (2010)",
     "ponisio_2017" => "Ponisio et al. (2017)",
-    "ruzicka_2012" => "Ruzicka et al. (2012)",
-    "RMBL_pollination" => "CaraDonna et al. (2015)", # this is not fully connected and thus breaks 
-    "fryer_1959" => "Fryer (1959)",
+    "RMBL_pollination" => "CaraDonna et al. (2015)",        
     "closs_1994" => "Closs & Lake (1994)",
-    "primack_1983" => "Primack (1983)",
-    "parker_huryn_2006" => "Parker & Huryn (2006)"
+    #"parker_huryn_2006" => "Parker & Huryn (2006)",         
+    #"ricciardi_2010" => "Ricciardi & MacIsaac (2010)",       # not many species 
+        #"fryer_1959" => "Fryer (1959)",                         # Not usable
+    #"primack_1983" => "Primack (1983)",                     # Only 3 loctations, toss
+    #"ruzicka_2012" => "Ruzicka et al. (2012)",              # This isn't usable
 )
 
 
 
 # I = findall(x->x>5, count.(MangalNetwork, datasets()))
-datanames = collect(keys(sets))
-data = [dataset(d) for d in datanames]
-
-allnets = [networks(d) for d in data]
-
-allnets
-
-nets = [convert.(UnipartiteNetwork, d) for d in allnets]
-
-splist = vcat([i for i in species.(nets[1])]...)
-unique(splist)
+data = Dict([s => dataset(s) for (s,n) in sets])
+allnets = Dict([n=>networks(d) for (n,d) in data])
 
 
-nets[1]
+# Estimate how long htis takes, but it might involve IO? 
+# Just save a BSON is the best option 
+nets = Dict([n=>convert.(UnipartiteNetwork, d) for (n,d) in allnets])
 
-# Put them in a CSV for name cleaning 
-
-
-for i in eachindex(nets)
-    df = DataFrame(network_number=[], mangal_taxon_name=[], mangal_species_name=[],mangal_node_id=[])
-    for (i,thisnet) in enumerate(nets[i])
-        thisspecies = species(thisnet)
-        for s in thisspecies
-            push!(df.network_number, i)
-            push!(df.mangal_species_name, s.name)
-            push!(df.mangal_taxon_name, ismissing(s.taxon) ? missing : s.taxon.name)
-            push!(df.mangal_node_id, s.id)
-        end
-    end 
-
-    CSV.write("$(datanames[i]).csv", df)
-end
+bson("mangal_networks.bson")
 
 
-
-newnets = []
-
-for netvec in nets
-    adjmats = adjacency.(netvec)
-    thesenets = UnipartiteNetwork[]
-    for i in eachindex(netvec)
-        names = string.([ismissing(s.taxon) ? s.name : s.taxon.id for s in species(netvec[i])])
-        push!(thesenets, UnipartiteNetwork(adjmats[i], names))
-    end
-    
-    push!(newnets, thesenets)
-end
+# HUGE NOTE
+# Each network in RMBL needs to be aggregated before it is used to build the
+# metaweb because they contain sepeare 2-node networks for each interaction 
+# This should be possible by unioning all the interactions, but it might take a while
 
 
-newnets
+# Convert each list of networks to one with the same taxonomic backbone 
+function convert_taxa(net)
+    name, As = net
 
-push!(newnets, UnipartiteNetwork.(adjacency.(nz_stream_foodweb())))
+    thesenets = []
 
-newnets
+    namesdf = CSV.read(joinpath("src", "artifacts", "species_translations", "$name.csv"), DataFrame)
+    for (netnum,A) in enumerate(As)
+        spnames = String[]
+        Ind = []
+        thisnet_df = filter(r->r.network_number==netnum, namesdf)            
 
-pltdata = makejointmargplots.(newnets)
+        num_dropped = length(findall(r-> ismissing(r.DROP) || r.DROP==true, eachrow(thisnet_df)))
+        filter!(r-> ismissing(r.DROP) || r.DROP == false, thisnet_df)
 
-filter!((x)->!isempty(x[1]), pltdata)
+        for (i,r) in enumerate(eachrow(thisnet_df))
+            mang_taxa  = !(ismissing(r.mangal_taxon_name)) ? r.mangal_taxon_name : nothing 
+            mang_species = !(ismissing(r.mangal_species_name)) ? r.mangal_species_name : nothing
 
-plt = plot(aspectratio=1)
-diffs = [(y .- x) for (x,y) in pltdata]
+            if ismissing(r.DROP) || r.DROP == false
+                i = findall(n -> n.name == mang_species || mang_taxa == (!ismissing(n.taxon) ? n.taxon.name : ""), species(A))
+                push!(Ind, i[1])
+                push!(spnames, r.CONSENSUS_NAME)
+            end 
+        end 
 
-plot(histogram.(diffs)...)
- 
 
-function makehists(diffs)
-    hists = []
-    for (i,diff) in enumerate(diffs)
-        mi,mx = min(diff...), max(diff...)
-        if mx > mi
-            @info typeof(diff)
-            binsize = (mx-mi)/100
-            plot()
-            push!(hists, histogram(diff, bins=mi:binsize:mx, xlim=(min(mi,0), mx)))
+        # For species that are duplicated (meaning they have diff mangal
+        # taxa/species names but the same CONSENSUS_NAME because they are
+        # the same species), we need to combine their rows in the adjacency
+        # matrix. 
+
+
+        # A[consensus,:] = A[:S1,:] .+ A[:S2,:] 
+        # and 
+        # A[:,consensus] = A[:,:S1] .+ A[:,:S2]
+
+
+        rows_with_duplicated_consensus_names = findall(nonunique(thisnet_df,:CONSENSUS_NAME)) 
+        
+        # now find the first row each duplicated_row corresponds to 
+        
+        dups = unique([findall(x->x.CONSENSUS_NAME == n, eachrow(thisnet_df)) for n in thisnet_df.CONSENSUS_NAME[rows_with_duplicated_consensus_names]])
+
+        
+        function findnodes(A, species_consensus)
+            matching_df_rows = filter(r->r.CONSENSUS_NAME == species_consensus, thisnet_df)  
+            matching_nodes = []
+            for s in species(A)
+                mang_taxa  = !ismissing(s.taxon) ? s.taxon.name : nothing 
+                mang_species = s.name 
+                
+                for r in eachrow(matching_df_rows)
+                    df_taxa  = !(ismissing(r.mangal_taxon_name)) ? r.mangal_taxon_name : nothing 
+                    df_species = !(ismissing(r.mangal_species_name)) ? r.mangal_species_name : nothing
+        
+                    if (mang_taxa == df_taxa || mang_species == df_species)
+                        push!(matching_nodes, s)
+                    end
+                end
+            end
+            matching_nodes
+        end     
+
+        if length(dups) > 0
+            
+            # Find all nodes in A that correspond to a unique species name
+            spnames = unique(spnames)
+
+            # Now return a dict that is species consensus name => list of nodes 
+            d = Dict()
+            for sp in spnames
+                correspondingnodes = findnodes(A, sp)
+                merge!(d, Dict(sp=>correspondingnodes))
+            end
+
+            adj = zeros(Bool,length(spnames),length(spnames))
+
+            findkey(x) = begin
+                for (k,v) in d
+                    x ∈ v && return k
+                end
+            end
+
+            for (i,sp) in enumerate(spnames)
+                this_species_nodes = d[sp]
+                for n in this_species_nodes
+                    left, right =  A[:,n], A[n,:]
+                    if length(left) > 0
+                        lefttargs = findkey.(left)
+                        for targ in lefttargs  
+                            if !isnothing(targ)
+                                targindex = findall(x->x==targ, spnames)[1]
+                                adj[i,targindex] = 1
+                            end
+                        end
+                    end 
+
+                    if length(right) > 0 
+                        righttargs = findkey.(right)
+                        for targ in righttargs  
+                            if !isnothing(targ)
+                                targindex = findall(x->x==targ, spnames)[1]
+                                adj[targindex,i] =1  
+                            end
+                        end
+                    end 
+                end
+            end
+            nonzero_species_indices = []
+            for (i,sp) in enumerate(spnames)
+                if sum(adj[i,:]) > 0 || sum(adj[:,i]) > 0
+                    push!(nonzero_species_indices, i)
+                end
+            end 
+            thisnet = UnipartiteNetwork(adj[nonzero_species_indices,nonzero_species_indices], spnames[nonzero_species_indices])
+            push!(thesenets, thisnet)    
+
         else
-            @info "There is only one value for diffs at index $i"
+            thisnet = UnipartiteNetwork(adjacency(A)[Ind,Ind], spnames)
+            push!(thesenets, thisnet)    
         end
+
+
+      #  @info species(A)
+      #  @info Ind
+      #  @info adjacency(A)
     end
-    hists 
+    thesenets
+end 
+
+unipartite_nets = Dict()
+@time for x in nets
+    @info x[1] 
+    As = convert_taxa(x)
+    merge!(unipartite_nets, Dict(x[1]=>As))
+end 
+
+
+
+merge!(unipartite_nets, Dict("nz_stream_foodweb"=>nz_stream_foodweb()))
+
+species(unipartite_nets["RMBL_pollination"][1])
+adjacency(unipartite_nets["RMBL_pollination"][1])
+
+final_nets = Dict()
+for (k,v) in unipartite_nets
+    try
+        b = convert.(BipartiteNetwork, v) 
+        merge!(final_nets, Dict(k=>b))
+    catch
+        merge!(final_nets, Dict(k=>v))
+    end
 end
 
-plot(makehists(diffs)..., size=(1200, 800))
+final_nets
 
+plot([spy(adjacency(reduce(∪,v)), title=n) for (n,v) in unipartite_nets]..., layout=(2,4), size=(1200, 900))
 
-
-
-
-metawebs = []
-for (i,thesenets) in enumerate(newnets)
-    try 
-        a = convert.(BipartiteNetwork, thesenets)
-        push!(metawebs, reduce(∪, convert.(BipartiteNetwork, thesenets)))
-    catch 
-        @info "net looks unipartite..."
-        @info typeof(thesenets)
-        push!(metawebs, reduce(∪, thesenets))
-    end
+diffs = Dict()
+for (n,v) in unipartite_nets
+    diff, joints, margs = makejointmargplots(v)
+    @info n, length(diff)
+    merge!(diffs, Dict(n=>diff))
 end
 
+diffs["parker_huryn_2006"]
 
-metawebs
 
-UnipartiteNetwork.(uni_nets)
 
-plot(heatmap.(adjacency.(metawebs))..., colorbar=:none)
+
+plot([histogram(d, title=n, bins=30) for (n,d) in diffs] ..., layout=(2,4),size=(1200,900))
+ 
 
 
 
@@ -244,10 +329,10 @@ end
 
 function makejointmargplots(As)
     if typeof(As[begin]) <: UnipartiteNetwork
-        margA, margB, jointAB = unipartitesplit(As);
-        return (margA, margB, jointAB)
+        diffs, joints, margs = unipartitesplit(As);
+        return (diffs, joints, margs)
     elseif typeof(As[begin]) <: BipartiteNetwork
-        margA, margB, jointAB = bipartitesplit(As);
-        return (margA, margB, jointAB)
+        diffs, joints, margs = bipartitesplit(As);
+        return (diffs, joints, margs)
     end
 end 

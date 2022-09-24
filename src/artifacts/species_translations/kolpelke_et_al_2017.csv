@@ -1,0 +1,964 @@
+network_number,mangal_taxon_name,mangal_species_name,mangal_node_id,CONSENSUS_NAME,DROP
+7,Adelognathus,Adelognathus sp.,35854,Adelognathus,FALSE
+8,Adelognathus,Adelognathus sp.,35705,Adelognathus,FALSE
+9,Adelognathus,Adelognathus sp.,35866,Adelognathus,FALSE
+10,Adelognathus,Adelognathus sp.,35863,Adelognathus,FALSE
+26,Adelognathus,Adelognathus sp.,35871,Adelognathus,FALSE
+34,Adelognathus,Adelognathus sp.,35697,Adelognathus,FALSE
+58,Adelognathus,Adelognathus sp.,35774,Adelognathus,FALSE
+83,Adelognathus,Adelognathus sp.,35747,Adelognathus,FALSE
+94,Adelognathus,Adelognathus sp.,35816,Adelognathus,FALSE
+15,Anaprostocetus acuminatus,Anaprostocetus acuminatus,35514,Anaprostocetus acuminatus,FALSE
+50,Anaprostocetus acuminatus,Anaprostocetus acuminatus,35556,Anaprostocetus acuminatus,FALSE
+51,Anaprostocetus acuminatus,Anaprostocetus acuminatus,35822,Anaprostocetus acuminatus,FALSE
+52,Anaprostocetus acuminatus,Anaprostocetus acuminatus,36071,Anaprostocetus acuminatus,FALSE
+57,Anaprostocetus acuminatus,Anaprostocetus acuminatus,33986,Anaprostocetus acuminatus,FALSE
+66,Anaprostocetus acuminatus,Anaprostocetus acuminatus,35565,Anaprostocetus acuminatus,FALSE
+68,Anaprostocetus acuminatus,Anaprostocetus acuminatus,36091,Anaprostocetus acuminatus,FALSE
+71,Anaprostocetus acuminatus,Anaprostocetus acuminatus,35587,Anaprostocetus acuminatus,FALSE
+72,Anaprostocetus acuminatus,Anaprostocetus acuminatus,36068,Anaprostocetus acuminatus,FALSE
+92,Anaprostocetus acuminatus,Anaprostocetus acuminatus,35526,Anaprostocetus acuminatus,FALSE
+95,Anaprostocetus acuminatus,Anaprostocetus acuminatus,35839,Anaprostocetus acuminatus,FALSE
+29,Aptesis nigrocincta,Aptesis nigrocincta,38527,Aptesis nigrocincta,FALSE
+30,Aptesis nigrocincta,Aptesis nigrocincta,38539,Aptesis nigrocincta,FALSE
+53,Aptesis nigrocincta,Aptesis nigrocincta,38516,Aptesis nigrocincta,FALSE
+73,Aptesis nigrocincta,Aptesis nigrocincta,38454,Aptesis nigrocincta,FALSE
+90,Aptesis nigrocincta,Aptesis nigrocincta,38391,Aptesis nigrocincta,FALSE
+5,Archarius crux,Curculio crux,37084,Archarius crux,FALSE
+15,Archarius crux,Curculio crux,35512,Archarius crux,FALSE
+30,Archarius crux,Curculio crux,38534,Archarius crux,FALSE
+36,Archarius crux,Curculio crux,36990,Archarius crux,FALSE
+46,Archarius crux,Curculio crux,38431,Archarius crux,FALSE
+50,Archarius crux,Curculio crux,35552,Archarius crux,FALSE
+66,Archarius crux,Curculio crux,35564,Archarius crux,FALSE
+67,Archarius crux,Curculio crux,35780,Archarius crux,FALSE
+68,Archarius crux,Curculio crux,36092,Archarius crux,FALSE
+39,Bracon immutator,Bracon immutator,37483,Bracon immutator,FALSE
+39,Bracon kopelkei,Bracon kopelkei,37475,Bracon kopelkei,FALSE
+43,Bracon kopelkei,Bracon kopelkei,37412,Bracon kopelkei,FALSE
+44,Bracon kopelkei,Bracon kopelkei,37530,Bracon kopelkei,FALSE
+45,Bracon kopelkei,Bracon kopelkei,37429,Bracon kopelkei,FALSE
+69,Bracon kopelkei,Bracon kopelkei,37366,Bracon kopelkei,FALSE
+25,Bracon lividus,Bracon lividus,35578,Bracon lividus,FALSE
+30,Braconidae,Braconidae indet.,38546,Braconidae,FALSE
+35,Braconidae,Braconidae indet.,40025,Braconidae,FALSE
+36,Braconidae,Braconidae indet.,36980,Braconidae,FALSE
+37,Braconidae,Braconidae indet.,37036,Braconidae,FALSE
+40,Braconidae,Braconidae indet.,37534,Braconidae,FALSE
+41,Braconidae,Braconidae indet.,37054,Braconidae,FALSE
+42,Braconidae,Braconidae indet.,37395,Braconidae,FALSE
+43,Braconidae,Braconidae indet.,37413,Braconidae,FALSE
+44,Braconidae,Braconidae indet.,37527,Braconidae,FALSE
+46,Braconidae,Braconidae indet.,38438,Braconidae,FALSE
+49,Braconidae,Braconidae indet.,35537,Braconidae,FALSE
+53,Braconidae,Braconidae indet.,38515,Braconidae,FALSE
+73,Braconidae,Braconidae indet.,38455,Braconidae,FALSE
+80,Braconidae,Braconidae indet.,34063,Braconidae,FALSE
+1,Chalcidoidea,Chalcidoidea indet.,36418,Chalcidoidea,FALSE
+2,Chalcidoidea,Chalcidoidea indet.,36429,Chalcidoidea,FALSE
+3,Chalcidoidea,Chalcidoidea indet.,36423,Chalcidoidea,FALSE
+5,Chalcidoidea,Chalcidoidea indet.,37082,Chalcidoidea,FALSE
+6,Chalcidoidea,Chalcidoidea indet.,39439,Chalcidoidea,FALSE
+8,Chalcidoidea,Chalcidoidea indet.,35702,Chalcidoidea,FALSE
+11,Chalcidoidea,Chalcidoidea indet.,35717,Chalcidoidea,FALSE
+12,Chalcidoidea,Chalcidoidea indet.,35682,Chalcidoidea,FALSE
+13,Chalcidoidea,Chalcidoidea indet.,38467,Chalcidoidea,FALSE
+15,Chalcidoidea,Chalcidoidea indet.,35508,Chalcidoidea,FALSE
+16,Chalcidoidea,Chalcidoidea indet.,38484,Chalcidoidea,FALSE
+17,Chalcidoidea,Chalcidoidea indet.,38560,Chalcidoidea,FALSE
+18,Chalcidoidea,Chalcidoidea indet.,34200,Chalcidoidea,FALSE
+21,Chalcidoidea,Chalcidoidea indet.,35490,Chalcidoidea,FALSE
+22,Chalcidoidea,Chalcidoidea indet.,38479,Chalcidoidea,FALSE
+23,Chalcidoidea,Chalcidoidea indet.,35710,Chalcidoidea,FALSE
+25,Chalcidoidea,Chalcidoidea indet.,35576,Chalcidoidea,FALSE
+28,Chalcidoidea,Chalcidoidea indet.,40031,Chalcidoidea,FALSE
+29,Chalcidoidea,Chalcidoidea indet.,38526,Chalcidoidea,FALSE
+30,Chalcidoidea,Chalcidoidea indet.,38531,Chalcidoidea,FALSE
+31,Chalcidoidea,Chalcidoidea indet.,34230,Chalcidoidea,FALSE
+32,Chalcidoidea,Chalcidoidea indet.,39994,Chalcidoidea,FALSE
+33,Chalcidoidea,Chalcidoidea indet.,38475,Chalcidoidea,FALSE
+34,Chalcidoidea,Chalcidoidea indet.,35693,Chalcidoidea,FALSE
+36,Chalcidoidea,Chalcidoidea indet.,36982,Chalcidoidea,FALSE
+36,Chalcidoidea,Chalcidoidea indet. 1,37004,Chalcidoidea,FALSE
+37,Chalcidoidea,Chalcidoidea indet.,37034,Chalcidoidea,FALSE
+38,Chalcidoidea,Chalcidoidea indet.,37327,Chalcidoidea,FALSE
+38,Chalcidoidea,Chalcidoidea indet. 1,37330,Chalcidoidea,FALSE
+38,Chalcidoidea,Chalcidoidea indet. 2,37335,Chalcidoidea,FALSE
+38,Chalcidoidea,Chalcidoidea indet. 3,37337,Chalcidoidea,FALSE
+39,Chalcidoidea,Chalcidoidea indet.,37474,Chalcidoidea,FALSE
+39,Chalcidoidea,Chalcidoidea indet. 1,37492,Chalcidoidea,FALSE
+39,Chalcidoidea,Chalcidoidea indet. 2,37494,Chalcidoidea,FALSE
+39,Chalcidoidea,Chalcidoidea indet. 3,37509,Chalcidoidea,FALSE
+39,Chalcidoidea,Chalcidoidea indet. 5,37513,Chalcidoidea,FALSE
+39,Chalcidoidea,Chalcidoidea indet. 6,37515,Chalcidoidea,FALSE
+39,Chalcidoidea,Chalcidoidea indet. 8,37519,Chalcidoidea,FALSE
+39,Chalcidoidea,Chalcidoidea indet. 9,37521,Chalcidoidea,FALSE
+39,Chalcidoidea,Chalcidoidea indet. 10,37523,Chalcidoidea,FALSE
+39,Chalcidoidea,Chalcidoidea indet. 7,37517,Chalcidoidea,FALSE
+39,Chalcidoidea,Chalcidoidea indet. 4,37511,Chalcidoidea,FALSE
+40,Chalcidoidea,Chalcidoidea indet.,37535,Chalcidoidea,FALSE
+41,Chalcidoidea,Chalcidoidea indet. 1,37069,Chalcidoidea,FALSE
+41,Chalcidoidea,Chalcidoidea indet.,37049,Chalcidoidea,FALSE
+42,Chalcidoidea,Chalcidoidea indet.,37396,Chalcidoidea,FALSE
+43,Chalcidoidea,Chalcidoidea indet.,37398,Chalcidoidea,FALSE
+43,Chalcidoidea,Chalcidoidea indet. 1,37415,Chalcidoidea,FALSE
+43,Chalcidoidea,Chalcidoidea indet. 2,37417,Chalcidoidea,FALSE
+44,Chalcidoidea,Chalcidoidea indet.,37526,Chalcidoidea,FALSE
+45,Chalcidoidea,Chalcidoidea indet. 1,37427,Chalcidoidea,FALSE
+45,Chalcidoidea,Chalcidoidea indet.,37424,Chalcidoidea,FALSE
+45,Chalcidoidea,Chalcidoidea indet. 4,37456,Chalcidoidea,FALSE
+45,Chalcidoidea,Chalcidoidea indet. 7,37466,Chalcidoidea,FALSE
+45,Chalcidoidea,Chalcidoidea indet. 5,37458,Chalcidoidea,FALSE
+45,Chalcidoidea,Chalcidoidea indet. 6,37460,Chalcidoidea,FALSE
+45,Chalcidoidea,Chalcidoidea indet. 2,37449,Chalcidoidea,FALSE
+45,Chalcidoidea,Chalcidoidea indet. 3,37454,Chalcidoidea,FALSE
+46,Chalcidoidea,Chalcidoidea indet.,38433,Chalcidoidea,FALSE
+47,Chalcidoidea,Chalcidoidea indet.,34238,Chalcidoidea,FALSE
+49,Chalcidoidea,Chalcidoidea indet.,35530,Chalcidoidea,FALSE
+50,Chalcidoidea,Chalcidoidea indet.,35554,Chalcidoidea,FALSE
+51,Chalcidoidea,Chalcidoidea indet.,35824,Chalcidoidea,FALSE
+53,Chalcidoidea,Chalcidoidea indet.,38514,Chalcidoidea,FALSE
+55,Chalcidoidea,Chalcidoidea indet.,34081,Chalcidoidea,FALSE
+57,Chalcidoidea,Chalcidoidea indet.,33985,Chalcidoidea,FALSE
+58,Chalcidoidea,Chalcidoidea indet.,35757,Chalcidoidea,FALSE
+59,Chalcidoidea,Chalcidoidea indet.,37026,Chalcidoidea,FALSE
+60,Chalcidoidea,Chalcidoidea indet. 1,37380,Chalcidoidea,FALSE
+60,Chalcidoidea,Chalcidoidea indet.,37370,Chalcidoidea,FALSE
+60,Chalcidoidea,Chalcidoidea indet. 2,37390,Chalcidoidea,FALSE
+62,Chalcidoidea,Chalcidoidea indet.,37537,Chalcidoidea,FALSE
+63,Chalcidoidea,Chalcidoidea indet.,35755,Chalcidoidea,FALSE
+65,Chalcidoidea,Chalcidoidea indet.,36087,Chalcidoidea,FALSE
+66,Chalcidoidea,Chalcidoidea indet.,35563,Chalcidoidea,FALSE
+67,Chalcidoidea,Chalcidoidea indet.,35778,Chalcidoidea,FALSE
+69,Chalcidoidea,Chalcidoidea indet.,37362,Chalcidoidea,FALSE
+71,Chalcidoidea,Chalcidoidea indet.,35583,Chalcidoidea,FALSE
+73,Chalcidoidea,Chalcidoidea indet.,38459,Chalcidoidea,FALSE
+74,Chalcidoidea,Chalcidoidea indet.,38552,Chalcidoidea,FALSE
+75,Chalcidoidea,Chalcidoidea indet.,34206,Chalcidoidea,FALSE
+76,Chalcidoidea,Chalcidoidea indet.,35459,Chalcidoidea,FALSE
+80,Chalcidoidea,Chalcidoidea indet.,34048,Chalcidoidea,FALSE
+82,Chalcidoidea,Chalcidoidea indet.,35476,Chalcidoidea,FALSE
+83,Chalcidoidea,Chalcidoidea indet.,35736,Chalcidoidea,FALSE
+84,Chalcidoidea,Chalcidoidea indet.,36053,Chalcidoidea,FALSE
+86,Chalcidoidea,Chalcidoidea indet.,36097,Chalcidoidea,FALSE
+87,Chalcidoidea,Chalcidoidea indet.,36633,Chalcidoidea,FALSE
+88,Chalcidoidea,Chalcidoidea indet.,37075,Chalcidoidea,FALSE
+89,Chalcidoidea,Chalcidoidea indet.,37471,Chalcidoidea,FALSE
+92,Chalcidoidea,Chalcidoidea indet.,35520,Chalcidoidea,FALSE
+93,Chalcidoidea,Chalcidoidea indet.,35784,Chalcidoidea,FALSE
+95,Chalcidoidea,Chalcidoidea indet.,35838,Chalcidoidea,FALSE
+99,Chalcidoidea,Chalcidoidea indet.,37180,Chalcidoidea,FALSE
+14,Chrysocharis elongata,Chrysocharis elongata,34956,Chrysocharis elongata,FALSE
+27,Chrysocharis elongata,Chrysocharis elongata,40023,Chrysocharis elongata,FALSE
+32,Chrysocharis elongata,Chrysocharis elongata,39998,Chrysocharis elongata,FALSE
+80,Chrysocharis elongata,Chrysocharis elongata,34052,Chrysocharis elongata,FALSE
+81,Chrysocharis elongata,Chrysocharis elongata,34933,Chrysocharis elongata,FALSE
+83,Chrysocharis elongata,Chrysocharis elongata,35749,Chrysocharis elongata,FALSE
+87,Chrysocharis elongata,Chrysocharis elongata,36642,Chrysocharis elongata,FALSE
+94,Chrysocharis elongata,Chrysocharis elongata,35815,Chrysocharis elongata,FALSE
+30,Colastes flavitarsis,Colastes flavitarsis,38542,Colastes flavitarsis,FALSE
+35,Colastes flavitarsis,Colastes flavitarsis,40028,Colastes flavitarsis,FALSE
+3,Eulonchetron torymoides,Eulonchetron torymoides,36424,Eulonchetron torymoides,FALSE
+15,Eulonchetron torymoides,Eulonchetron torymoides,35511,Eulonchetron torymoides,FALSE
+20,Eulonchetron torymoides,Eulonchetron torymoides,34921,Eulonchetron torymoides,FALSE
+29,Eulonchetron torymoides,Eulonchetron torymoides,38523,Eulonchetron torymoides,FALSE
+30,Eulonchetron torymoides,Eulonchetron torymoides,38535,Eulonchetron torymoides,FALSE
+31,Eulonchetron torymoides,Eulonchetron torymoides,34229,Eulonchetron torymoides,FALSE
+33,Eulonchetron torymoides,Eulonchetron torymoides,38477,Eulonchetron torymoides,FALSE
+34,Eulonchetron torymoides,Eulonchetron torymoides,35695,Eulonchetron torymoides,FALSE
+36,Eulonchetron torymoides,Eulonchetron torymoides,36994,Eulonchetron torymoides,FALSE
+46,Eulonchetron torymoides,Eulonchetron torymoides,38432,Eulonchetron torymoides,FALSE
+50,Eulonchetron torymoides,Eulonchetron torymoides,35561,Eulonchetron torymoides,FALSE
+53,Eulonchetron torymoides,Eulonchetron torymoides,38521,Eulonchetron torymoides,FALSE
+57,Eulonchetron torymoides,Eulonchetron torymoides,33980,Eulonchetron torymoides,FALSE
+66,Eulonchetron torymoides,Eulonchetron torymoides,35572,Eulonchetron torymoides,FALSE
+70,Eulonchetron torymoides,Eulonchetron torymoides,35471,Eulonchetron torymoides,FALSE
+73,Eulonchetron torymoides,Eulonchetron torymoides,38463,Eulonchetron torymoides,FALSE
+74,Eulonchetron torymoides,Eulonchetron torymoides,38553,Eulonchetron torymoides,FALSE
+76,Eulonchetron torymoides,Eulonchetron torymoides,35456,Eulonchetron torymoides,FALSE
+78,Eulonchetron torymoides,Eulonchetron torymoides,38572,Eulonchetron torymoides,FALSE
+87,Eulonchetron torymoides,Eulonchetron torymoides,36632,Eulonchetron torymoides,FALSE
+8,Euphranta toxoneura,Euphranta toxoneura,35703,Euphranta toxoneura,FALSE
+3,Eurytoma,Eurytoma sp.,36421,,TRUE
+2,Eurytoma aciculata,Eurytoma aciculata,36428,Eurytoma aciculata,FALSE
+3,Eurytoma aciculata,Eurytoma aciculata,36425,Eurytoma aciculata,FALSE
+6,Eurytoma aciculata,Eurytoma aciculata,39440,Eurytoma aciculata,FALSE
+14,Eurytoma aciculata,Eurytoma aciculata,34951,Eurytoma aciculata,FALSE
+15,Eurytoma aciculata,Eurytoma aciculata,35510,Eurytoma aciculata,FALSE
+17,Eurytoma aciculata,Eurytoma aciculata,38564,Eurytoma aciculata,FALSE
+18,Eurytoma aciculata,Eurytoma aciculata,34204,Eurytoma aciculata,FALSE
+20,Eurytoma aciculata,Eurytoma aciculata,34915,Eurytoma aciculata,FALSE
+22,Eurytoma aciculata,Eurytoma aciculata,38480,Eurytoma aciculata,FALSE
+23,Eurytoma aciculata,Eurytoma aciculata,35713,Eurytoma aciculata,FALSE
+25,Eurytoma aciculata,Eurytoma aciculata,35577,Eurytoma aciculata,FALSE
+30,Eurytoma aciculata,Eurytoma aciculata,38536,Eurytoma aciculata,FALSE
+31,Eurytoma aciculata,Eurytoma aciculata,34231,Eurytoma aciculata,FALSE
+33,Eurytoma aciculata,Eurytoma aciculata,38476,Eurytoma aciculata,FALSE
+34,Eurytoma aciculata,Eurytoma aciculata,35694,Eurytoma aciculata,FALSE
+41,Eurytoma aciculata,Eurytoma aciculata,37048,Eurytoma aciculata,FALSE
+46,Eurytoma aciculata,Eurytoma aciculata,38434,Eurytoma aciculata,FALSE
+47,Eurytoma aciculata,Eurytoma aciculata,34235,Eurytoma aciculata,FALSE
+50,Eurytoma aciculata,Eurytoma aciculata,35560,Eurytoma aciculata,FALSE
+57,Eurytoma aciculata,Eurytoma aciculata,33982,Eurytoma aciculata,FALSE
+63,Eurytoma aciculata,Eurytoma aciculata,35753,Eurytoma aciculata,FALSE
+76,Eurytoma aciculata,Eurytoma aciculata,35458,Eurytoma aciculata,FALSE
+92,Eurytoma aciculata,Eurytoma aciculata,35521,Eurytoma aciculata,FALSE
+15,Eurytoma salicis,Eurytoma salicis,35515,Eurytoma salicis,FALSE
+51,Eurytoma salicis,Eurytoma salicis,35825,Eurytoma salicis,FALSE
+52,Eurytoma salicis,Eurytoma salicis,36076,Eurytoma salicis,FALSE
+57,Eurytoma salicis,Eurytoma salicis,33987,Eurytoma salicis,FALSE
+66,Eurytoma salicis,Eurytoma salicis,35566,Eurytoma salicis,FALSE
+67,Eurytoma salicis,Eurytoma salicis,35781,Eurytoma salicis,FALSE
+68,Eurytoma salicis,Eurytoma salicis,36090,Eurytoma salicis,FALSE
+71,Eurytoma salicis,Eurytoma salicis,35586,Eurytoma salicis,FALSE
+72,Eurytoma salicis,Eurytoma salicis,36067,Eurytoma salicis,FALSE
+92,Eurytoma salicis,Eurytoma salicis,35528,Eurytoma salicis,FALSE
+95,Eurytoma salicis,Eurytoma salicis,35840,Eurytoma salicis,FALSE
+82,Euura boreoalpina,Euura boreoalpina,35481,Euura boreoalpina,FALSE
+50,Euura elaeagnos,Euura elaeagnos,35555,Euura elaeagnos,FALSE
+51,Euura elaeagnos,Euura elaeagnos,35821,Euura elaeagnos,FALSE
+52,Euura elaeagnos,Euura elaeagnos,36075,Euura elaeagnos,FALSE
+57,Euura elaeagnos,Euura elaeagnos,33983,Euura elaeagnos,FALSE
+66,Euura elaeagnos,Euura elaeagnos,35562,Euura elaeagnos,FALSE
+66,Euura elaeagnos,Euura elaeagnos 1,35569,Euura elaeagnos,FALSE
+67,Euura elaeagnos,Euura elaeagnos,35779,Euura elaeagnos,FALSE
+68,Euura elaeagnos,Euura elaeagnos,36089,Euura elaeagnos,FALSE
+98,Euura elaeagnos,Euura elaeagnos,37193,Euura elaeagnos,FALSE
+99,Euura elaeagnos,Euura elaeagnos,37179,Euura elaeagnos,FALSE
+99,Euura elaeagnos,Euura elaeagnos 5,37191,Euura elaeagnos,FALSE
+99,Euura elaeagnos,Euura elaeagnos 1,37183,Euura elaeagnos,FALSE
+99,Euura elaeagnos,Euura elaeagnos 2,37185,Euura elaeagnos,FALSE
+99,Euura elaeagnos,Euura elaeagnos 3,37187,Euura elaeagnos,FALSE
+99,Euura elaeagnos,Euura elaeagnos 4,37189,Euura elaeagnos,FALSE
+85,Euura gemmacinereae,Euura gemmacinereae,36093,Euura gemmacinereae,FALSE
+14,Euura gemmafoetidae,Euura gemmafoetidae,34953,Euura gemmafoetidae,FALSE
+20,Euura gemmafoetidae,Euura gemmafoetidae,34923,Euura gemmafoetidae,FALSE
+21,Euura gemmafoetidae,Euura gemmafoetidae,35499,Euura gemmafoetidae,FALSE
+36,Euura gemmafoetidae,Euura gemmafoetidae,37005,Euura gemmafoetidae,FALSE
+36,Euura gemmafoetidae,Euura gemmafoetidae 2,37010,Euura gemmafoetidae,FALSE
+36,Euura gemmafoetidae,Euura gemmafoetidae 1,37007,Euura gemmafoetidae,FALSE
+39,Euura gemmafoetidae,Euura gemmafoetidae 1,37508,Euura gemmafoetidae,FALSE
+39,Euura gemmafoetidae,Euura gemmafoetidae 7,37520,Euura gemmafoetidae,FALSE
+39,Euura gemmafoetidae,Euura gemmafoetidae,37507,Euura gemmafoetidae,FALSE
+39,Euura gemmafoetidae,Euura gemmafoetidae 3,37512,Euura gemmafoetidae,FALSE
+39,Euura gemmafoetidae,Euura gemmafoetidae 4,37514,Euura gemmafoetidae,FALSE
+39,Euura gemmafoetidae,Euura gemmafoetidae 5,37516,Euura gemmafoetidae,FALSE
+39,Euura gemmafoetidae,Euura gemmafoetidae 6,37518,Euura gemmafoetidae,FALSE
+39,Euura gemmafoetidae,Euura gemmafoetidae 8,37522,Euura gemmafoetidae,FALSE
+39,Euura gemmafoetidae,Euura gemmafoetidae 2,37510,Euura gemmafoetidae,FALSE
+41,Euura gemmafoetidae,Euura gemmafoetidae,37070,Euura gemmafoetidae,FALSE
+45,Euura gemmafoetidae,Euura gemmafoetidae,37445,Euura gemmafoetidae,FALSE
+45,Euura gemmafoetidae,Euura gemmafoetidae 2,37448,Euura gemmafoetidae,FALSE
+45,Euura gemmafoetidae,Euura gemmafoetidae 5,37455,Euura gemmafoetidae,FALSE
+45,Euura gemmafoetidae,Euura gemmafoetidae 7,37459,Euura gemmafoetidae,FALSE
+45,Euura gemmafoetidae,Euura gemmafoetidae 10,37465,Euura gemmafoetidae,FALSE
+45,Euura gemmafoetidae,Euura gemmafoetidae 1,37447,Euura gemmafoetidae,FALSE
+45,Euura gemmafoetidae,Euura gemmafoetidae 3,37452,Euura gemmafoetidae,FALSE
+45,Euura gemmafoetidae,Euura gemmafoetidae 6,37457,Euura gemmafoetidae,FALSE
+45,Euura gemmafoetidae,Euura gemmafoetidae 8,37462,Euura gemmafoetidae,FALSE
+45,Euura gemmafoetidae,Euura gemmafoetidae 4,37453,Euura gemmafoetidae,FALSE
+45,Euura gemmafoetidae,Euura gemmafoetidae 9,37464,Euura gemmafoetidae,FALSE
+55,Euura gemmafoetidae,Euura gemmafoetidae,34088,Euura gemmafoetidae,FALSE
+62,Euura gemmafoetidae,Euura gemmafoetidae,37536,Euura gemmafoetidae,FALSE
+62,Euura gemmafoetidae,Euura gemmafoetidae 1,37540,Euura gemmafoetidae,FALSE
+14,Euura gemmahelveticae,Euura gemmahelveticae,34945,Euura gemmahelveticae,FALSE
+21,Euura gemmahelveticae,Euura gemmahelveticae,35492,Euura gemmahelveticae,FALSE
+55,Euura gemmahelveticae,Euura gemmahelveticae,34080,Euura gemmahelveticae,FALSE
+56,Euura gemmahelveticae,Euura gemmahelveticae,34941,Euura gemmahelveticae,FALSE
+65,Euura gemmahelveticae,Euura gemmahelveticae,36085,Euura gemmahelveticae,FALSE
+76,Euura gemmahelveticae,Euura gemmahelveticae,35464,Euura gemmahelveticae,FALSE
+77,Euura gemmahelveticae,Euura gemmahelveticae,36102,Euura gemmahelveticae,FALSE
+79,Euura gemmahelveticae,Euura gemmahelveticae,38575,Euura gemmahelveticae,FALSE
+80,Euura gemmahelveticae,Euura gemmahelveticae,34046,Euura gemmahelveticae,FALSE
+80,Euura gemmahelveticae,Euura gemmahelveticae 1,34068,Euura gemmahelveticae,FALSE
+81,Euura gemmahelveticae,Euura gemmahelveticae,34930,Euura gemmahelveticae,FALSE
+82,Euura gemmahelveticae,Euura gemmahelveticae,35473,Euura gemmahelveticae,FALSE
+83,Euura gemmahelveticae,Euura gemmahelveticae,35735,Euura gemmahelveticae,FALSE
+84,Euura gemmahelveticae,Euura gemmahelveticae,36050,Euura gemmahelveticae,FALSE
+84,Euura gemmahelveticae,Euura gemmahelveticae 1,36054,Euura gemmahelveticae,FALSE
+86,Euura gemmahelveticae,Euura gemmahelveticae,36100,Euura gemmahelveticae,FALSE
+87,Euura gemmahelveticae,Euura gemmahelveticae,36636,Euura gemmahelveticae,FALSE
+12,Euura hastatae,Euura hastatae,35683,Euura hastatae,FALSE
+19,Euura hastatae,Euura hastatae,34070,Euura hastatae,FALSE
+20,Euura hastatae,Euura hastatae,34917,Euura hastatae,FALSE
+21,Euura hastatae,Euura hastatae,35501,Euura hastatae,FALSE
+80,Euura hastatae,Euura hastatae,34057,Euura hastatae,FALSE
+82,Euura hastatae,Euura hastatae,35487,Euura hastatae,FALSE
+83,Euura hastatae,Euura hastatae,35745,Euura hastatae,FALSE
+86,Euura hastatae,Euura hastatae,36096,Euura hastatae,FALSE
+87,Euura hastatae,Euura hastatae,36638,Euura hastatae,FALSE
+20,Euura myrsinifoliae,Euura myrsinifoliae,34924,Euura myrsinifoliae,FALSE
+15,Euura purpureae,Euura purpureae,35513,Euura purpureae,FALSE
+50,Euura purpureae,Euura purpureae,35557,Euura purpureae,FALSE
+52,Euura purpureae,Euura purpureae,36070,Euura purpureae,FALSE
+58,Euura purpureae,Euura purpureae,35772,Euura purpureae,FALSE
+64,Euura purpureae,Euura purpureae 1,36059,Euura purpureae,FALSE
+64,Euura purpureae,Euura purpureae,36057,Euura purpureae,FALSE
+70,Euura purpureae,Euura purpureae,35466,Euura purpureae,FALSE
+71,Euura purpureae,Euura purpureae,35585,Euura purpureae,FALSE
+72,Euura purpureae,Euura purpureae,36065,Euura purpureae,FALSE
+92,Euura purpureae,Euura purpureae,35525,Euura purpureae,FALSE
+95,Euura purpureae,Euura purpureae,35836,Euura purpureae,FALSE
+19,Gelis,Gelis sp.,34074,Gelis,FALSE
+79,Gelis,Gelis sp.,38577,Gelis,FALSE
+13,Hydriomena ruberata,Hydriomena ruberata,38472,Hydriomena ruberata,FALSE
+16,Hydriomena ruberata,Hydriomena ruberata,38485,Hydriomena ruberata,FALSE
+17,Hydriomena ruberata,Hydriomena ruberata,38570,Hydriomena ruberata,FALSE
+18,Hydriomena ruberata,Hydriomena ruberata,34197,Hydriomena ruberata,FALSE
+29,Hydriomena ruberata,Hydriomena ruberata,38525,Hydriomena ruberata,FALSE
+30,Hydriomena ruberata,Hydriomena ruberata,38532,Hydriomena ruberata,FALSE
+31,Hydriomena ruberata,Hydriomena ruberata,34232,Hydriomena ruberata,FALSE
+36,Hydriomena ruberata,Hydriomena ruberata,36999,Hydriomena ruberata,FALSE
+38,Hydriomena ruberata,Hydriomena ruberata,37333,Hydriomena ruberata,FALSE
+39,Hydriomena ruberata,Hydriomena ruberata,37480,Hydriomena ruberata,FALSE
+41,Hydriomena ruberata,Hydriomena ruberata,37063,Hydriomena ruberata,FALSE
+43,Hydriomena ruberata,Hydriomena ruberata 1,37405,Hydriomena ruberata,FALSE
+43,Hydriomena ruberata,Hydriomena ruberata,37399,Hydriomena ruberata,FALSE
+43,Hydriomena ruberata,Hydriomena ruberata 2,37409,Hydriomena ruberata,FALSE
+46,Hydriomena ruberata,Hydriomena ruberata,38440,Hydriomena ruberata,FALSE
+47,Hydriomena ruberata,Hydriomena ruberata,34236,Hydriomena ruberata,FALSE
+59,Hydriomena ruberata,Hydriomena ruberata,37025,Hydriomena ruberata,FALSE
+60,Hydriomena ruberata,Hydriomena ruberata,37374,Hydriomena ruberata,FALSE
+60,Hydriomena ruberata,Hydriomena ruberata 1,37382,Hydriomena ruberata,FALSE
+73,Hydriomena ruberata,Hydriomena ruberata,38462,Hydriomena ruberata,FALSE
+74,Hydriomena ruberata,Hydriomena ruberata,38549,Hydriomena ruberata,FALSE
+75,Hydriomena ruberata,Hydriomena ruberata,34207,Hydriomena ruberata,FALSE
+76,Hydriomena ruberata,Hydriomena ruberata,35454,Hydriomena ruberata,FALSE
+88,Hydriomena ruberata,Hydriomena ruberata,37079,Hydriomena ruberata,FALSE
+5,Ichneumonidae,Ichneumonidae indet.,37083,Ichneumonidae,FALSE
+6,Ichneumonidae,Ichneumonidae indet.,39442,Ichneumonidae,FALSE
+12,Ichneumonidae,Ichneumonidae indet.,35686,Ichneumonidae,FALSE
+18,Ichneumonidae,Ichneumonidae indet.,34201,Ichneumonidae,FALSE
+19,Ichneumonidae,Ichneumonidae indet.,34072,Ichneumonidae,FALSE
+21,Ichneumonidae,Ichneumonidae indet.,35497,Ichneumonidae,FALSE
+36,Ichneumonidae,Ichneumonidae indet.,36983,Ichneumonidae,FALSE
+37,Ichneumonidae,Ichneumonidae indet.,37045,Ichneumonidae,FALSE
+39,Ichneumonidae,Ichneumonidae indet.,37485,Ichneumonidae,FALSE
+41,Ichneumonidae,Ichneumonidae indet.,37058,Ichneumonidae,FALSE
+45,Ichneumonidae,Ichneumonidae indet.,37428,Ichneumonidae,FALSE
+49,Ichneumonidae,Ichneumonidae indet.,35543,Ichneumonidae,FALSE
+50,Ichneumonidae,Ichneumonidae indet.,35558,Ichneumonidae,FALSE
+57,Ichneumonidae,Ichneumonidae indet.,33989,Ichneumonidae,FALSE
+59,Ichneumonidae,Ichneumonidae indet.,37024,Ichneumonidae,FALSE
+67,Ichneumonidae,Ichneumonidae indet.,35777,Ichneumonidae,FALSE
+70,Ichneumonidae,Ichneumonidae indet.,35467,Ichneumonidae,FALSE
+82,Ichneumonidae,Ichneumonidae indet.,35478,Ichneumonidae,FALSE
+83,Ichneumonidae,Ichneumonidae indet.,35744,Ichneumonidae,FALSE
+88,Ichneumonidae,Ichneumonidae indet.,37080,Ichneumonidae,FALSE
+89,Ichneumonidae,Ichneumonidae indet.,37469,Ichneumonidae,FALSE
+76,Ichneutes lapponicus,Ichneutes lapponicus,35457,Ichneutes lapponicus,FALSE
+82,Ichneutes lapponicus,Ichneutes lapponicus,35484,Ichneutes lapponicus,FALSE
+100,Itoplectis alternans,Itoplectis alternans,37178,Itoplectis alternans,FALSE
+15,Lathrostizus alpicola,Lathrostizus alpicola,35516,Lathrostizus alpicola,FALSE
+12,Lathrostizus lugens,Lathrostizus lugens,35690,Lathrostizus lugens,FALSE
+29,Lathrostizus lugens,Lathrostizus lugens,38528,Lathrostizus lugens,FALSE
+30,Lathrostizus lugens,Lathrostizus lugens,38544,Lathrostizus lugens,FALSE
+75,Lathrostizus lugens,Lathrostizus lugens,34226,Lathrostizus lugens,FALSE
+36,Mesoleius,Mesoleius sp.,36988,Mesoleius,FALSE
+37,Mesoleius,Mesoleius sp.,37035,Mesoleius,FALSE
+88,Mesoleius,Mesoleius sp.,37076,Mesoleius,FALSE
+1,Perilitus deceptor,Bracon romani,36417,Perilitus deceptor,FALSE
+12,Perilitus deceptor,Bracon romani,35687,Perilitus deceptor,FALSE
+14,Perilitus deceptor,Bracon romani,34950,Perilitus deceptor,FALSE
+16,Perilitus deceptor,Bracon romani,38492,Perilitus deceptor,FALSE
+17,Perilitus deceptor,Bracon romani,38561,Perilitus deceptor,FALSE
+19,Perilitus deceptor,Bracon romani,34076,Perilitus deceptor,FALSE
+20,Perilitus deceptor,Bracon romani,34912,Perilitus deceptor,FALSE
+21,Perilitus deceptor,Bracon romani,35503,Perilitus deceptor,FALSE
+30,Perilitus deceptor,Bracon romani,38543,Perilitus deceptor,FALSE
+36,Perilitus deceptor,Bracon romani,36984,Perilitus deceptor,FALSE
+37,Perilitus deceptor,Bracon romani,37039,Perilitus deceptor,FALSE
+39,Perilitus deceptor,Bracon romani,37473,Perilitus deceptor,FALSE
+41,Perilitus deceptor,Bracon romani,37057,Perilitus deceptor,FALSE
+44,Perilitus deceptor,Bracon romani,37531,Perilitus deceptor,FALSE
+45,Perilitus deceptor,Bracon romani,37425,Perilitus deceptor,FALSE
+49,Perilitus deceptor,Bracon romani,35531,Perilitus deceptor,FALSE
+53,Perilitus deceptor,Bracon romani,38518,Perilitus deceptor,FALSE
+54,Perilitus deceptor,Bracon romani,34090,Perilitus deceptor,FALSE
+55,Perilitus deceptor,Bracon romani,34087,Perilitus deceptor,FALSE
+56,Perilitus deceptor,Bracon romani,34937,Perilitus deceptor,FALSE
+58,Perilitus deceptor,Bracon romani,35766,Perilitus deceptor,FALSE
+59,Perilitus deceptor,Bracon romani,37029,Perilitus deceptor,FALSE
+69,Perilitus deceptor,Bracon romani,37365,Perilitus deceptor,FALSE
+80,Perilitus deceptor,Bracon romani,34056,Perilitus deceptor,FALSE
+81,Perilitus deceptor,Bracon romani,34926,Perilitus deceptor,FALSE
+82,Perilitus deceptor,Bracon romani,35474,Perilitus deceptor,FALSE
+88,Perilitus deceptor,Bracon romani,37072,Perilitus deceptor,FALSE
+89,Perilitus deceptor,Bracon romani,37470,Perilitus deceptor,FALSE
+7,Phyllocolpa,Phyllocolpa Ph. sp. / S. glabra,35853,,TRUE
+8,Phyllocolpa,Phyllocolpa Ph. sp. / S. glabra,35704,,TRUE
+8,Phyllocolpa,Phyllocolpa Ph. sp. / S. glabra 1,35708,,TRUE
+9,Phyllocolpa,Phyllocolpa Ph. sp. / S. glabra,35865,,TRUE
+9,Phyllocolpa,Phyllocolpa Ph. sp. / S. glabra 1,35869,,TRUE
+10,Phyllocolpa,Phyllocolpa Ph. sp. / S. glabra,35862,,TRUE
+56,Phyllocolpa,Phyllocolpa spirhelvetica,34944,Phyllocolpa spirhelvetica,FALSE
+80,Phyllocolpa,Phyllocolpa spirhelvetica,34049,Phyllocolpa spirhelvetica,FALSE
+81,Phyllocolpa,Phyllocolpa spirhelvetica,34932,Phyllocolpa spirhelvetica,FALSE
+24,Phyllocolpa anomaloptera,Phyllocolpa anomaloptera,40015,Phyllocolpa anomaloptera,FALSE
+27,Phyllocolpa anomaloptera,Phyllocolpa anomaloptera,40022,Phyllocolpa anomaloptera,FALSE
+35,Phyllocolpa anomaloptera,Phyllocolpa anomaloptera,40024,Phyllocolpa anomaloptera,FALSE
+97,Phyllocolpa anomaloptera,Phyllocolpa anomaloptera,40019,Phyllocolpa anomaloptera,FALSE
+14,Phyllocolpa carinifrons,Phyllocolpa carinifrons,34955,Phyllocolpa carinifrons,FALSE
+34,Phyllocolpa ischnocera,Phyllocolpa ischnocera,35696,Phyllocolpa ischnocera,FALSE
+36,Phyllocolpa ischnocera,Phyllocolpa ischnocera,37011,Phyllocolpa ischnocera,FALSE
+100,Phyllocolpa ischnocera,Phyllocolpa ischnocera,37177,Phyllocolpa ischnocera,FALSE
+24,Phyllocolpa leucosticta,Phyllocolpa leucosticta,40016,Phyllocolpa leucosticta,FALSE
+27,Phyllocolpa leucosticta,Phyllocolpa leucosticta,40021,Phyllocolpa leucosticta,FALSE
+35,Phyllocolpa leucosticta,Phyllocolpa leucosticta,40027,Phyllocolpa leucosticta,FALSE
+97,Phyllocolpa leucosticta,Phyllocolpa leucosticta,40018,Phyllocolpa leucosticta,FALSE
+94,Phyllocolpa plicadaphnoides,Phyllocolpa plicadaphnoides,35814,Phyllocolpa plicadaphnoides,FALSE
+80,Phyllocolpa plicaglauca,Phyllocolpa plicaglauca,34064,Phyllocolpa plicaglauca,FALSE
+81,Phyllocolpa plicaglauca,Phyllocolpa plicaglauca,34934,Phyllocolpa plicaglauca,FALSE
+83,Phyllocolpa plicaglauca,Phyllocolpa plicaglauca,35748,Phyllocolpa plicaglauca,FALSE
+87,Phyllocolpa plicaglauca,Phyllocolpa plicaglauca,36640,Phyllocolpa plicaglauca,FALSE
+26,Phyllocolpa polita,Phyllocolpa polita,35870,Phyllocolpa polita,FALSE
+34,Phyllocolpa polita,Phyllocolpa polita,35699,Phyllocolpa polita,FALSE
+94,Phyllocolpa polita,Phyllocolpa polita,35812,Phyllocolpa polita,FALSE
+7,Phyllocolpa spirappendiculata,Phyllocolpa spirappendiculata,35855,Phyllocolpa spirappendiculata,FALSE
+28,Phyllocolpa spirappendiculata,Phyllocolpa spirappendiculata,40030,Phyllocolpa spirappendiculata,FALSE
+75,Pnigalio soemius,Pnigalio soemius,34216,Pnigalio soemius,FALSE
+16,Pontania breviserratae,Pontania breviserratae,38491,Pontania breviserratae,FALSE
+17,Pontania breviserratae,Pontania breviserratae,38559,Pontania breviserratae,FALSE
+18,Pontania breviserratae,Pontania breviserratae,34196,Pontania breviserratae,FALSE
+19,Pontania breviserratae,Pontania breviserratae,34073,Pontania breviserratae,FALSE
+20,Pontania breviserratae,Pontania breviserratae,34910,Pontania breviserratae,FALSE
+21,Pontania breviserratae,Pontania breviserratae,35502,Pontania breviserratae,FALSE
+36,Pontania breviserratae,Pontania breviserratae,36979,Pontania breviserratae,FALSE
+36,Pontania breviserratae,Pontania breviserratae 1,37003,Pontania breviserratae,FALSE
+37,Pontania breviserratae,Pontania breviserratae,37044,Pontania breviserratae,FALSE
+39,Pontania breviserratae,Pontania breviserratae,37472,Pontania breviserratae,FALSE
+39,Pontania breviserratae,Pontania breviserratae 1,37479,Pontania breviserratae,FALSE
+39,Pontania breviserratae,Pontania breviserratae 2,37482,Pontania breviserratae,FALSE
+41,Pontania breviserratae,Pontania breviserratae,37056,Pontania breviserratae,FALSE
+41,Pontania breviserratae,Pontania breviserratae 1,37065,Pontania breviserratae,FALSE
+44,Pontania breviserratae,Pontania breviserratae,37525,Pontania breviserratae,FALSE
+44,Pontania breviserratae,Pontania breviserratae 1,37529,Pontania breviserratae,FALSE
+45,Pontania breviserratae,Pontania breviserratae 1,37426,Pontania breviserratae,FALSE
+45,Pontania breviserratae,Pontania breviserratae 2,37430,Pontania breviserratae,FALSE
+45,Pontania breviserratae,Pontania breviserratae,37423,Pontania breviserratae,FALSE
+45,Pontania breviserratae,Pontania breviserratae 3,37433,Pontania breviserratae,FALSE
+8,Pontania bridgmanii,Pontania bridgmanii,35701,Pontania bridgmanii,FALSE
+11,Pontania bridgmanii,Pontania bridgmanii,35714,Pontania bridgmanii,FALSE
+12,Pontania bridgmanii,Pontania bridgmanii,35689,Pontania bridgmanii,FALSE
+59,Pontania bridgmanii,Pontania bridgmanii,37023,Pontania bridgmanii,FALSE
+69,Pontania bridgmanii,Pontania bridgmanii,37361,Pontania bridgmanii,FALSE
+69,Pontania bridgmanii,Pontania bridgmanii 1,37367,Pontania bridgmanii,FALSE
+75,Pontania bridgmanii,Pontania bridgmanii,34225,Pontania bridgmanii,FALSE
+14,Pontania foetidae,Pontania foetidae,34958,Pontania foetidae,FALSE
+21,Pontania foetidae,Pontania foetidae,35505,Pontania foetidae,FALSE
+29,Pontania foetidae,Pontania foetidae,38522,Pontania foetidae,FALSE
+30,Pontania foetidae,Pontania foetidae,38537,Pontania foetidae,FALSE
+36,Pontania foetidae,Pontania foetidae,36993,Pontania foetidae,FALSE
+36,Pontania foetidae,Pontania foetidae 1,36997,Pontania foetidae,FALSE
+37,Pontania foetidae,Pontania foetidae,37042,Pontania foetidae,FALSE
+41,Pontania foetidae,Pontania foetidae,37047,Pontania foetidae,FALSE
+41,Pontania foetidae,Pontania foetidae 1,37062,Pontania foetidae,FALSE
+41,Pontania foetidae,Pontania foetidae 2,37066,Pontania foetidae,FALSE
+43,Pontania foetidae,Pontania foetidae,37401,Pontania foetidae,FALSE
+45,Pontania foetidae,Pontania foetidae,37435,Pontania foetidae,FALSE
+45,Pontania foetidae,Pontania foetidae 2,37440,Pontania foetidae,FALSE
+45,Pontania foetidae,Pontania foetidae 4,37444,Pontania foetidae,FALSE
+45,Pontania foetidae,Pontania foetidae 1,37438,Pontania foetidae,FALSE
+45,Pontania foetidae,Pontania foetidae 3,37442,Pontania foetidae,FALSE
+49,Pontania foetidae,Pontania foetidae,35536,Pontania foetidae,FALSE
+58,Pontania foetidae,Pontania foetidae,35760,Pontania foetidae,FALSE
+59,Pontania foetidae,Pontania foetidae,37028,Pontania foetidae,FALSE
+60,Pontania foetidae,Pontania foetidae 1,37379,Pontania foetidae,FALSE
+60,Pontania foetidae,Pontania foetidae 2,37381,Pontania foetidae,FALSE
+60,Pontania foetidae,Pontania foetidae,37377,Pontania foetidae,FALSE
+60,Pontania foetidae,Pontania foetidae 3,37384,Pontania foetidae,FALSE
+12,Pontania hastatae,Pontania hastatae,35681,Pontania hastatae,FALSE
+16,Pontania hastatae,Pontania hastatae,38487,Pontania hastatae,FALSE
+17,Pontania hastatae,Pontania hastatae,38567,Pontania hastatae,FALSE
+18,Pontania hastatae,Pontania hastatae,34203,Pontania hastatae,FALSE
+20,Pontania hastatae,Pontania hastatae,34914,Pontania hastatae,FALSE
+21,Pontania hastatae,Pontania hastatae,35496,Pontania hastatae,FALSE
+46,Pontania hastatae,Pontania hastatae,38442,Pontania hastatae,FALSE
+47,Pontania hastatae,Pontania hastatae,34234,Pontania hastatae,FALSE
+49,Pontania hastatae,Pontania hastatae,35529,Pontania hastatae,FALSE
+58,Pontania hastatae,Pontania hastatae,35762,Pontania hastatae,FALSE
+74,Pontania hastatae,Pontania hastatae,38557,Pontania hastatae,FALSE
+75,Pontania hastatae,Pontania hastatae,34222,Pontania hastatae,FALSE
+80,Pontania hastatae,Pontania hastatae,34059,Pontania hastatae,FALSE
+82,Pontania hastatae,Pontania hastatae,35485,Pontania hastatae,FALSE
+83,Pontania hastatae,Pontania hastatae,35741,Pontania hastatae,FALSE
+87,Pontania hastatae,Pontania hastatae,36631,Pontania hastatae,FALSE
+33,Pontania kriechbaumeri,Pontania kriechbaumeri,38474,Pontania kriechbaumeri,FALSE
+50,Pontania kriechbaumeri,Pontania kriechbaumeri,35545,Pontania kriechbaumeri,FALSE
+50,Pontania kriechbaumeri,Pontania kriechbaumeri 1,35548,Pontania kriechbaumeri,FALSE
+57,Pontania kriechbaumeri,Pontania kriechbaumeri,33978,Pontania kriechbaumeri,FALSE
+66,Pontania kriechbaumeri,Pontania kriechbaumeri,35570,Pontania kriechbaumeri,FALSE
+67,Pontania kriechbaumeri,Pontania kriechbaumeri,35776,Pontania kriechbaumeri,FALSE
+16,Pontania maculosa,Pontania maculosa,38483,Pontania maculosa,FALSE
+30,Pontania maculosa,Pontania maculosa,38545,Pontania maculosa,FALSE
+53,Pontania maculosa,Pontania maculosa,38520,Pontania maculosa,FALSE
+73,Pontania maculosa,Pontania maculosa,38460,Pontania maculosa,FALSE
+74,Pontania maculosa,Pontania maculosa,38548,Pontania maculosa,FALSE
+75,Pontania maculosa,Pontania maculosa,34210,Pontania maculosa,FALSE
+80,Pontania maculosa,Pontania maculosa,34053,Pontania maculosa,FALSE
+80,Pontania maculosa,Pontania maculosa 1,34065,Pontania maculosa,FALSE
+82,Pontania maculosa,Pontania maculosa,35477,Pontania maculosa,FALSE
+83,Pontania maculosa,Pontania maculosa,35738,Pontania maculosa,FALSE
+74,Pontania nivalis,Pontania nivalis,38555,Pontania nivalis,FALSE
+75,Pontania nivalis,Pontania nivalis,34205,Pontania nivalis,FALSE
+78,Pontania nivalis,Pontania nivalis,38571,Pontania nivalis,FALSE
+80,Pontania nivalis,Pontania nivalis,34061,Pontania nivalis,FALSE
+81,Pontania nivalis,Pontania nivalis,34925,Pontania nivalis,FALSE
+82,Pontania nivalis,Pontania nivalis,35482,Pontania nivalis,FALSE
+83,Pontania nivalis,Pontania nivalis,35743,Pontania nivalis,FALSE
+12,Pontania obscura,Pontania obscura,35684,Pontania obscura,FALSE
+14,Pontania obscura,Pontania obscura,34960,Pontania obscura,FALSE
+30,Pontania obscura,Pontania obscura,38541,Pontania obscura,FALSE
+36,Pontania obscura,Pontania obscura,36996,Pontania obscura,FALSE
+36,Pontania obscura,Pontania obscura 1,37002,Pontania obscura,FALSE
+37,Pontania obscura,Pontania obscura,37046,Pontania obscura,FALSE
+38,Pontania obscura,Pontania obscura,37326,Pontania obscura,FALSE
+38,Pontania obscura,Pontania obscura 2,37332,Pontania obscura,FALSE
+38,Pontania obscura,Pontania obscura 4,37336,Pontania obscura,FALSE
+38,Pontania obscura,Pontania obscura 1,37329,Pontania obscura,FALSE
+38,Pontania obscura,Pontania obscura 3,37334,Pontania obscura,FALSE
+38,Pontania obscura,Pontania obscura 5,37339,Pontania obscura,FALSE
+41,Pontania obscura,Pontania obscura,37053,Pontania obscura,FALSE
+41,Pontania obscura,Pontania obscura 1,37068,Pontania obscura,FALSE
+42,Pontania obscura,Pontania obscura,37394,Pontania obscura,FALSE
+43,Pontania obscura,Pontania obscura 2,37404,Pontania obscura,FALSE
+43,Pontania obscura,Pontania obscura 3,37407,Pontania obscura,FALSE
+43,Pontania obscura,Pontania obscura 5,37411,Pontania obscura,FALSE
+43,Pontania obscura,Pontania obscura 6,37414,Pontania obscura,FALSE
+43,Pontania obscura,Pontania obscura,37397,Pontania obscura,FALSE
+43,Pontania obscura,Pontania obscura 4,37408,Pontania obscura,FALSE
+43,Pontania obscura,Pontania obscura 7,37416,Pontania obscura,FALSE
+43,Pontania obscura,Pontania obscura 1,37403,Pontania obscura,FALSE
+49,Pontania obscura,Pontania obscura,35540,Pontania obscura,FALSE
+55,Pontania obscura,Pontania obscura,34085,Pontania obscura,FALSE
+58,Pontania obscura,Pontania obscura,35756,Pontania obscura,FALSE
+60,Pontania obscura,Pontania obscura 1,37373,Pontania obscura,FALSE
+60,Pontania obscura,Pontania obscura 2,37376,Pontania obscura,FALSE
+60,Pontania obscura,Pontania obscura 3,37386,Pontania obscura,FALSE
+60,Pontania obscura,Pontania obscura 5,37389,Pontania obscura,FALSE
+60,Pontania obscura,Pontania obscura 4,37388,Pontania obscura,FALSE
+60,Pontania obscura,Pontania obscura 6,37392,Pontania obscura,FALSE
+60,Pontania obscura,Pontania obscura,37369,Pontania obscura,FALSE
+5,Pontania pedunculi,Pontania pedunculi,37081,Pontania pedunculi,FALSE
+39,Pontania reticulatae,Pontania reticulatae,37502,Pontania reticulatae,FALSE
+39,Pontania reticulatae,Pontania reticulatae 1,37505,Pontania reticulatae,FALSE
+54,Pontania reticulatae,Pontania reticulatae,34089,Pontania reticulatae,FALSE
+56,Pontania reticulatae,Pontania reticulatae,34939,Pontania reticulatae,FALSE
+58,Pontania reticulatae,Pontania reticulatae,35769,Pontania reticulatae,FALSE
+88,Pontania reticulatae,Pontania reticulatae,37078,Pontania reticulatae,FALSE
+49,Pontania retusae,Pontania retusae,35534,Pontania retusae,FALSE
+53,Pontania retusae,Pontania retusae,38513,Pontania retusae,FALSE
+54,Pontania retusae,Pontania retusae,34092,Pontania retusae,FALSE
+56,Pontania retusae,Pontania retusae,34935,Pontania retusae,FALSE
+58,Pontania retusae,Pontania retusae,35765,Pontania retusae,FALSE
+88,Pontania retusae,Pontania retusae,37071,Pontania retusae,FALSE
+89,Pontania retusae,Pontania retusae,37468,Pontania retusae,FALSE
+91,Pontania triandrae,Pontania triandrae,38445,Pontania triandrae,FALSE
+58,Pontania tuberculata,Phyllocolpa tuberculata,35773,Pontania tuberculata,FALSE
+4,Pontania varia,Pontania varia,35929,Pontania varia,FALSE
+13,Pontania varia,Pontania varia,38469,Pontania varia,FALSE
+14,Pontania varia,Pontania varia,34949,Pontania varia,FALSE
+16,Pontania varia,Pontania varia,38488,Pontania varia,FALSE
+17,Pontania varia,Pontania varia,38563,Pontania varia,FALSE
+20,Pontania varia,Pontania varia,34920,Pontania varia,FALSE
+21,Pontania varia,Pontania varia,35489,Pontania varia,FALSE
+22,Pontania varia,Pontania varia,38478,Pontania varia,FALSE
+30,Pontania varia,Pontania varia,38530,Pontania varia,FALSE
+31,Pontania varia,Pontania varia,34228,Pontania varia,FALSE
+36,Pontania varia,Pontania varia,36985,Pontania varia,FALSE
+37,Pontania varia,Pontania varia,37032,Pontania varia,FALSE
+39,Pontania varia,Pontania varia 1,37488,Pontania varia,FALSE
+39,Pontania varia,Pontania varia 3,37491,Pontania varia,FALSE
+39,Pontania varia,Pontania varia 4,37493,Pontania varia,FALSE
+39,Pontania varia,Pontania varia,37484,Pontania varia,FALSE
+39,Pontania varia,Pontania varia 2,37490,Pontania varia,FALSE
+39,Pontania varia,Pontania varia 5,37496,Pontania varia,FALSE
+39,Pontania varia,Pontania varia 6,37498,Pontania varia,FALSE
+39,Pontania varia,Pontania varia 7,37501,Pontania varia,FALSE
+40,Pontania varia,Pontania varia,37533,Pontania varia,FALSE
+6,Pontania vesicator,Pontania vesicator,39441,Pontania vesicator,FALSE
+23,Pontania vesicator,Pontania vesicator,35709,Pontania vesicator,FALSE
+46,Pontania vesicator,Pontania vesicator,38428,Pontania vesicator,FALSE
+50,Pontania vesicator,Pontania vesicator,35550,Pontania vesicator,FALSE
+63,Pontania vesicator,Pontania vesicator,35754,Pontania vesicator,FALSE
+70,Pontania vesicator,Pontania vesicator,35469,Pontania vesicator,FALSE
+75,Pontania vesicator,Pontania vesicator,34218,Pontania vesicator,FALSE
+76,Pontania vesicator,Pontania vesicator,35460,Pontania vesicator,FALSE
+92,Pontania vesicator,Pontania vesicator,35523,Pontania vesicator,FALSE
+1,Pontania viminalis,Pontania viminalis,36416,Pontania viminalis,FALSE
+2,Pontania viminalis,Pontania viminalis,36427,Pontania viminalis,FALSE
+3,Pontania viminalis,Pontania viminalis,36419,Pontania viminalis,FALSE
+6,Pontania viminalis,Pontania viminalis,39438,Pontania viminalis,FALSE
+13,Pontania viminalis,Pontania viminalis,38466,Pontania viminalis,FALSE
+15,Pontania viminalis,Pontania viminalis,35507,Pontania viminalis,FALSE
+16,Pontania viminalis,Pontania viminalis,38498,Pontania viminalis,FALSE
+23,Pontania viminalis,Pontania viminalis,35712,Pontania viminalis,FALSE
+25,Pontania viminalis,Pontania viminalis,35574,Pontania viminalis,FALSE
+34,Pontania viminalis,Pontania viminalis,35692,Pontania viminalis,FALSE
+46,Pontania viminalis,Pontania viminalis,38437,Pontania viminalis,FALSE
+50,Pontania viminalis,Pontania viminalis,35559,Pontania viminalis,FALSE
+63,Pontania viminalis,Pontania viminalis,35752,Pontania viminalis,FALSE
+75,Pontania viminalis,Pontania viminalis,34220,Pontania viminalis,FALSE
+76,Pontania viminalis,Pontania viminalis,35453,Pontania viminalis,FALSE
+16,Pontania virilis,Pontania virilis,38494,Pontania virilis,FALSE
+32,Pontania virilis,Pontania virilis,39993,Pontania virilis,FALSE
+75,Pontania virilis,Pontania virilis,34221,Pontania virilis,FALSE
+90,Pontania virilis,Pontania virilis,38390,Pontania virilis,FALSE
+75,Pteromalus,Pteromalus sp.,34214,,TRUE
+3,Pteromalus dolichurus,Pteromalus dolichurus,36420,Pteromalus dolichurus,FALSE
+13,Pteromalus dolichurus,Pteromalus dolichurus,38470,Pteromalus dolichurus,FALSE
+14,Pteromalus dolichurus,Pteromalus dolichurus,34959,Pteromalus dolichurus,FALSE
+15,Pteromalus dolichurus,Pteromalus dolichurus,35509,Pteromalus dolichurus,FALSE
+17,Pteromalus dolichurus,Pteromalus dolichurus,38565,Pteromalus dolichurus,FALSE
+19,Pteromalus dolichurus,Pteromalus dolichurus,34077,Pteromalus dolichurus,FALSE
+20,Pteromalus dolichurus,Pteromalus dolichurus,34911,Pteromalus dolichurus,FALSE
+21,Pteromalus dolichurus,Pteromalus dolichurus,35500,Pteromalus dolichurus,FALSE
+30,Pteromalus dolichurus,Pteromalus dolichurus,38533,Pteromalus dolichurus,FALSE
+36,Pteromalus dolichurus,Pteromalus dolichurus,36986,Pteromalus dolichurus,FALSE
+36,Pteromalus dolichurus,Pteromalus dolichurus 1,36998,Pteromalus dolichurus,FALSE
+37,Pteromalus dolichurus,Pteromalus dolichurus,37033,Pteromalus dolichurus,FALSE
+41,Pteromalus dolichurus,Pteromalus dolichurus,37055,Pteromalus dolichurus,FALSE
+46,Pteromalus dolichurus,Pteromalus dolichurus,38429,Pteromalus dolichurus,FALSE
+49,Pteromalus dolichurus,Pteromalus dolichurus,35538,Pteromalus dolichurus,FALSE
+50,Pteromalus dolichurus,Pteromalus dolichurus,35551,Pteromalus dolichurus,FALSE
+51,Pteromalus dolichurus,Pteromalus dolichurus,35823,Pteromalus dolichurus,FALSE
+57,Pteromalus dolichurus,Pteromalus dolichurus,33981,Pteromalus dolichurus,FALSE
+58,Pteromalus dolichurus,Pteromalus dolichurus,35764,Pteromalus dolichurus,FALSE
+59,Pteromalus dolichurus,Pteromalus dolichurus,37031,Pteromalus dolichurus,FALSE
+69,Pteromalus dolichurus,Pteromalus dolichurus,37363,Pteromalus dolichurus,FALSE
+71,Pteromalus dolichurus,Pteromalus dolichurus,35584,Pteromalus dolichurus,FALSE
+73,Pteromalus dolichurus,Pteromalus dolichurus,38453,Pteromalus dolichurus,FALSE
+75,Pteromalus dolichurus,Pteromalus dolichurus,34211,Pteromalus dolichurus,FALSE
+76,Pteromalus dolichurus,Pteromalus dolichurus,35455,Pteromalus dolichurus,FALSE
+77,Pteromalus dolichurus,Pteromalus dolichurus,36103,Pteromalus dolichurus,FALSE
+80,Pteromalus dolichurus,Pteromalus dolichurus,34054,Pteromalus dolichurus,FALSE
+80,Pteromalus dolichurus,Pteromalus dolichurus 1,34066,Pteromalus dolichurus,FALSE
+83,Pteromalus dolichurus,Pteromalus dolichurus,35739,Pteromalus dolichurus,FALSE
+92,Pteromalus dolichurus,Pteromalus dolichurus,35527,Pteromalus dolichurus,FALSE
+14,Pteromalus euurae,Pteromalus euurae,34946,Pteromalus euurae,FALSE
+19,Pteromalus euurae,Pteromalus euurae,34071,Pteromalus euurae,FALSE
+20,Pteromalus euurae,Pteromalus euurae,34918,Pteromalus euurae,FALSE
+21,Pteromalus euurae,Pteromalus euurae,35493,Pteromalus euurae,FALSE
+36,Pteromalus euurae,Pteromalus euurae,37006,Pteromalus euurae,FALSE
+36,Pteromalus euurae,Pteromalus euurae 1,37008,Pteromalus euurae,FALSE
+45,Pteromalus euurae,Pteromalus euurae,37450,Pteromalus euurae,FALSE
+50,Pteromalus euurae,Pteromalus euurae,35553,Pteromalus euurae,FALSE
+55,Pteromalus euurae,Pteromalus euurae,34083,Pteromalus euurae,FALSE
+56,Pteromalus euurae,Pteromalus euurae,34942,Pteromalus euurae,FALSE
+57,Pteromalus euurae,Pteromalus euurae,33984,Pteromalus euurae,FALSE
+65,Pteromalus euurae,Pteromalus euurae,36086,Pteromalus euurae,FALSE
+71,Pteromalus euurae,Pteromalus euurae,35581,Pteromalus euurae,FALSE
+79,Pteromalus euurae,Pteromalus euurae,38576,Pteromalus euurae,FALSE
+80,Pteromalus euurae,Pteromalus euurae,34047,Pteromalus euurae,FALSE
+81,Pteromalus euurae,Pteromalus euurae,34931,Pteromalus euurae,FALSE
+82,Pteromalus euurae,Pteromalus euurae,35475,Pteromalus euurae,FALSE
+84,Pteromalus euurae,Pteromalus euurae,36051,Pteromalus euurae,FALSE
+87,Pteromalus euurae,Pteromalus euurae,36637,Pteromalus euurae,FALSE
+96,Pteromalus euurae,Pteromalus euurae,36080,Pteromalus euurae,FALSE
+36,Pteromalus pontaniae,Pteromalus pontaniae,36995,Pteromalus pontaniae,FALSE
+39,Pteromalus pontaniae,Pteromalus pontaniae,37477,Pteromalus pontaniae,FALSE
+41,Pteromalus pontaniae,Pteromalus pontaniae,37050,Pteromalus pontaniae,FALSE
+49,Pteromalus pontaniae,Pteromalus pontaniae,35535,Pteromalus pontaniae,FALSE
+53,Pteromalus pontaniae,Pteromalus pontaniae,38517,Pteromalus pontaniae,FALSE
+54,Pteromalus pontaniae,Pteromalus pontaniae,34093,Pteromalus pontaniae,FALSE
+56,Pteromalus pontaniae,Pteromalus pontaniae,34936,Pteromalus pontaniae,FALSE
+58,Pteromalus pontaniae,Pteromalus pontaniae,35768,Pteromalus pontaniae,FALSE
+60,Pteromalus pontaniae,Pteromalus pontaniae,37378,Pteromalus pontaniae,FALSE
+75,Pteromalus pontaniae,Pteromalus pontaniae,34217,Pteromalus pontaniae,FALSE
+76,Pteromalus pontaniae,Pteromalus pontaniae,35462,Pteromalus pontaniae,FALSE
+88,Pteromalus pontaniae,Pteromalus pontaniae,37074,Pteromalus pontaniae,FALSE
+4,Salix apennina,Salix apennina,35928,Salix apennina,FALSE
+24,Salix caprea,Salix caprea,40014,Salix caprea,FALSE
+27,Salix caprea,Salix caprea,40020,Salix caprea,FALSE
+35,Salix caprea,Salix caprea,40026,Salix caprea,FALSE
+97,Salix caprea,Salix caprea,40017,Salix caprea,FALSE
+85,Salix cinerea,Salix cinerea,36095,Salix cinerea,FALSE
+71,Salix daphnoides,Salix daphnoides,35579,Salix daphnoides,FALSE
+92,Salix daphnoides,Salix daphnoides,35518,Salix daphnoides,FALSE
+93,Salix daphnoides,Salix daphnoides,35782,Salix daphnoides,FALSE
+94,Salix daphnoides,Salix daphnoides,35813,Salix daphnoides,FALSE
+96,Salix daphnoides,Salix daphnoides,36077,Salix daphnoides,FALSE
+33,Salix elaeagnos,Salix elaeagnos,38473,Salix elaeagnos,FALSE
+50,Salix elaeagnos,Salix elaeagnos,35544,Salix elaeagnos,FALSE
+50,Salix elaeagnos,Salix elaeagnos 1,35547,Salix elaeagnos,FALSE
+51,Salix elaeagnos,Salix elaeagnos,35820,Salix elaeagnos,FALSE
+52,Salix elaeagnos,Salix elaeagnos,36074,Salix elaeagnos,FALSE
+57,Salix elaeagnos,Salix elaeagnos,33977,Salix elaeagnos,FALSE
+66,Salix elaeagnos,Salix elaeagnos,35567,Salix elaeagnos,FALSE
+66,Salix elaeagnos,Salix elaeagnos 1,35568,Salix elaeagnos,FALSE
+67,Salix elaeagnos,Salix elaeagnos,35775,Salix elaeagnos,FALSE
+68,Salix elaeagnos,Salix elaeagnos,36088,Salix elaeagnos,FALSE
+98,Salix elaeagnos,Salix elaeagnos,37192,Salix elaeagnos,FALSE
+99,Salix elaeagnos,Salix elaeagnos,37181,Salix elaeagnos,FALSE
+99,Salix elaeagnos,Salix elaeagnos 5,37190,Salix elaeagnos,FALSE
+99,Salix elaeagnos,Salix elaeagnos 1,37182,Salix elaeagnos,FALSE
+99,Salix elaeagnos,Salix elaeagnos 2,37184,Salix elaeagnos,FALSE
+99,Salix elaeagnos,Salix elaeagnos 3,37186,Salix elaeagnos,FALSE
+99,Salix elaeagnos,Salix elaeagnos 4,37188,Salix elaeagnos,FALSE
+7,Salix glabra,Salix glabra,35852,Salix glabra,FALSE
+8,Salix glabra,Salix glabra,35706,Salix glabra,FALSE
+8,Salix glabra,Salix glabra 1,35707,Salix glabra,FALSE
+9,Salix glabra,Salix glabra,35867,Salix glabra,FALSE
+9,Salix glabra,Salix glabra 1,35868,Salix glabra,FALSE
+10,Salix glabra,Salix glabra,35864,Salix glabra,FALSE
+12,Salix hastata,Salix hastata,35680,Salix hastata,FALSE
+16,Salix hastata,Salix hastata,38486,Salix hastata,FALSE
+17,Salix hastata,Salix hastata,38569,Salix hastata,FALSE
+18,Salix hastata,Salix hastata,34202,Salix hastata,FALSE
+19,Salix hastata,Salix hastata,34069,Salix hastata,FALSE
+20,Salix hastata,Salix hastata,34916,Salix hastata,FALSE
+21,Salix hastata,Salix hastata,35495,Salix hastata,FALSE
+46,Salix hastata,Salix hastata,38443,Salix hastata,FALSE
+47,Salix hastata,Salix hastata,34233,Salix hastata,FALSE
+49,Salix hastata,Salix hastata,35532,Salix hastata,FALSE
+58,Salix hastata,Salix hastata,35761,Salix hastata,FALSE
+74,Salix hastata,Salix hastata,38556,Salix hastata,FALSE
+75,Salix hastata,Salix hastata,34223,Salix hastata,FALSE
+80,Salix hastata,Salix hastata,34058,Salix hastata,FALSE
+82,Salix hastata,Salix hastata,35486,Salix hastata,FALSE
+83,Salix hastata,Salix hastata,35740,Salix hastata,FALSE
+86,Salix hastata,Salix hastata,36098,Salix hastata,FALSE
+87,Salix hastata,Salix hastata,36630,Salix hastata,FALSE
+14,Salix helvetica,Salix helvetica,34947,Salix helvetica,FALSE
+16,Salix helvetica,Salix helvetica,38482,Salix helvetica,FALSE
+21,Salix helvetica,Salix helvetica,35494,Salix helvetica,FALSE
+30,Salix helvetica,Salix helvetica,38547,Salix helvetica,FALSE
+53,Salix helvetica,Salix helvetica,38519,Salix helvetica,FALSE
+55,Salix helvetica,Salix helvetica,34079,Salix helvetica,FALSE
+56,Salix helvetica,Salix helvetica,34943,Salix helvetica,FALSE
+65,Salix helvetica,Salix helvetica,36084,Salix helvetica,FALSE
+73,Salix helvetica,Salix helvetica,38456,Salix helvetica,FALSE
+73,Salix helvetica,Salix helvetica 2,38464,Salix helvetica,FALSE
+73,Salix helvetica,Salix helvetica 1,38457,Salix helvetica,FALSE
+74,Salix helvetica,Salix helvetica,38551,Salix helvetica,FALSE
+75,Salix helvetica,Salix helvetica,34213,Salix helvetica,FALSE
+76,Salix helvetica,Salix helvetica,35463,Salix helvetica,FALSE
+77,Salix helvetica,Salix helvetica,36101,Salix helvetica,FALSE
+79,Salix helvetica,Salix helvetica,38574,Salix helvetica,FALSE
+80,Salix helvetica,Salix helvetica,34045,Salix helvetica,FALSE
+80,Salix helvetica,Salix helvetica 1,34067,Salix helvetica,FALSE
+81,Salix helvetica,Salix helvetica,34929,Salix helvetica,FALSE
+82,Salix helvetica,Salix helvetica,35472,Salix helvetica,FALSE
+83,Salix helvetica,Salix helvetica,35737,Salix helvetica,FALSE
+84,Salix helvetica,Salix helvetica,36052,Salix helvetica,FALSE
+84,Salix helvetica,Salix helvetica 1,36055,Salix helvetica,FALSE
+86,Salix helvetica,Salix helvetica,36099,Salix helvetica,FALSE
+87,Salix helvetica,Salix helvetica,36635,Salix helvetica,FALSE
+13,Salix myrsinifolia,Salix myrsinifolia,38471,Salix myrsinifolia,FALSE
+14,Salix myrsinifolia,Salix myrsinifolia,34948,Salix myrsinifolia,FALSE
+16,Salix myrsinifolia,Salix myrsinifolia,38489,Salix myrsinifolia,FALSE
+17,Salix myrsinifolia,Salix myrsinifolia,38562,Salix myrsinifolia,FALSE
+20,Salix myrsinifolia,Salix myrsinifolia,34919,Salix myrsinifolia,FALSE
+21,Salix myrsinifolia,Salix myrsinifolia,35488,Salix myrsinifolia,FALSE
+22,Salix myrsinifolia,Salix myrsinifolia,38481,Salix myrsinifolia,FALSE
+30,Salix myrsinifolia,Salix myrsinifolia,38529,Salix myrsinifolia,FALSE
+31,Salix myrsinifolia,Salix myrsinifolia,34227,Salix myrsinifolia,FALSE
+34,Salix myrsinifolia,Salix myrsinifolia,35698,Salix myrsinifolia,FALSE
+36,Salix myrsinifolia,Salix myrsinifolia,36987,Salix myrsinifolia,FALSE
+37,Salix myrsinifolia,Salix myrsinifolia,37040,Salix myrsinifolia,FALSE
+39,Salix myrsinifolia,Salix myrsinifolia,37486,Salix myrsinifolia,FALSE
+39,Salix myrsinifolia,Salix myrsinifolia 2,37489,Salix myrsinifolia,FALSE
+39,Salix myrsinifolia,Salix myrsinifolia 3,37495,Salix myrsinifolia,FALSE
+39,Salix myrsinifolia,Salix myrsinifolia 1,37487,Salix myrsinifolia,FALSE
+39,Salix myrsinifolia,Salix myrsinifolia 4,37497,Salix myrsinifolia,FALSE
+39,Salix myrsinifolia,Salix myrsinifolia 5,37500,Salix myrsinifolia,FALSE
+40,Salix myrsinifolia,Salix myrsinifolia,37532,Salix myrsinifolia,FALSE
+100,Salix myrsinifolia,Salix myrsinifolia,37176,Salix myrsinifolia,FALSE
+14,Salix pentandra,Salix pentandra,34957,Salix pentandra,FALSE
+1,Salix purpurea,Salix purpurea,36415,Salix purpurea,FALSE
+2,Salix purpurea,Salix purpurea,36426,Salix purpurea,FALSE
+3,Salix purpurea,Salix purpurea,36422,Salix purpurea,FALSE
+6,Salix purpurea,Salix purpurea,39437,Salix purpurea,FALSE
+13,Salix purpurea,Salix purpurea,38468,Salix purpurea,FALSE
+15,Salix purpurea,Salix purpurea,35506,Salix purpurea,FALSE
+16,Salix purpurea,Salix purpurea,38497,Salix purpurea,FALSE
+23,Salix purpurea,Salix purpurea,35711,Salix purpurea,FALSE
+25,Salix purpurea,Salix purpurea,35573,Salix purpurea,FALSE
+26,Salix purpurea,Salix purpurea,35872,Salix purpurea,FALSE
+32,Salix purpurea,Salix purpurea,39992,Salix purpurea,FALSE
+34,Salix purpurea,Salix purpurea,35691,Salix purpurea,FALSE
+46,Salix purpurea,Salix purpurea,38435,Salix purpurea,FALSE
+50,Salix purpurea,Salix purpurea,35549,Salix purpurea,FALSE
+52,Salix purpurea,Salix purpurea,36072,Salix purpurea,FALSE
+58,Salix purpurea,Salix purpurea,35771,Salix purpurea,FALSE
+63,Salix purpurea,Salix purpurea,35751,Salix purpurea,FALSE
+64,Salix purpurea,Salix purpurea 1,36058,Salix purpurea,FALSE
+64,Salix purpurea,Salix purpurea,36056,Salix purpurea,FALSE
+70,Salix purpurea,Salix purpurea,35465,Salix purpurea,FALSE
+71,Salix purpurea,Salix purpurea,35588,Salix purpurea,FALSE
+72,Salix purpurea,Salix purpurea,36069,Salix purpurea,FALSE
+75,Salix purpurea,Salix purpurea,34219,Salix purpurea,FALSE
+76,Salix purpurea,Salix purpurea,35452,Salix purpurea,FALSE
+90,Salix purpurea,Salix purpurea,38392,Salix purpurea,FALSE
+92,Salix purpurea,Salix purpurea,35524,Salix purpurea,FALSE
+94,Salix purpurea,Salix purpurea,35811,Salix purpurea,FALSE
+95,Salix purpurea,Salix purpurea,35835,Salix purpurea,FALSE
+39,Salix reticulata,Salix reticulata 1,37504,Salix reticulata,FALSE
+39,Salix reticulata,Salix reticulata,37503,Salix reticulata,FALSE
+54,Salix reticulata,Salix reticulata,34091,Salix reticulata,FALSE
+56,Salix reticulata,Salix reticulata,34940,Salix reticulata,FALSE
+58,Salix reticulata,Salix reticulata,35770,Salix reticulata,FALSE
+88,Salix reticulata,Salix reticulata,37077,Salix reticulata,FALSE
+49,Salix retusa,Salix retusa,35533,Salix retusa,FALSE
+53,Salix retusa,Salix retusa,38512,Salix retusa,FALSE
+54,Salix retusa,Salix retusa,34094,Salix retusa,FALSE
+56,Salix retusa,Salix retusa,34938,Salix retusa,FALSE
+58,Salix retusa,Salix retusa,35767,Salix retusa,FALSE
+88,Salix retusa,Salix retusa,37073,Salix retusa,FALSE
+89,Salix retusa,Salix retusa,37467,Salix retusa,FALSE
+91,Salix triandra,Salix triandra,38444,Salix triandra,FALSE
+80,Saotis morleyi,Saotis morleyi,34051,Saotis morleyi,FALSE
+87,Saotis morleyi,Saotis morleyi,36641,Saotis morleyi,FALSE
+11,Scambus vesicarius,Scambus vesicarius,35715,Scambus vesicarius,FALSE
+16,Scambus vesicarius,Scambus vesicarius,38496,Scambus vesicarius,FALSE
+17,Scambus vesicarius,Scambus vesicarius,38566,Scambus vesicarius,FALSE
+18,Scambus vesicarius,Scambus vesicarius,34198,Scambus vesicarius,FALSE
+19,Scambus vesicarius,Scambus vesicarius,34078,Scambus vesicarius,FALSE
+20,Scambus vesicarius,Scambus vesicarius,34913,Scambus vesicarius,FALSE
+21,Scambus vesicarius,Scambus vesicarius,35491,Scambus vesicarius,FALSE
+30,Scambus vesicarius,Scambus vesicarius,38538,Scambus vesicarius,FALSE
+32,Scambus vesicarius,Scambus vesicarius,39995,Scambus vesicarius,FALSE
+36,Scambus vesicarius,Scambus vesicarius,36991,Scambus vesicarius,FALSE
+37,Scambus vesicarius,Scambus vesicarius,37037,Scambus vesicarius,FALSE
+41,Scambus vesicarius,Scambus vesicarius,37051,Scambus vesicarius,FALSE
+41,Scambus vesicarius,Scambus vesicarius 1,37067,Scambus vesicarius,FALSE
+43,Scambus vesicarius,Scambus vesicarius,37418,Scambus vesicarius,FALSE
+45,Scambus vesicarius,Scambus vesicarius,37436,Scambus vesicarius,FALSE
+46,Scambus vesicarius,Scambus vesicarius,38436,Scambus vesicarius,FALSE
+47,Scambus vesicarius,Scambus vesicarius,34237,Scambus vesicarius,FALSE
+49,Scambus vesicarius,Scambus vesicarius,35542,Scambus vesicarius,FALSE
+50,Scambus vesicarius,Scambus vesicarius,35546,Scambus vesicarius,FALSE
+55,Scambus vesicarius,Scambus vesicarius,34086,Scambus vesicarius,FALSE
+58,Scambus vesicarius,Scambus vesicarius,35763,Scambus vesicarius,FALSE
+59,Scambus vesicarius,Scambus vesicarius,37030,Scambus vesicarius,FALSE
+69,Scambus vesicarius,Scambus vesicarius 1,37368,Scambus vesicarius,FALSE
+69,Scambus vesicarius,Scambus vesicarius,37364,Scambus vesicarius,FALSE
+70,Scambus vesicarius,Scambus vesicarius,35470,Scambus vesicarius,FALSE
+73,Scambus vesicarius,Scambus vesicarius,38461,Scambus vesicarius,FALSE
+74,Scambus vesicarius,Scambus vesicarius,38550,Scambus vesicarius,FALSE
+75,Scambus vesicarius,Scambus vesicarius,34212,Scambus vesicarius,FALSE
+76,Scambus vesicarius,Scambus vesicarius,35461,Scambus vesicarius,FALSE
+80,Scambus vesicarius,Scambus vesicarius,34062,Scambus vesicarius,FALSE
+81,Scambus vesicarius,Scambus vesicarius,34927,Scambus vesicarius,FALSE
+82,Scambus vesicarius,Scambus vesicarius,35483,Scambus vesicarius,FALSE
+87,Scambus vesicarius,Scambus vesicarius,36634,Scambus vesicarius,FALSE
+92,Scambus vesicarius,Scambus vesicarius,35522,Scambus vesicarius,FALSE
+49,Shawiana lapponica,Shawiana lapponica,35541,Shawiana lapponica,FALSE
+58,Shawiana lapponica,Shawiana lapponica,35758,Shawiana lapponica,FALSE
+82,Shawiana lapponica,Shawiana lapponica,35479,Shawiana lapponica,FALSE
+80,Stenomacrus pusillator,Adelognathus pusillus,34050,Stenomacrus pusillator,FALSE
+16,Theroscopus hemipteron,Theroscopus hemipteron,38495,Theroscopus hemipteron,FALSE
+57,Torymus,Torymus sp.,33988,Torymus,FALSE
+7,,Salix appendiculata,35856,Salix appendiculata,FALSE
+8,,Salix appendiculata,35700,Salix appendiculata,FALSE
+11,,Salix appendiculata,35716,Salix appendiculata,FALSE
+12,,Salix foetida,35685,Salix foetida,FALSE
+12,,Salix appendiculata,35688,Salix appendiculata,FALSE
+14,,Salix foetida,34952,Salix foetida,FALSE
+14,,Eurytoma nobbei,34954,Eurytoma nobbei,FALSE
+16,,Salix breviserrata,38490,Salix breviserrata,FALSE
+16,,Saotis pygidiator,38493,Saotis pygidiator,FALSE
+17,,Saotis pygidiator,38568,Saotis pygidiator,FALSE
+17,,Salix breviserrata,38558,Salix breviserrata,FALSE
+18,,Salix breviserrata,34199,Salix breviserrata,FALSE
+19,,Salix breviserrata,34075,Salix breviserrata,FALSE
+20,,Salix breviserrata,34909,Salix breviserrata,FALSE
+20,,Salix foetida,34922,Salix foetida,FALSE
+21,,Salix foetida,35498,Salix foetida,FALSE
+21,,Salix breviserrata,35504,Salix breviserrata,FALSE
+25,,Apion minimum,35575,Apion minimum,FALSE
+28,,Salix appendiculata,40029,Salix appendiculata,FALSE
+29,,Salix foetida,38524,Salix foetida,FALSE
+30,,Salix foetida,38540,Salix foetida,FALSE
+32,,Apion minimum,39996,Apion minimum,FALSE
+32,,Phyllocolpa purpureae,39997,Phyllocolpa purpureae,FALSE
+36,,Salix breviserrata,36981,Salix breviserrata,FALSE
+36,,Bracon obscurator,36989,Bracon obscurator,FALSE
+36,,Salix foetida,36992,Salix foetida,FALSE
+36,,Salix foetida 2,37009,Salix foetida,FALSE
+36,,Pteromalus cyniphidis,37000,Pteromalus cyniphidis,FALSE
+36,,Salix foetida 1,37001,Salix foetida,FALSE
+37,,Bracon obscurator,37038,Bracon obscurator,FALSE
+37,,Salix breviserrata,37043,Salix breviserrata,FALSE
+37,,Salix foetida,37041,Salix foetida,FALSE
+38,,Salix foetida,37328,Salix foetida,FALSE
+38,,Salix foetida 1,37331,Salix foetida,FALSE
+38,,Salix foetida 2,37338,Salix foetida,FALSE
+39,,Salix breviserrata,37476,Salix breviserrata,FALSE
+39,,Salix breviserrata 1,37478,Salix breviserrata,FALSE
+39,,Salix breviserrata 2,37481,Salix breviserrata,FALSE
+39,,Salix foetida,37506,Salix foetida,FALSE
+39,,Saotis pygidiator,37499,Saotis pygidiator,FALSE
+41,,Salix breviserrata 1,37064,Salix breviserrata,FALSE
+41,,Salix foetida,37052,Salix foetida,FALSE
+41,,Salix breviserrata,37060,Salix breviserrata,FALSE
+41,,Bracon obscurator,37059,Bracon obscurator,FALSE
+41,,Salix foetida 1,37061,Salix foetida,FALSE
+42,,Salix foetida,37393,Salix foetida,FALSE
+43,,Salix foetida,37400,Salix foetida,FALSE
+43,,Salix foetida 3,37410,Salix foetida,FALSE
+43,,Salix foetida 1,37402,Salix foetida,FALSE
+43,,Salix foetida 2,37406,Salix foetida,FALSE
+44,,Salix breviserrata 1,37528,Salix breviserrata,FALSE
+44,,Salix breviserrata,37524,Salix breviserrata,FALSE
+45,,Salix breviserrata 1,37431,Salix breviserrata,FALSE
+45,,Salix foetida 4,37443,Salix foetida,FALSE
+45,,Salix foetida,37434,Salix foetida,FALSE
+45,,Salix breviserrata,37422,Salix breviserrata,FALSE
+45,,Salix breviserrata 2,37432,Salix breviserrata,FALSE
+45,,Salix foetida 3,37441,Salix foetida,FALSE
+45,,Salix foetida 2,37439,Salix foetida,FALSE
+45,,Salix foetida 1,37437,Salix foetida,FALSE
+45,,Salix foetida 5,37446,Salix foetida,FALSE
+45,,Salix foetida 6,37451,Salix foetida,FALSE
+45,,Salix foetida 7,37461,Salix foetida,FALSE
+45,,Salix foetida 8,37463,Salix foetida,FALSE
+46,,Pteromalus cyniphidis,38430,Pteromalus cyniphidis,FALSE
+49,,Salix foetida,35539,Salix foetida,FALSE
+52,,Eurytoma nobbei,36073,Eurytoma nobbei,FALSE
+55,,Salix foetida,34084,Salix foetida,FALSE
+55,,Eurytoma nobbei,34082,Eurytoma nobbei,FALSE
+57,,Pteromalus cyniphidis,33979,Pteromalus cyniphidis,FALSE
+58,,Salix foetida,35759,Salix foetida,FALSE
+59,,Salix appendiculata,37022,Salix appendiculata,FALSE
+59,,Salix foetida,37027,Salix foetida,FALSE
+60,,Salix foetida 1,37372,Salix foetida,FALSE
+60,,Salix foetida,37371,Salix foetida,FALSE
+60,,Salix foetida 3,37383,Salix foetida,FALSE
+60,,Salix foetida 5,37387,Salix foetida,FALSE
+60,,Salix foetida 6,37391,Salix foetida,FALSE
+60,,Salix foetida 2,37375,Salix foetida,FALSE
+60,,Salix foetida 4,37385,Salix foetida,FALSE
+61,,Phyllocolpa pschornwalcheri,37561,Phyllocolpa pschornwalcheri,FALSE
+61,,Salix appendiculata,37560,Salix appendiculata,FALSE
+62,,Salix foetida,37538,Salix foetida,FALSE
+62,,Salix foetida 1,37539,Salix foetida,FALSE
+66,,Bracon pulcher,35571,Bracon pulcher,FALSE
+69,,Salix appendiculata,37360,Salix appendiculata,FALSE
+70,,Eurytoma nobbei,35468,Eurytoma nobbei,FALSE
+71,,Euura daphnoidica,35580,Euura daphnoidica,FALSE
+71,,Eurytoma nobbei,35582,Eurytoma nobbei,FALSE
+72,,Eurytoma nobbei,36066,Eurytoma nobbei,FALSE
+73,,Pontania helveticae,38452,Pontania helveticae,FALSE
+73,,Pontania helveticae 1,38458,Pontania helveticae,FALSE
+73,,Pontania helveticae 2,38465,Pontania helveticae,FALSE
+74,,Salix glaucosericea,38554,Salix glaucosericea,FALSE
+75,,Salix glaucosericea,34208,Salix glaucosericea,FALSE
+75,,Pontania helveticae,34215,Pontania helveticae,FALSE
+75,,Salix appendiculata,34224,Salix appendiculata,FALSE
+78,,Salix glaucosericea,38573,Salix glaucosericea,FALSE
+80,,Colastes laevis,34055,Colastes laevis,FALSE
+80,,Salix glaucosericea,34060,Salix glaucosericea,FALSE
+81,,Salix glaucosericea,34928,Salix glaucosericea,FALSE
+82,,Salix glaucosericea,35480,Salix glaucosericea,FALSE
+83,,Salix glaucosericea,35742,Salix glaucosericea,FALSE
+83,,Phyllocolpa spirhelvetica,35746,Phyllocolpa spirhelvetica,FALSE
+83,,Anoncus gallicola,35750,Anoncus gallicola,FALSE
+85,,Eurytoma nobbei,36094,Eurytoma nobbei,FALSE
+87,,Salix glaucosericea,36639,Salix glaucosericea,FALSE
+87,,Phyllocolpa spirhelvetica,36643,Phyllocolpa spirhelvetica,FALSE
+92,,Euura daphnoidica,35519,Euura daphnoidica,FALSE
+93,,Euura daphnoidica,35783,Euura daphnoidica,FALSE
+95,,Eurytoma nobbei,35837,Eurytoma nobbei,FALSE
+96,,Eurytoma nobbei,36079,Eurytoma nobbei,FALSE
+96,,Euura daphnoidica,36078,Euura daphnoidica,FALSE

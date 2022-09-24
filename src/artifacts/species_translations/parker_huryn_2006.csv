@@ -1,0 +1,163 @@
+network_number,mangal_taxon_name,mangal_species_name,mangal_node_id,CONSENSUS_NAME,DROP
+1,Acarina,Acarina,25664,Acarina,FALSE
+2,Acarina,Acarina,25700,Acarina,FALSE
+3,Acarina,Acarina,25747,Acarina,FALSE
+4,Acarina,Acarina,25779,Acarina,FALSE
+1,Achnanthes,Achnanthes spp.,25634,Achnanthes,FALSE
+2,Achnanthes,Achnanthes spp.,25679,Achnanthes,FALSE
+3,Achnanthes,Achnanthes spp.,25717,Achnanthes,FALSE
+4,Achnanthes,Achnanthes spp.,25759,Achnanthes,FALSE
+1,Amphora ovalis,Amphora ovalis,25636,Amphora ovalis,FALSE
+2,Amphora ovalis,Amphora ovalis,25694,Amphora ovalis,FALSE
+3,Amphora ovalis,Amphora ovalis,25741,Amphora ovalis,FALSE
+4,Amphora ovalis,Amphora ovalis,25778,Amphora ovalis,FALSE
+1,Baetis,Baetis,25651,Baetis,FALSE
+2,Baetis,Baetis,25701,Baetis,FALSE
+3,Baetis,Baetis,25732,Baetis,FALSE
+4,Baetis,Baetis,25780,Baetis,FALSE
+1,Bryophyta,bryophyte,25637,Bryophyta,FALSE
+2,Bryophyta,bryophyte,25681,Bryophyta,FALSE
+3,Bryophyta,bryophyte,25719,Bryophyta,FALSE
+4,Bryophyta,bryophyte,25770,Bryophyta,FALSE
+1,Ceratopogonidae,Ceratopogonidae,25665,Ceratopogonidae,FALSE
+3,Ceratopogonidae,Ceratopogonidae,25748,Ceratopogonidae,FALSE
+1,Chelifera,Chelifera,25666,Chelifera,FALSE
+3,Chelifera,Chelifera,25749,Chelifera,FALSE
+2,Chironomidae,Chironomidae,25693,Chironomidae,FALSE
+3,Chironomidae,Chironomidae pupa,25737,Chironomidae,FALSE
+4,Chironomidae,Chironomidae,25777,Chironomidae,FALSE
+2,Chloroperlidae,Chloroperlidae,25711,Chloroperlidae,FALSE
+4,Chloroperlidae,Chloroperlidae,25791,Chloroperlidae,FALSE
+1,Chlorophyta,Chlorophyta filament,25656,Chlorophyta,FALSE
+2,Chlorophyta,Chlorophyta filament,25682,Chlorophyta,FALSE
+3,Chlorophyta,Chlorophyta filament,25730,Chlorophyta,FALSE
+4,Chlorophyta,Chlorophyta filament,25771,Chlorophyta,FALSE
+1,Cinclus mexicanus,Cinclus mexicanus,25676,Cinclus mexicanus,FALSE
+3,Cinclus mexicanus,Cinclus mexicanus,25758,Cinclus mexicanus,FALSE
+2,Cinygmula,Cinygmula,25702,Cinygmula,FALSE
+4,Cinygmula,Cinygmula,25792,Cinygmula,FALSE
+1,Cocconeis,Cocconeis sp.,25638,Cocconeis,FALSE
+2,Cocconeis,Cocconeis sp.,25683,Cocconeis,FALSE
+3,Cocconeis,Cocconeis sp.,25720,Cocconeis,FALSE
+4,Cocconeis,Cocconeis sp.,25761,Cocconeis,FALSE
+1,Corynoneura,Corynoneura,25677,Corynoneura,FALSE
+2,Corynoneura,Corynoneura,25712,Corynoneura,FALSE
+3,Corynoneura,Corynoneura,25742,Corynoneura,FALSE
+1,Cymbella,Cymbella spp.,25639,Cymbella,FALSE
+2,Cymbella,Cymbella spp.,25684,Cymbella,FALSE
+3,Cymbella,Cymbella spp.,25721,Cymbella,FALSE
+4,Cymbella,Cymbella spp.,25762,Cymbella,FALSE
+1,Diamesa,Diamesa,25667,Diamesa,FALSE
+2,Diamesa,Diamesa,25699,Diamesa,FALSE
+3,Diamesa,Diamesa,25750,Diamesa,FALSE
+4,Diamesa,Diamesa,25772,Diamesa,FALSE
+1,Diatoma,Diatoma spp.,25640,Diatoma,FALSE
+2,Diatoma,Diatoma spp.,25685,Diatoma,FALSE
+3,Diatoma,Diatoma spp.,25722,Diatoma,FALSE
+1,Didymosphenia geminata,Didymosphenia geminata,25648,Didymosphenia geminata,FALSE
+2,Didymosphenia geminata,Didymosphenia geminata,25686,Didymosphenia geminata,FALSE
+3,Didymosphenia geminata,Didymosphenia geminata,25746,Didymosphenia geminata,FALSE
+4,Didymosphenia geminata,Didymosphenia geminata,25763,Didymosphenia geminata,FALSE
+1,Dixa,Dixa,25668,Dixa,FALSE
+1,Ecclisomyia,Ecclisiomyia,25652,Ecclisomyia,FALSE
+2,Ecclisomyia,Ecclisiomyia,25713,Ecclisomyia,FALSE
+3,Ecclisomyia,Ecclisiomyia,25733,Ecclisomyia,FALSE
+1,Eukiefferiella,Eukiefferiella,25657,Eukiefferiella,FALSE
+2,Eukiefferiella,Eukiefferiella,25703,Eukiefferiella,FALSE
+3,Eukiefferiella,Eukiefferiella,25738,Eukiefferiella,FALSE
+4,Eukiefferiella,Eukiefferiella,25781,Eukiefferiella,FALSE
+1,Eunotia,Eunotia sp.,25663,Eunotia,FALSE
+4,Eunotia,Eunotia sp.,25764,Eunotia,FALSE
+1,Fragilaria vaucheriae,Fragilaria vaucheriae,25641,Fragilaria vaucheriae,FALSE
+2,Fragilaria vaucheriae,Fragilaria vaucheriae,25687,Fragilaria vaucheriae,FALSE
+3,Fragilaria vaucheriae,Fragilaria vaucheriae,25723,Fragilaria vaucheriae,FALSE
+4,Fragilaria vaucheriae,Fragilaria vaucheriae,25765,Fragilaria vaucheriae,FALSE
+1,Gomphonema angustatum,Gomphonema angustatum,25642,Gomphonema angustatum,FALSE
+2,Gomphonema angustatum,Gomphonema angustatum,25688,Gomphonema angustatum,FALSE
+3,Gomphonema angustatum,Gomphonema angustatum,25724,Gomphonema angustatum,FALSE
+4,Gomphonema angustatum,Gomphonema angustatum,25766,Gomphonema angustatum,FALSE
+4,Gymnopais,Gymnopais,25793,Gymnopais,FALSE
+1,Hannaea arcus,Hannaea arcus,25649,Hannaea arcus,FALSE
+2,Hannaea arcus,Hannaea arcus,25689,Hannaea arcus,FALSE
+3,Hannaea arcus,Hannaea arcus,25744,Hannaea arcus,FALSE
+4,Hannaea arcus,Hannaea arcus,25767,Hannaea arcus,FALSE
+1,Hydrurus foetidus,Hydrurus foetidus,25658,Hydrurus foetidus,FALSE
+2,Hydrurus foetidus,Hydrurus foetidus,25695,Hydrurus foetidus,FALSE
+3,Hydrurus foetidus,Hydrurus foetidus,25731,Hydrurus foetidus,FALSE
+4,Hydrurus foetidus,Hydrurus foetidus,25773,Hydrurus foetidus,FALSE
+1,Isoperla,Isoperla,25653,Isoperla,FALSE
+2,Isoperla,Isoperla,25704,Isoperla,FALSE
+3,Isoperla,Isoperla,25734,Isoperla,FALSE
+4,Isoperla,Isoperla,25782,Isoperla,FALSE
+1,Meridion circulare,Meridion circulare,25643,Meridion circulare,FALSE
+2,Meridion circulare,Meridion circulare,25690,Meridion circulare,FALSE
+3,Meridion circulare,Meridion circulare,25725,Meridion circulare,FALSE
+4,Meridion circulare,Meridion circulare,25768,Meridion circulare,FALSE
+1,Micropsectra,Micropsectra,25669,Micropsectra,FALSE
+1,Navicula radiosa,Navicula radiosa v. tenella,25644,Navicula radiosa,FALSE
+2,Navicula radiosa,Navicula radiosa v. tenella,25691,Navicula radiosa,FALSE
+3,Navicula radiosa,Navicula radiosa v. tenella,25726,Navicula radiosa,FALSE
+4,Navicula radiosa,Navicula radiosa v. tenella,25769,Navicula radiosa,FALSE
+3,Nitzschia,Nitschia sp.,25745,Nitzschia,FALSE
+1,Oligochaeta,Oligochaeta,25678,Oligochaeta,FALSE
+2,Oligochaeta,Oligochaeta,25714,Oligochaeta,FALSE
+3,Oligochaeta,Oligochaeta,25751,Oligochaeta,FALSE
+4,Oligochaeta,Oligochaeta,25794,Oligochaeta,FALSE
+1,Oreogeton,Oreogeton,25670,Oreogeton,FALSE
+2,Oreogeton,Oreogeton,25705,Oreogeton,FALSE
+3,Oreogeton,Oreogeton,25752,Oreogeton,FALSE
+4,Oreogeton,Oreogeton,25783,Oreogeton,FALSE
+1,Orthocladiinae,Orthocladiinae,25659,Orthocladiinae,FALSE
+2,Orthocladiinae,Orthocladiinae,25706,Orthocladiinae,FALSE
+3,Orthocladiinae,Orthocladiinae,25739,Orthocladiinae,FALSE
+4,Orthocladiinae,Orthocladiinae,25774,Orthocladiinae,FALSE
+3,Ostracoda,Ostrocoda,25753,Ostracoda,FALSE
+1,Pagastia,Pagastia,25671,Pagastia,FALSE
+2,Pagastia,Pagastia,25707,Pagastia,FALSE
+3,Pagastia,Pagastia,25754,Pagastia,FALSE
+4,Pagastia,Pagastia,25784,Pagastia,FALSE
+1,Pericoma,Pericoma,25672,Pericoma,FALSE
+1,Prosimulium,Prosimulium,25654,Prosimulium,FALSE
+2,Prosimulium,Prosimulium,25698,Prosimulium,FALSE
+3,Prosimulium,Prosimulium,25735,Prosimulium,FALSE
+4,Prosimulium,Prosimulium,25785,Prosimulium,FALSE
+1,Rheocricotopus,Rheocricotopus,25660,Rheocricotopus,FALSE
+2,Rheocricotopus,Rheocricotopus,25715,Rheocricotopus,FALSE
+3,Rheocricotopus,Rheocricotopus,25755,Rheocricotopus,FALSE
+4,Rheocricotopus,Rheocricotopus,25786,Rheocricotopus,FALSE
+1,Salvelinus malma,Salvelinus malma,25655,Salvelinus malma,FALSE
+2,Salvelinus malma,Salvelinus malma,25716,Salvelinus malma,FALSE
+3,Salvelinus malma,Salvelinus malma,25736,Salvelinus malma,FALSE
+4,Salvelinus malma,Salvelinus malma,25795,Salvelinus malma,FALSE
+1,Staurosirella leptostauron,Staurosirella leptostauron,25645,Staurosirella leptostauron,FALSE
+2,Staurosirella leptostauron,Staurosirella leptostauron,25692,Staurosirella leptostauron,FALSE
+3,Staurosirella leptostauron,Staurosirella leptostauron,25727,Staurosirella leptostauron,FALSE
+1,Synedra ulna,Synedra ulna,25646,Synedra ulna,FALSE
+2,Synedra ulna,Synedra ulna,25696,Synedra ulna,FALSE
+3,Synedra ulna,Synedra ulna,25728,Synedra ulna,FALSE
+1,Tanytarsini,Tanytarsini,25661,Tanytarsini,FALSE
+1,Thienemanniella,Thienemanniella,25662,Thienemanniella,FALSE
+3,Thienemanniella,Thienemanniella,25743,Thienemanniella,FALSE
+1,Tipula,Tipula,25674,Tipula,FALSE
+4,Tipula,Tipula,25788,Tipula,FALSE
+1,Zapada,Zapada,25650,Zapada,FALSE
+2,Zapada,Zapada,25710,Zapada,FALSE
+3,Zapada,Zapada,25740,Zapada,FALSE
+4,Zapada,Zapada,25790,Zapada,FALSE
+1,,amorphous detritus,25635,,TRUE
+1,,winged aquatic adult,25675,,TRUE
+1,,vascular plant,25647,,TRUE
+1,,terrestrial insects,25673,,TRUE
+2,,amorphous detritus,25680,,TRUE
+2,,terrestrial insects,25708,,TRUE
+2,,vascular plant,25697,,TRUE
+2,,winged aquatic adult,25709,,TRUE
+3,,amorphous detritus,25718,,TRUE
+3,,vascular plant,25729,,TRUE
+3,,winged aquatic adult,25757,,TRUE
+3,,terrestrial insects,25756,,TRUE
+4,,amorphous detritus,25760,,TRUE
+4,,vascular plant,25776,,TRUE
+4,,winged aquatic adult,25789,,TRUE
+4,,Diatoma heimale,25775,,TRUE
+4,,terrestrial insects,25787,,TRUE
