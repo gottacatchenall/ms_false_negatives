@@ -5,6 +5,7 @@ using Plots
 using DataFrames
 using CSV
 using BSON
+using StatsBase
 datasets()
 
 
@@ -203,22 +204,129 @@ final_nets
 plot([spy(adjacency(reduce(∪,v)), title=n) for (n,v) in unipartite_nets]..., layout=(2,4), size=(1200, 900))
 
 diffs = Dict()
-for (n,v) in unipartite_nets
+for (n,v) in final_nets
     diff, joints, margs = makejointmargplots(v)
-    @info n, length(diff)
     merge!(diffs, Dict(n=>diff))
 end
-
-diffs["parker_huryn_2006"]
-
-
 
 
 plot([histogram(d, title=n, bins=30) for (n,d) in diffs] ..., layout=(2,4),size=(1200,900))
  
 
+#=
+    Info or write the information for each network 
+=#
+
+# Write diffs 
+
+diffs_df = DataFrame(dataset=[], diff=[])
+for (n,v) in final_nets
+    thesediffs = diffs[n]
+    for d in thesediffs
+    push!(diffs_df.diff, d)
+    push!(diffs_df.dataset,n)
+    end
+end
+
+CSV.write(joinpath("src", "artifacts", "joint_marginal_diffs.csv"), diffs_df)
+
+titles = Dict(
+    #"hawkins_goeden_1984" => "Hawkins & Goeden (1984)",      # not enough samples
+    "kolpelke_et_al_2017" => "Kopelke et al. (2017)",
+    "hadfield_2014" => "Hafield et al (2014)",
+    "havens_1992" => "Havens (1992)", 
+    "ponisio_2017" => "Ponisio et al. (2017)",
+    "RMBL_pollination" => "CaraDonna et al. (2015)",        
+    "closs_1994" => "Closs & Lake (1994)",
+    "nz_stream_foodweb" => "Townsend & Thompson (1995)";
+    #"parker_huryn_2006" => "Parker & Huryn (2006)",         
+    #"ricciardi_2010" => "Ricciardi & MacIsaac (2010)",       # not many species 
+        #"fryer_1959" => "Fryer (1959)",                         # Not usable
+    #"primack_1983" => "Primack (1983)",                     # Only 3 loctations, toss
+    #"ruzicka_2012" => "Ruzicka et al. (2012)",              # This isn't usable
+)
 
 
+
+
+# Beta div
+all_βwn = Dict()
+all_βos = Dict()
+
+for (n,v) in final_nets
+    βwn_vec = []
+    βos_vec = []
+
+    for i in 1:length(v), j in i+1:length(v)
+        push!(βwn_vec, KGL01(βwn(v[i], v[j])))
+        push!(βos_vec, KGL01(βos(v[i], v[j])))
+    end 
+
+    merge!(all_βos, Dict(n=>βos_vec))
+    merge!(all_βwn, Dict(n=>βwn_vec))
+end
+
+
+betaplts = []
+for (n,_) in all_βwn
+    alpha = 100. / length(all_βwn[n])^0.85
+    thisplt = scatter(all_βwn[n], all_βos[n], xlabel="βwn", ylabel="βos",frame=:box, msw=0, title=titles[n], ma=alpha, label="", xlim=(1,2), ylim=(1,2), aspectratio=1)
+    plot!([1,2],[1,2], lc=:grey, linestyle=:dash, label="")
+    push!(betaplts, thisplt)
+end
+plot(betaplts..., size=(900,900), dpi=200)
+
+β_df = DataFrame(dataset=[], βwn=[],βos=[])
+for (n,v) in all_βwn
+    these_βwn = all_βwn[n]
+    these_βos = all_βos[n]
+
+    for i in 1:length(these_βos)
+        push!(β_df.βos, these_βos[i])
+        push!(β_df.βwn, these_βwn[i])
+        push!(β_df.dataset,n)
+    end
+end
+
+CSV.write(joinpath("src", "artifacts", "beta_diversity.csv"), β_df)
+
+joint_marginal_diffs
+
+
+# Write metadata 
+metadata_df = DataFrame(
+    dataset=[], 
+    num_networks=[],
+    metaweb_richness=[],
+    mean_local_richness=[],
+    metaweb_connectance=[],
+    mean_local_connectance=[],
+    mean_βos = [],
+    mean_βwn = []
+)
+
+for (n,v) in final_nets
+    push!(metadata_df.dataset, n)
+    push!(metadata_df.num_networks, length(v))
+
+    mw = reduce(∪, v)
+    push!(metadata_df.metaweb_richness, richness(mw))
+    push!(metadata_df.metaweb_connectance, connectance(mw))
+
+    push!(metadata_df.mean_local_richness, mean([richness(a) for a in v ]))
+    push!(metadata_df.mean_local_connectance, mean(filter(!isnan, [connectance(a) for a in v ])))
+
+    meanβos = mean(filter(!isnan, all_βos[n]))
+    meanβwn = mean(filter(!isnan, all_βwn[n]))
+
+    push!(metadata_df.mean_βos, meanβos)
+    push!(metadata_df.mean_βwn, meanβwn)
+end
+
+
+metadata_df
+
+CSV.write(joinpath("src", "artifacts", "metadata.csv"), metadata_df)
 
 
 # old code
