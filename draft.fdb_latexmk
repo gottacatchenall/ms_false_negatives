@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1663535736 "draft.tex" "draft.pdf" "draft" 1663535738
+["pdflatex"] 1664148683 "draft.tex" "draft.pdf" "draft" 1664148686
   "/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc" 1558214095 7631 5169ff1acd97ff1c4ab83563c99f96f4 ""
   "/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathcal.enc" 1610747736 3356 2818ff063f8b5d0d850e1203330b9fda ""
@@ -148,11 +148,11 @@
   "/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1661995607 4595808 4484cc1ac2dfc982862142b6020d440c ""
   "/opt/texlive/texdir/texmf-var/web2c/pdftex/pdflatex.fmt" 1661995687 2880917 d7e5575f6e7a46666da5246ced5cbde0 ""
   "/opt/texlive/texdir/texmf.cnf" 1661995598 555 bd60ff59e4d560b42d96b004436f91d3 ""
-  "draft.aux" 1663535738 8840 e0c9ecd71276e919a5f0f74717af1052 "pdflatex"
-  "draft.fff" 1663535737 2661 72aae8f49168c328137c9abc490f3026 "pdflatex"
-  "draft.out" 1663535738 2623 8a2e4d3a663506d99320e02807399755 "pdflatex"
-  "draft.tex" 1663535733 49143 05e541e3d7b55bbda2ceafed4084c5b5 ""
-  "figures/fig1.png" 1663535733 847385 d2e534171540230e28d7bad3fa0a523c ""
+  "draft.aux" 1664148685 8840 e0c9ecd71276e919a5f0f74717af1052 "pdflatex"
+  "draft.fff" 1664148684 2661 72aae8f49168c328137c9abc490f3026 "pdflatex"
+  "draft.out" 1664148685 2623 8a2e4d3a663506d99320e02807399755 "pdflatex"
+  "draft.tex" 1664148679 49078 02a31d96532fae0af78222f6b3a0e3d6 ""
+  "figures/fig1.png" 1664148680 847385 d2e534171540230e28d7bad3fa0a523c ""
   "figures/positiveassociations.png" 0 -1 0 ""
   "figures/props_specrad.png" 0 -1 0 ""
   "figures/rocpr_falsenegatives.png" 0 -1 0 ""

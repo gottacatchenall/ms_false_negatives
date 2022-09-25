@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.1)  18 SEP 2022 21:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.1)  25 SEP 2022 23:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -858,51 +858,51 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 
 ]
 
-LaTeX Warning: Reference `fig:taxonomy' on page 3 undefined on input line 266.
+LaTeX Warning: Reference `fig:taxonomy' on page 3 undefined on input line 264.
 
 
-LaTeX Warning: Reference `fig:taxonomy' on page 3 undefined on input line 270.
+LaTeX Warning: Reference `fig:taxonomy' on page 3 undefined on input line 268.
 
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 310.
+(Font)              scaled to size 8.54997pt on input line 308.
 [3]
 
 LaTeX Warning: Reference `fig:negativebinom' on page 4 undefined on input line 
-324.
+322.
 
 
 LaTeX Warning: Reference `fig:negativebinom' on page 4 undefined on input line 
-342.
+340.
 
 [4] [5]
 \openout4 = `draft.fff'.
 
  (draft.fff)
 
-LaTeX Warning: Reference `fig:totalobs' on page 6 undefined on input line 432.
+LaTeX Warning: Reference `fig:totalobs' on page 6 undefined on input line 430.
 
 
 LaTeX Warning: Reference `fig:negativebinom' on page 6 undefined on input line 
-437.
+435.
 
 
-LaTeX Warning: Reference `fig:totalobs' on page 6 undefined on input line 449.
+LaTeX Warning: Reference `fig:totalobs' on page 6 undefined on input line 447.
 
 
-LaTeX Warning: Reference `fig:totalobs' on page 6 undefined on input line 462.
+LaTeX Warning: Reference `fig:totalobs' on page 6 undefined on input line 460.
 
 [6]
 
 LaTeX Warning: Reference `fig:negativebinom' on page 7 undefined on input line 
-490.
+488.
 
 [7] [8] [9] [10]
 
 LaTeX Warning: Reference `fig:negativebinom' on page 11 undefined on input line
- 698.
+ 696.
 
 ! You can't use `\vadjust' in vertical mode.
-l.731 \leavevmode\vadjust
+l.729 \leavevmode\vadjust
                           pre{\hypertarget{ref-Banville2021ManJl}{}}%
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1008,7 +1008,7 @@ nts/type1/public/stix2-type1/STIX2Text-Bold.pfb></opt/texlive/texdir/texmf-dist
 /texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></opt/texlive/texdir/texmf-d
 ist/fonts/type1/urw/helvetic/uhvb8a.pfb></opt/texlive/texdir/texmf-dist/fonts/t
 ype1/urw/helvetic/uhvr8a.pfb>
-Output written on draft.pdf (18 pages, 1627224 bytes).
+Output written on draft.pdf (18 pages, 1626898 bytes).
 PDF statistics:
  365 PDF objects out of 1000 (max. 8388607)
  321 compressed objects within 4 object streams

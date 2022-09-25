@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.1)  18 SEP 2022 21:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.1)  25 SEP 2022 23:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1222,31 +1222,31 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 10.25993pt on input line 260.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.12506pt on input line 319.
+(Font)              scaled to size 7.12506pt on input line 317.
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 7.50009pt on input line 319.
+(Font)              scaled to size 7.50009pt on input line 317.
  [1
 
 {/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logo.png>
 ]
 
-LaTeX Warning: Reference `fig:taxonomy' on page 2 undefined on input line 324.
+LaTeX Warning: Reference `fig:taxonomy' on page 2 undefined on input line 322.
 
 
-LaTeX Warning: Reference `fig:taxonomy' on page 2 undefined on input line 328.
-
-
-LaTeX Warning: Reference `fig:negativebinom' on page 2 undefined on input line 
-382.
+LaTeX Warning: Reference `fig:taxonomy' on page 2 undefined on input line 326.
 
 
 LaTeX Warning: Reference `fig:negativebinom' on page 2 undefined on input line 
-400.
+380.
+
+
+LaTeX Warning: Reference `fig:negativebinom' on page 2 undefined on input line 
+398.
 
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.54997pt on input line 405.
+(Font)              scaled to size 8.54997pt on input line 403.
 [2]
-Overfull \hbox (2.10815pt too wide) in paragraph at lines 428--442
+Overfull \hbox (2.10815pt too wide) in paragraph at lines 426--440
 \T1/stix2/m/n/9 dances for each species from a standard-log-normal dis-tri-bu-t
 ion. For each true in-ter-ac-tion in $\LS1/stix2/m/it/9 A$ \T1/stix2/m/n/9 (i.e
 . $\LS1/stix2/m/it/9 A[] \LS1/stix2/m/n/9 =
@@ -1255,39 +1255,39 @@ ion. For each true in-ter-ac-tion in $\LS1/stix2/m/it/9 A$ \T1/stix2/m/n/9 (i.e
 <./figures/fig1.png, id=74, 2609.75pt x 2409.0pt>
 File: ./figures/fig1.png Graphic file (type png)
 <use ./figures/fig1.png>
-Package pdftex.def Info: ./figures/fig1.png  used on input line 487.
+Package pdftex.def Info: ./figures/fig1.png  used on input line 485.
 (pdftex.def)             Requested size: 386.67299pt x 356.92342pt.
 
-Underfull \hbox (badness 1038) in paragraph at lines 487--487
+Underfull \hbox (badness 1038) in paragraph at lines 485--485
 \T1/stix2/m/n/8.21255 many times it has been sam-pled as a non-
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 487--487
+Underfull \hbox (badness 2213) in paragraph at lines 485--485
 \T1/stix2/m/n/8.21255 fer-ent value of $\LS1/stix2/m/it/8.21255 p[]$\T1/stix2/m
 /n/8.21255 , the false-negative rate
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 487--487
+Underfull \hbox (badness 1057) in paragraph at lines 485--485
 \T1/stix2/m/n/8.21255 size, com-puted us-ing the method de-scribed
  []
 
 
-LaTeX Warning: Reference `fig:totalobs' on page 3 undefined on input line 490.
+LaTeX Warning: Reference `fig:totalobs' on page 3 undefined on input line 488.
 
 
 LaTeX Warning: Reference `fig:negativebinom' on page 3 undefined on input line 
-495.
+493.
 
 
-LaTeX Warning: Reference `fig:totalobs' on page 3 undefined on input line 507.
+LaTeX Warning: Reference `fig:totalobs' on page 3 undefined on input line 505.
 
 
-LaTeX Warning: Reference `fig:totalobs' on page 3 undefined on input line 520.
+LaTeX Warning: Reference `fig:totalobs' on page 3 undefined on input line 518.
 
 
-Overfull \hbox (4.12311pt too wide) in paragraph at lines 529--535
+Overfull \hbox (4.12311pt too wide) in paragraph at lines 527--533
 [] []|\T1/phv/b/n/9 2.2. Pos-i-tive as-so-ci-a-tions can in-crease the prob-a-b
 il-ity of false-neg-a-tives[] \T1/stix2/m/n/9 This model above doesn't
  []
@@ -1295,11 +1295,11 @@ il-ity of false-neg-a-tives[] \T1/stix2/m/n/9 This model above doesn't
 [3] [4 <./figures/fig1.png>]
 
 LaTeX Warning: Reference `fig:negativebinom' on page 5 undefined on input line 
-548.
+546.
 
 
 LaTeX Warning: File `./figures/positiveassociations.png' not found on input lin
-e 575.
+e 573.
 
 
 ! Package pdftex.def Error: File `./figures/positiveassociations.png' not found
@@ -1309,15 +1309,15 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.575 }
+l.573 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 9.0pt on input line 575.
+(Font)              scaled to size 9.0pt on input line 573.
 
-LaTeX Warning: File `./figures/props_specrad.png' not found on input line 631.
+LaTeX Warning: File `./figures/props_specrad.png' not found on input line 629.
 
 
 ! Package pdftex.def Error: File `./figures/props_specrad.png' not found: using
@@ -1327,7 +1327,7 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.631 }
+l.629 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1335,7 +1335,7 @@ If that doesn't work, type  X <return>  to quit.
 [5]
 
 LaTeX Warning: File `./figures/rocpr_falsenegatives.png' not found on input lin
-e 692.
+e 690.
 
 
 ! Package pdftex.def Error: File `./figures/rocpr_falsenegatives.png' not found
@@ -1345,13 +1345,13 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.692 }
+l.690 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 692--692
+Underfull \hbox (badness 10000) in paragraph at lines 690--690
 []\T1/stix2/b/n/8.21255 Figure 4 |\T1/stix2/m/n/8.21255 Receiver-operating-char
 acteristic
  []
@@ -1359,10 +1359,10 @@ acteristic
 [6]
 
 LaTeX Warning: Reference `fig:negativebinom' on page 7 undefined on input line 
-756.
+754.
 
 ! You can't use `\vadjust' in vertical mode.
-l.789 \leavevmode\vadjust
+l.787 \leavevmode\vadjust
                           pre{\hypertarget{ref-Banville2021ManJl}{}}%
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1381,7 +1381,7 @@ Package rerunfilecheck Info: File `preprint.out' has not changed.
 Here is how much of TeX's memory you used:
  31036 strings out of 477529
  567263 string characters out of 5827605
- 855463 words of memory out of 5000000
+ 854463 words of memory out of 5000000
  49349 multiletter control sequences out of 15000+600000
  624295 words of font info for 141 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1401,7 +1401,7 @@ nts/type1/public/stix2-type1/STIX2Text-Bold.pfb></opt/texlive/texdir/texmf-dist
 /texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></opt/texlive/texdir/texmf-d
 ist/fonts/type1/urw/helvetic/uhvb8a.pfb></opt/texlive/texdir/texmf-dist/fonts/t
 ype1/urw/helvetic/uhvr8a.pfb>
-Output written on preprint.pdf (9 pages, 1674250 bytes).
+Output written on preprint.pdf (9 pages, 1674221 bytes).
 PDF statistics:
  303 PDF objects out of 1000 (max. 8388607)
  267 compressed objects within 3 object streams
