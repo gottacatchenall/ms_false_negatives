@@ -1,63 +1,75 @@
 \begin{figure}
-\hypertarget{fig:fig1}{%
+\hypertarget{fig:concept}{%
+\centering
+\includegraphics{./figures/concept.png}
+\caption{This conceptual example considers a sample of the trophic
+community of bears, wolves, salmon (pink fish), pike (yellow fish),
+berry trees, and aspen trees. The true metaweb (all realized
+interactions across the entire spatial extent) is shown on the left. In
+the center is what a hypothetical ecologist samples at each site. Notice
+that although bears are observed co-occurring with both salmon and pike,
+there was never a direct observation of bears eating pike, even though
+they actually do. Therefore, this interaction between bears and pike is
+a false negative.}\label{fig:concept}
+}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\hypertarget{fig:geometric}{%
 \centering
 \includegraphics{./figures/fig1.png}
-\caption{A) The probability an observed interaction is a true negative
-(y-axis) given how many times it has been sampled as a non-interaction
-(x-axis). Each color reflects a different value of \(p_{fn}\), the
-false-negative rate (FNR). this is effectively the cdf of the
-negative-binomial distribution with \(r=1\). (B) The expected needed
-observations of all individuals of all species (y-axis) required to
-obtain a goal number of observations (colors) of a particular species,
-and a function of the relative abundance of that focal species (x-axis).
-(C) and (D): False negative rate (y-axis) as a function of total
-sampling effort (x-axis) and network size, computed using the method
-described above. For 500 independent draws from the niche model
-Williams2000SimRul at varying levels of species richness (colors) with
-connectance drawn according to the flexible-links model
-MacDonald2020RevLin as described in the main text. For each draw from
-the niche model, 200 sets of 1500 observations are simulated, for which
-each the mean false negative rate at each observation-step is computed.
-Means denoted with points, with \(1\sigma\) in the first shade and
-\(2\sigma\) in the second. B: empirical food webs from Mangal database
-in teal, applied to the same process as the A. The outlier on panel B is
-a 714 species food-web}\label{fig:fig1}
+\caption{(A) The probability that an observed interaction is a true
+negative (y-axis) given how many times it has been sampled as a
+non-interaction (x-axis). Each color reflects a different value of
+\(p_{fn}\), the false-negative rate (FNR)---this is effectively the cdf
+of the geometric distribution. (B): The expected needed observations of
+all individuals of all species (y-axis) required to obtain a goal number
+of observations (colors) of a particular species, and a function of the
+relative abundance of that focal species (x-axis). (C): False negative
+rate (y-axis) as a function of total sampling effort (x-axis) and
+network size, computed using the method described above. For 500
+independent draws from the niche model (Williams \& Martinez (2000)) at
+varying levels of species richness (colors) with connectance drawn
+according to the flexible-links model (MacDonald \emph{et al.} (2020))
+as described in the main text. For each draw from the niche model, 200
+sets of 1500 observations are simulated, for which each the mean false
+negative rate at each observation-step is computed. Means denoted with
+points, with 1 in the first shade and 2 in the second. (D): Same as (C),
+except using empirical food webs from Mangal database, where richness.
+The outlier on (D) is a 714 species food-web.}\label{fig:geometric}
 }
 \end{figure}
 \efloatseparator
  
 \begin{figure}
-\hypertarget{fig:associations}{%
+\hypertarget{fig:mangal}{%
 \centering
-\includegraphics{./figures/positiveassociations.png}
-\caption{Top: Hadfield, Bottom: NZ Stream Foodwebs. Effectively a
-version of Cazelles \emph{et al.} (2016) figure 1 panel A. Both
-distributions have \(\mu \neq 0\) with
-\(p < 10^{-50}\)}\label{fig:associations}
+\includegraphics{./figures/fig2.png}
+\caption{The difference between joint-probability of co-occurrence
+(P(AB)) and expected probability of co-occurrence under independence
+(P(A)P(B)) for interacting species for each dataset. The red-dashed line
+indicates 0. Each histogram represents a density, meaning the area of
+the entire curve sums to 1. The continuous density estimate (computed
+using local smoothing) is shown in grey. The p-value on each plot is the
+result of a one-sided T-test comparing the mean of each distribution to
+0.}\label{fig:mangal}
 }
 \end{figure}
 \efloatseparator
  
 \begin{figure}
-\hypertarget{fig:properties}{%
+\hypertarget{fig:addedfnr}{%
 \centering
-\includegraphics{./figures/props_specrad.png}
-\caption{The mean-squared error (y-axis) of various network properties
-(different colors) across various simulated false-negative rates
-(x-axis). Means denoted with points, with \(1\sigma\) in the first shade
-and \(2\sigma\) in the second.}\label{fig:properties}
-}
-\end{figure}
-\efloatseparator
- 
-\begin{figure}
-\hypertarget{fig:rocpr}{%
-\centering
-\includegraphics{./figures/rocpr_falsenegatives.png}
-\caption{Receiver-operating-characteristic (left) and precision-recall
-(right) curves for the model on varying levels of false-negatives in the
-data (colors). For each value of FNR, we run 30 random training/test
-splits on 80/20 percent of the data. Replica of figure 1 in Strydom
-\emph{et al.} (2021)}\label{fig:rocpr}
+\includegraphics{./figures/fig3.png}
+\caption{(A) The area-under the receiver-operator curve (ROC-AUC). (B)
+The area-under the precision-recall curve (PR-AUC; right) for each
+different predictive model (colors/shapes) across a spectrum of the
+proportion of added false negatives (x-axis). (C) The mean trophic-level
+of all species in a network generated with the niche model across
+different species richnesses (colors). For each value of the FNR, the
+mean trophic level was computed across 50 replicates. The shaded region
+for each line is one standard-deviation across those
+replicates.}\label{fig:addedfnr}
 }
 \end{figure}
