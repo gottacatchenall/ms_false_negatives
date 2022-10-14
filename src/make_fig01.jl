@@ -62,44 +62,58 @@ end
 gb = GridLayout(f[1,2])
 
 ax2 = Axis(gb[1,1],
-    xticks=0:0.1:1,
-    yticks=[10^i for i in 0:7],
+    xticks=0:0.1:0.5,
     xminorticks = 0:0.05:0.5,
+    yticks=0:0.1:0.5,
+    yminorticks = 0:0.05:0.5,
     xminorticksvisible = true,
     xminorgridvisible = true,
-    ytickformat=maketex,
-    xlabel="Relative abundance of particular species",
-    ylabel="Expected number of observations of all species",
-    yscale=log10,
+    xlabel=L"P(A)",
+    ylabel=L"P(B)",
     xlabelsize=22,
     ylabelsize=22,
     yticksize=28)
 
-limits!(ax2, 0, 0.5, 1, 10^7)
-function expected_samples(numobs)
-    relativeabund = Float64[]
-    obs = Float64[]
-    for relabd in vcat(0.001:0.001:0.5)
-        push!(relativeabund, relabd)
-        push!(obs, numobs/relabd)
-    end
-    relativeabund, obs
+
+p_a = 0.01:0.01:0.5
+p_b = 0.01:0.01:0.5
+expectednumobs(target_negatives, p_a, p_b) = target_negatives/(p_a*p_b)
+exp_obs = zeros(length(p_a), length(p_b))
+targ = 10
+for I in CartesianIndices(size(exp_obs))
+    exp_obs[I] = expectednumobs(targ, p_a[I[1]], p_a[I[2]])
 end
 
-for (i,numobs) in enumerate([1,10,100,1000,10000])
-    relabd, req = expected_samples(numobs)
-    lines!(ax2,relabd, req,
-        strokewidth = 2,
-        linewidth = 4,
-        markersize = 12, 
-        color = ColorSchemes.tableau_sunset_sunrise[i],
-        strokecolor = ColorSchemes.tableau_sunset_sunrise[i], 
-    #    markercolor = :white,
-        label="$numobs"
-    )
-
+function maketicks_1b(x)
+    latexstring.(["10^{$(i)}" for i in x])
 end
-axislegend("Target obs. of particular species",orientation = :horizontal, position=:rt)
+
+
+cmap_1b = parse.(Colorant, [
+    "#fa6d3f",
+    "#f69e43",
+    "#e4ba4f",
+    "#a4b167",
+    "#31934d",
+    "#3e9c8a",
+    "#19caa7",
+    #"#3b606c",
+    "#37414c"])
+
+limits!(ax2,0.01,0.5,0.01,0.5)
+co = contourf!(
+    ax2, 
+    p_a, 
+    p_b, 
+    log10.(exp_obs), 
+    colorlimits=1:5, 
+   # colormap = ColorSchemes.BuGn_9,
+    colormap = ColorSchemes.devon,
+    levels=range(1,5, length = 10)
+)
+Colorbar(gb[1,2], co, ticksize=20, label="Expected number of observations of all individuals to see A and B together 10 times",ticks=[i for i in 1:0.5:5], tickformat=maketicks_1b)
+
+
 
 
 
@@ -119,7 +133,7 @@ ax3 = Axis(gc[1,1],
 )
 limits!(ax3, 0,1500, 0, 1)
 
-simulated_df = CSV.read(joinpath("..", "artifacts", "1c_simulated_fnr.csv"), DataFrame)
+simulated_df = CSV.read(joinpath("src", "artifacts", "1c_simulated_fnr.csv"), DataFrame)
 
 richnesses = unique(simulated_df.richness)
 #cs1 = ColorScheme(range(colorant"dodgerblue", colorant"cyan4",length=3))
@@ -174,7 +188,7 @@ ax4 = Axis(gd[1,1],
 limits!(ax4, 0,1500, 0,1)
 
 
-mangal_df = CSV.read(joinpath("..", "artifacts", "1d_mangal_fnrs.csv"), DataFrame)
+mangal_df = CSV.read(joinpath("src", "artifacts", "1d_mangal_fnrs.csv"), DataFrame)
 
 maxrich = max(unique(mangal_df.richness)...)
 cs2 = ColorScheme(range(colorant"dodgerblue", colorant"cyan4",length=maxrich))
@@ -205,4 +219,16 @@ end
 f
 
 
-f |> save(joinpath("..", "figures","fig1.png"))
+ax3 = Axis(fig[2,1], 
+    xticks=0:0.1:1,
+    xlabel="Added FNR",
+    ylabel="Mean trophic level",
+    xminorgridvisible=true,
+    xminorticks=0:0.05:1,
+    yminorticksvisible=true,
+    yminorticks=0:0.5:1,
+    xlabelsize=22,
+    ylabelsize=22,
+)
+
+f |> save(joinpath("figures","fig1.png"))

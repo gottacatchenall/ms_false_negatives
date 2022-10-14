@@ -19,9 +19,9 @@ titles = Dict(
     "hadfield_2014" => "Hadfield et al. (2014)",
     "havens_1992" => "Havens (1992)", 
     "ponisio_2017" => "Ponisio et al. (2017)",
-    "RMBL_pollination" => "CaraDonna et al. (2015)",        
+    "RMBL_pollination" => "CaraDonna et al. (2017)",        
     "closs_1994" => "Closs & Lake (1994)",
-    "nz_stream_foodweb" => "Townsend & Thompson (1995)";
+    "nz_stream_foodweb" => "Townsend & Thompson (2000)";
 )
  
 
@@ -98,4 +98,4 @@ Legend(fig[2,4], width=220, [fw,pp,hp], ["Food Web", "Plant-Pollinator", "Host-P
 
 fig
 
-fig |> save("fig3.png")
+fig |> save(joinpath("figures","fig2.png"))

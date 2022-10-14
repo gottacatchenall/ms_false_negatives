@@ -45,11 +45,14 @@
     "orcid": "0000-0001-6075-8081"
     }
  ],
-  "abstract": "Species interactions and the networks that emerge from them structure ecosystem processes and enable biodiversity to persist through time. Still a robust understanding of interactions between species, how human activity is effecting these intearctions, and how these change will effect Earth's ecosystems in the future remains elusive. This knowledge-gap is largely driven by a shortfall of data---although species occurence data has rapidly increased in the last decade, species interaction data has lagged behind, largely due to the intrinsic difficulty of sampling interations. These sampling challenges bias data. Here, we demonstrate that the realized false-negative rate can be quite highly biased toward species with high relative abundance. We then simulate observation on both 243 empirical food webs and generated models to estimate the sampling effort required to reduce the false-negative rate to less than 10%. We then assess how false negatives effect measurements of network properties and models of network prediction. We conclude by discussing how understanding of false-negatives can inform how we design sampling of species interactions and the networks they form.",
+  "abstract": "Ecosystems are composed of networks of interacting species. These interactions allow communities of species to persist through time through both neutral and adaptive processes. Still a robust understanding of, and ability to predict and forecast interactions among species and their consequences for network structure remains elusive. This knowledge-gap is largely driven by a shortfall of data---although species occurrence data has rapidly increased in the last decade, species interaction data has not kept pace, largely due to the intrinsic difficulty and effort required to sample interactions. These sampling challenges bias data and hinder inferences about the structure and dynamics of interactions networks. Here, we demonstrate the realized false-negative rate (the percentage of species that actually interact but for which we do not yet have a record) can be quite high, even in thoroughly sampled systems, due to the intrinsic variation in abundances across species in a community. We demonstrate how a null model of occurrence detection can be used to estimate the false-negative rate in a given dataset. One hypothesis is that interactions between “rare” species are themselves rare because these species are less likely to encounter one-another than species of higher relative abundance. However, we demonstrate that across several datasets of spatial or temporally replicated networks, there are positive associations that suggest these interactions actually exist but just are not observed. Finally, we assess how false negatives influence various models of network prediction, and recommend directly accounting for observation error in predictive models. We conclude by discussing how the understanding of false-negatives can inform how we design monitoring schemes for species interactions.",
   "keywords": [
-    "pandoc",
-    "pandoc-crossref",
-    "github actions"
+    "community ecology",
+    "network ecology",
+    "computational ecology",
+    "species interactions",
+    "spatial sampling",
+    "simulation"
   ],
   "citationstyle": "ecology-letters"
 }
