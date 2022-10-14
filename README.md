@@ -108,14 +108,7 @@ and by advocating use of null models like those presented here as a tool for
 both guiding design of surveys of species interactions and for modeling
 detection error in predictive models.
 
-![This conceptual example considers a sample of the trophic community of bears,
-wolves, salmon (pink fish), pike (yellow fish), berry trees, and aspen trees.
-The true metaweb (all realized interactions across the entire spatial extent) is
-shown on the left. In the center is what a hypothetical ecologist samples at
-each site. Notice that although bears are observed co-occurring with both salmon
-and pike, there was never a direct observation of bears eating pike, even though
-they actually do. Therefore, this interaction between bears and pike is a false
-negative.](./figures/concept.png){#fig:concept}
+![This conceptual example considers a sample of the trophic community of bears, wolves, salmon (pink fish), pike (yellow fish), berry trees, and aspen trees. The true metaweb (all realized interactions across the entire spatial extent) is shown on the left. In the center is what a hypothetical ecologist samples at each site. Notice that although bears are observed co-occurring with both salmon and pike, there was never a direct observation of bears eating pike, even though they actually do. Therefore, this interaction between bears and pike is a false negative.](./figures/concept.png){#fig:concept}
 
 # How many observations of a non-interaction do we need to be confident it's a true negative?
 
@@ -315,15 +308,7 @@ reported in @tbl:id.
 | @Hadfield2014TalTwo     | Host-Parasite |  51 | 327 | 0.085 | 32.71 | 0.337 | 1.477 | 1.952 |
 | @Closs1994SpaTem        | Food Web      |  12 |  61 |  0.14 | 29.09 | 0.080 | 1.736 | 1.864 |
 | @CaraDonna2017IntRew    | Pollinator    |  86 | 122 |  0.18 | 21.42 | 0.312 | 1.527 | 1.907 |
-Table: This table describes the datasets used in the above analysis (Fig 2). The
-table reports the type of each dataset, the total number of networks in each
-dataset $(N)$, the total species richness in each dataset $(S)$, the connectance of
-each metaweb (all interactions across the entire spatial-temporal extent) $(C)$,
-the mean species richness across each local network $S$, the mean connectance of
-each local network $C$, the mean $\beta$-diversity among overlapping species across all
-pairs of network species ($\bar{\beta}_{OS}$), and the mean $\beta$-diversity
-among all species in the metaweb ($\bar{\beta}_{WN}$). Both metrics are computed using
-KGL $\beta$-diversity [@Koleff2003MeaBet] {#tbl:id}
+Table: This table describes the datasets used in the above analysis (Fig 2). The table reports the type of each dataset, the total number of networks in each dataset $(N)$, the total species richness in each dataset $(S)$, the connectance of each metaweb (all interactions across the entire spatial-temporal extent) $(C)$, the mean species richness across each local network $S$, the mean connectance of each local network $C$, the mean $\beta$-diversity among overlapping species across all pairs of network species ($\bar{\beta}_{OS}$), and the mean $\beta$-diversity among all species in the metaweb ($\bar{\beta}_{WN}$). Both metrics are computed using KGL $\beta$-diversity [@Koleff2003MeaBet] {#tbl:id}
 
 
 In each of these datasets, the joint probably of co-occurrence $P(AB)$ is
