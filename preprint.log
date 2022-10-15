@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.1)  14 OCT 2022 20:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.1)  15 OCT 2022 14:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1136,11 +1136,11 @@ Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 \flrow@LT@prelastfoot=\box79
 \c@FBLTpage=\count343
 )
-<logo.png, id=34, 556.2381pt x 202.356pt>
+<logo.png, id=34, 1430.34375pt x 576.1525pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 207.
-(pdftex.def)             Requested size: 386.67299pt x 140.67252pt.
+(pdftex.def)             Requested size: 386.67299pt x 155.75665pt.
 LaTeX Font Info:    Trying to load font information for T1+phv on input line 21
 4.
 
@@ -1224,9 +1224,9 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 10.25993pt on input line 261.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.12506pt on input line 317.
+(Font)              scaled to size 7.12506pt on input line 339.
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 7.50009pt on input line 317.
+(Font)              scaled to size 7.50009pt on input line 339.
  [1
 
 {/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logo.png>
@@ -1234,31 +1234,31 @@ LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
 <./figures/concept.png, id=54, 2193.69562pt x 1507.13063pt>
 File: ./figures/concept.png Graphic file (type png)
 <use ./figures/concept.png>
-Package pdftex.def Info: ./figures/concept.png  used on input line 393.
+Package pdftex.def Info: ./figures/concept.png  used on input line 394.
 (pdftex.def)             Requested size: 386.67299pt x 265.63756pt.
  [2]
-<./figures/fig1.png, id=63, 2609.75pt x 2409.0pt>
+<./figures/fig1.png, id=67, 2609.75pt x 2409.0pt>
 File: ./figures/fig1.png Graphic file (type png)
 <use ./figures/fig1.png>
-Package pdftex.def Info: ./figures/fig1.png  used on input line 463.
+Package pdftex.def Info: ./figures/fig1.png  used on input line 465.
 (pdftex.def)             Requested size: 386.67299pt x 356.92342pt.
 
-Underfull \hbox (badness 1874) in paragraph at lines 463--463
+Underfull \hbox (badness 1874) in paragraph at lines 465--465
 []\T1/stix2/b/n/8.21255 Figure 2 |\T1/stix2/m/n/8.21255 (A) The prob-a-bil-ity 
 that an ob-
  []
 
 [3 <./figures/concept.png>] [4 <./figures/fig1.png>]
-Overfull \hbox (1.39351pt too wide) in paragraph at lines 517--526
+Overfull \hbox (0.6375pt too wide) in paragraph at lines 517--526
 []\T1/stix2/m/n/9 where the MAP es-ti-mate of $\LS1/stix2/m/n/9 .\LS1/stix2/m/i
-t/9 ^^V; ^^^\LS1/stix2/m/n/9 /$ \T1/stix2/m/n/9 ap-plied to Man-gal data from [
-] Mac-Don-ald et al. 2020 is $\LS1/stix2/m/n/9 .\LS1/stix2/m/it/9 ^^V \LS1/stix
-2/m/n/9 = 0\LS1/stix2/m/it/9 :\LS1/stix2/m/n/9 086\LS1/stix2/m/it/9 ; ^^^ \LS1/
-stix2/m/n/9 =
+t/9 ^^V; ^^^\LS1/stix2/m/n/9 /$ \T1/stix2/m/n/9 ap-plied to Man-gal data from (
+Mac-Don-ald \T1/stix2/m/it/9 et al. \T1/stix2/m/n/9 2020) is $\LS1/stix2/m/n/9 
+.\LS1/stix2/m/it/9 ^^V \LS1/stix2/m/n/9 = 0\LS1/stix2/m/it/9 :\LS1/stix2/m/n/9 
+086\LS1/stix2/m/it/9 ; ^^^ \LS1/stix2/m/n/9 =
  []
 
 [5]
-<./figures/fig2.png, id=91, 3613.5pt x 1806.75pt>
+<./figures/fig2.png, id=94, 3613.5pt x 1806.75pt>
 File: ./figures/fig2.png Graphic file (type png)
 <use ./figures/fig2.png>
 Package pdftex.def Info: ./figures/fig2.png  used on input line 627.
@@ -1271,7 +1271,9 @@ en joint-
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 627--627
-\T1/stix2/m/n/8.21255 probability of co-occurrence (P(AB)) and
+\T1/stix2/m/n/8.21255 probability of co-occurrence ($\LS1/stix2/m/it/8.21255 P\
+LS1/stix2/m/n/8.21255 .\LS1/stix2/m/it/8.21255 AB\LS1/stix2/m/n/8.21255 /$\T1/s
+tix2/m/n/8.21255 ) and
  []
 
 
@@ -1281,7 +1283,10 @@ Underfull \hbox (badness 1033) in paragraph at lines 627--627
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 627--627
-\T1/stix2/m/n/8.21255 in-de-pen-dence (P(A)P(B)) for in-ter-act-ing
+\T1/stix2/m/n/8.21255 in-de-pen-dence ($\LS1/stix2/m/it/8.21255 P\LS1/stix2/m/n
+/8.21255 .\LS1/stix2/m/it/8.21255 A\LS1/stix2/m/n/8.21255 /\LS1/stix2/m/it/8.21
+255 P\LS1/stix2/m/n/8.21255 .\LS1/stix2/m/it/8.21255 B\LS1/stix2/m/n/8.21255 /$
+\T1/stix2/m/n/8.21255 ) for in-ter-act-ing
  []
 
 
@@ -1310,16 +1315,11 @@ Underfull \hbox (badness 10000) in alignment at lines 696--712
  []
 
 [6 <./figures/fig2.png>]
-<./figures/fig3.png, id=102, 1806.75pt x 1806.75pt>
+<./figures/fig3.png, id=105, 1806.75pt x 1806.75pt>
 File: ./figures/fig3.png Graphic file (type png)
 <use ./figures/fig3.png>
 Package pdftex.def Info: ./figures/fig3.png  used on input line 776.
 (pdftex.def)             Requested size: 386.67299pt x 386.65172pt.
-
-Underfull \hbox (badness 4353) in paragraph at lines 776--776
-\T1/stix2/m/n/8.21255 operator curve (ROC-AUC). (B) The area-
- []
-
 
 Underfull \hbox (badness 4569) in paragraph at lines 776--776
 \T1/stix2/m/n/8.21255 under the precision-recall curve (PR-AUC;
@@ -1341,9 +1341,9 @@ Package rerunfilecheck Info: File `preprint.out' has not changed.
 (rerunfilecheck)             Checksum: F96EECFF56EF7900359B3717EA8603E7;1868.
  ) 
 Here is how much of TeX's memory you used:
- 30957 strings out of 475071
- 563743 string characters out of 5780912
- 905697 words of memory out of 5000000
+ 30959 strings out of 475071
+ 563782 string characters out of 5780912
+ 906704 words of memory out of 5000000
  51734 multiletter control sequences out of 15000+600000
  614148 words of font info for 137 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1362,10 +1362,10 @@ f-dist/fonts/type1/public/stix2-type1/STIX2Text-Regular.pfb></opt/texlive/texdi
 r/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></opt/texlive/texdir/texmf-
 dist/fonts/type1/urw/helvetic/uhvb8a.pfb></opt/texlive/texdir/texmf-dist/fonts/
 type1/urw/helvetic/uhvr8a.pfb>
-Output written on preprint.pdf (12 pages, 3581409 bytes).
+Output written on preprint.pdf (12 pages, 3575564 bytes).
 PDF statistics:
- 331 PDF objects out of 1000 (max. 8388607)
- 289 compressed objects within 3 object streams
- 85 named destinations out of 1000 (max. 500000)
+ 339 PDF objects out of 1000 (max. 8388607)
+ 297 compressed objects within 3 object streams
+ 87 named destinations out of 1000 (max. 500000)
  94 words of extra memory for PDF output out of 10000 (max. 10000000)
 

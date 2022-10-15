@@ -47,12 +47,12 @@ The outlier on (D) is a 714 species food-web.}\label{fig:geometric}
 \centering
 \includegraphics{./figures/fig2.png}
 \caption{The difference between joint-probability of co-occurrence
-(P(AB)) and expected probability of co-occurrence under independence
-(P(A)P(B)) for interacting species for each dataset. The red-dashed line
-indicates 0. Each histogram represents a density, meaning the area of
-the entire curve sums to 1. The continuous density estimate (computed
+(\(P(AB)\)) and expected probability of co-occurrence under independence
+(\(P(A)P(B)\)) for interacting species for each dataset. The red-dashed
+line indicates 0. Each histogram represents a density, meaning the area
+of the entire curve sums to 1. The continuous density estimate (computed
 using local smoothing) is shown in grey. The p-value on each plot is the
-result of a one-sided T-test comparing the mean of each distribution to
+result of a one-sided t-test comparing the mean of each distribution to
 0.}\label{fig:mangal}
 }
 \end{figure}
@@ -62,8 +62,8 @@ result of a one-sided T-test comparing the mean of each distribution to
 \hypertarget{fig:addedfnr}{%
 \centering
 \includegraphics{./figures/fig3.png}
-\caption{(A) The area-under the receiver-operator curve (ROC-AUC). (B)
-The area-under the precision-recall curve (PR-AUC; right) for each
+\caption{(A) The area-under the receiver-operator curve (ROC-AUC) and
+(B) The area-under the precision-recall curve (PR-AUC; right) for each
 different predictive model (colors/shapes) across a spectrum of the
 proportion of added false negatives (x-axis). (C) The mean trophic-level
 of all species in a network generated with the niche model across

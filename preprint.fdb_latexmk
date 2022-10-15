@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1665780710 "preprint.tex" "preprint.pdf" "preprint" 1665780717
+["pdflatex"] 1665844792 "preprint.tex" "preprint.pdf" "preprint" 1665844798
   "/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc" 1558214095 7631 5169ff1acd97ff1c4ab83563c99f96f4 ""
   "/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathit.enc" 1610747736 3416 3b99a05a42a4705ec5a5521d2bffa072 ""
@@ -223,14 +223,14 @@
   "/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1664589067 4595808 4484cc1ac2dfc982862142b6020d440c ""
   "/opt/texlive/texdir/texmf-var/web2c/pdftex/pdflatex.fmt" 1664589124 3058976 6cc40e407d4fc6bf0ca7730406b4e007 ""
   "/opt/texlive/texdir/texmf.cnf" 1664589059 555 bd60ff59e4d560b42d96b004436f91d3 ""
-  "figures/concept.png" 1665780702 1452897 dfec2ff2637462f24dd096f353366b83 ""
-  "figures/fig1.png" 1665780703 833913 572423833ec638fc6f99f25785ea5ff3 ""
-  "figures/fig2.png" 1665780703 336326 cca7cb8922c17c07c58618fc101f2678 ""
-  "figures/fig3.png" 1665780703 333863 452090281dd9fb616f2a4be1bdc3e1e4 ""
-  "logo.png" 1665780702 48455 a63f319933b5fbf1cb3d97b6f6857e7e ""
-  "preprint.aux" 1665780716 11341 7a972c54565ed5e4a05a230f78ffaa99 "pdflatex"
-  "preprint.out" 1665780716 1868 f96eecff56ef7900359b3717ea8603e7 "pdflatex"
-  "preprint.tex" 1665780702 58902 4cdb140abeb45da3d740906fc1d90b29 ""
+  "figures/concept.png" 1665844784 1452897 dfec2ff2637462f24dd096f353366b83 ""
+  "figures/fig1.png" 1665844785 833913 572423833ec638fc6f99f25785ea5ff3 ""
+  "figures/fig2.png" 1665844785 336326 cca7cb8922c17c07c58618fc101f2678 ""
+  "figures/fig3.png" 1665844785 333863 452090281dd9fb616f2a4be1bdc3e1e4 ""
+  "logo.png" 1665844784 20864 077f6d6afb21ce3cadc2a133c09864e5 ""
+  "preprint.aux" 1665844798 11363 8c75da5e0a9ae273fab48f95ee36b86a "pdflatex"
+  "preprint.out" 1665844798 1868 f96eecff56ef7900359b3717ea8603e7 "pdflatex"
+  "preprint.tex" 1665844784 59504 aee0a879b8202f0fb4f39f1a553e1017 ""
   (generated)
   "preprint.aux"
   "preprint.log"

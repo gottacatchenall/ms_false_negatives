@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.1)  14 OCT 2022 20:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.1)  15 OCT 2022 14:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -860,7 +860,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 302.
+(Font)              scaled to size 8.54997pt on input line 303.
  [3]
 \openout4 = `draft.fff'.
 
@@ -877,25 +877,25 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 [13] [14] [15] 
 AED: lastpage setting LastPage
 [16] AED endfloat: Processing end Figures and Tables (./draft.fff
-<./figures/concept.png, id=297, 2193.69562pt x 1507.13063pt>
+<./figures/concept.png, id=309, 2193.69562pt x 1507.13063pt>
 File: ./figures/concept.png Graphic file (type png)
 <use ./figures/concept.png>
 Package pdftex.def Info: ./figures/concept.png  used on input line 14.
 (pdftex.def)             Requested size: 489.10307pt x 336.00816pt.
  [17 <./figures/concept.png>]
-<./figures/fig1.png, id=306, 2609.75pt x 2409.0pt>
+<./figures/fig1.png, id=317, 2609.75pt x 2409.0pt>
 File: ./figures/fig1.png Graphic file (type png)
 <use ./figures/fig1.png>
 Package pdftex.def Info: ./figures/fig1.png  used on input line 41.
 (pdftex.def)             Requested size: 489.10307pt x 451.46585pt.
  [18 <./figures/fig1.png>]
-<./figures/fig2.png, id=312, 3613.5pt x 1806.75pt>
+<./figures/fig2.png, id=323, 3613.5pt x 1806.75pt>
 File: ./figures/fig2.png Graphic file (type png)
 <use ./figures/fig2.png>
 Package pdftex.def Info: ./figures/fig2.png  used on input line 57.
 (pdftex.def)             Requested size: 489.10307pt x 244.5348pt.
  [19 <./figures/fig2.png>]
-<./figures/fig3.png, id=319, 1806.75pt x 1806.75pt>
+<./figures/fig3.png, id=330, 1806.75pt x 1806.75pt>
 File: ./figures/fig3.png Graphic file (type png)
 <use ./figures/fig3.png>
 Package pdftex.def Info: ./figures/fig3.png  used on input line 74.
@@ -905,9 +905,9 @@ Package rerunfilecheck Info: File `draft.out' has not changed.
 (rerunfilecheck)             Checksum: F404E51433A4231A52322AAAF33AFB0F;1875.
  ) 
 Here is how much of TeX's memory you used:
- 19035 strings out of 475071
- 310760 string characters out of 5780912
- 641457 words of memory out of 5000000
+ 19037 strings out of 475071
+ 310799 string characters out of 5780912
+ 641464 words of memory out of 5000000
  40054 multiletter control sequences out of 15000+600000
  555955 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -926,10 +926,10 @@ f-dist/fonts/type1/public/stix2-type1/STIX2Text-Regular.pfb></opt/texlive/texdi
 r/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></opt/texlive/texdir/texmf-
 dist/fonts/type1/urw/helvetic/uhvb8a.pfb></opt/texlive/texdir/texmf-dist/fonts/
 type1/urw/helvetic/uhvr8a.pfb>
-Output written on draft.pdf (20 pages, 3536443 bytes).
+Output written on draft.pdf (20 pages, 3537461 bytes).
 PDF statistics:
- 393 PDF objects out of 1000 (max. 8388607)
- 344 compressed objects within 4 object streams
- 94 named destinations out of 1000 (max. 500000)
+ 404 PDF objects out of 1000 (max. 8388607)
+ 355 compressed objects within 4 object streams
+ 96 named destinations out of 1000 (max. 500000)
  77 words of extra memory for PDF output out of 10000 (max. 10000000)
 
