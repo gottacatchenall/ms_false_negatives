@@ -219,16 +219,16 @@ false negatives when sampling species interaction networks}}}
 %
 \href{https://orcid.org/0000-0002-6506-6487}{Michael D.\,Catchen}%
 %
-\,\textsuperscript{,}, %
+\,\textsuperscript{1,2}, %
 \href{https://orcid.org/0000-0002-0735-5184}{Timothée\,Poisot}%
 %
-\,\textsuperscript{,}, %
+\,\textsuperscript{3,2}, %
 \href{https://orcid.org/0000-0002-6004-4027}{Laura\,Pollock}%
 %
-\,\textsuperscript{,}, %
+\,\textsuperscript{1,2}, %
 \href{https://orcid.org/0000-0001-6075-8081}{Andrew\,Gonzalez}%
 %
-\,\textsuperscript{,}
+\,\textsuperscript{1,2}
 \vskip 1em
 \textsuperscript{1}\,McGill University; \textsuperscript{2}\,Québec
 Centre for Biodiversity Sciences; \textsuperscript{3}\,Université de
@@ -249,6 +249,35 @@ Michael D. Catchen --- \texttt{michael.catchen@mcgill.ca}\\
 community ecology\\network ecology\\computational ecology\\species
 interactions\\spatial sampling\\simulation\\}
 }
+
+
+Ecosystems are composed of networks of interacting species. These
+interactions allow communities of species to persist through time
+through both neutral and adaptive processes. Still a robust
+understanding of, and ability to predict and forecast interactions among
+species and their consequences for network structure remains elusive.
+This knowledge-gap is largely driven by a shortfall of data---although
+species occurrence data has rapidly increased in the last decade,
+species interaction data has not kept pace, largely due to the intrinsic
+difficulty and effort required to sample interactions. These sampling
+challenges bias data and hinder inferences about the structure and
+dynamics of interactions networks. Here, we demonstrate the realized
+false-negative rate (the percentage of species that actually interact
+but for which we do not yet have a record) can be quite high, even in
+thoroughly sampled systems, due to the intrinsic variation in abundances
+across species in a community. We demonstrate how a null model of
+occurrence detection can be used to estimate the false-negative rate in
+a given dataset. One hypothesis is that interactions between ``rare''
+species are themselves rare because these species are less likely to
+encounter one-another than species of higher relative abundance.
+However, we demonstrate that across several datasets of spatial or
+temporally replicated networks, there are positive associations that
+suggest these interactions actually exist but just are not observed.
+Finally, we assess how false negatives influence various models of
+network prediction, and recommend directly accounting for observation
+error in predictive models. We conclude by discussing how the
+understanding of false-negatives can inform how we design monitoring
+schemes for species interactions.
 
 
 
@@ -628,16 +657,7 @@ result of a one-sided t-test comparing the mean of each distribution to
 \end{figure}
 
 \hypertarget{tbl:id}{}
-\begin{longtable}[]{@{}
-  >{\centering\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.3182}}
-  >{\centering\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.1705}}
-  >{\centering\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.0568}}
-  >{\centering\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.0568}}
-  >{\centering\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.0795}}
-  >{\centering\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.0795}}
-  >{\centering\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.0795}}
-  >{\centering\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.0795}}
-  >{\centering\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.0795}}@{}}
+\begin{longtable}[]{@{}ccccccccc@{}}
 \caption{\label{tbl:id}This table describes the datasets used in the
 above analysis (Fig 2). The table reports the type of each dataset, the
 total number of networks in each dataset \((N)\), the total species
@@ -650,65 +670,31 @@ among overlapping species across all pairs of network species
 species in the metaweb (\(\bar{\beta}_{WN}\)). Both metrics are computed
 using KGL \(\beta\)-diversity (Koleff \emph{et al.}
 2003)}\tabularnewline
-\toprule()
-\begin{minipage}[b]{\linewidth}\centering
-Network
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-Type
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\(N\)
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\(S\)
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\(C\)
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\(\bar{S}\)
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\(\bar{C}\)
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\(\bar{\beta}_{OS}\)
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\(\bar{\beta}_{WN}\)
-\end{minipage} \\
-\midrule()
+\toprule
+Network & Type & \(N\) & \(S\) & \(C\) & \(\bar{S}\) & \(\bar{C}\) &
+\(\bar{\beta}_{OS}\) & \(\bar{\beta}_{WN}\)\tabularnewline
+\midrule
 \endfirsthead
-\toprule()
-\begin{minipage}[b]{\linewidth}\centering
-Network
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-Type
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\(N\)
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\(S\)
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\(C\)
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\(\bar{S}\)
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\(\bar{C}\)
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\(\bar{\beta}_{OS}\)
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\(\bar{\beta}_{WN}\)
-\end{minipage} \\
-\midrule()
+\toprule
+Network & Type & \(N\) & \(S\) & \(C\) & \(\bar{S}\) & \(\bar{C}\) &
+\(\bar{\beta}_{OS}\) & \(\bar{\beta}_{WN}\)\tabularnewline
+\midrule
 \endhead
 Kopelke \emph{et al.} (2017) & Food Web & 100 & 98 & 0.037 & 7.87 &
-0.142 & 1.383 & 1.972 \\
+0.142 & 1.383 & 1.972\tabularnewline
 Thompson \& Townsend (2000) & Food Web & 18 & 566 & 0.014 & 80.67 &
-0.049 & 1.617 & 1.594 \\
+0.049 & 1.617 & 1.594\tabularnewline
 Havens (1992) & Food Web & 50 & 188 & 0.065 & 33.58 & 0.099 & 1.468 &
-1.881 \\
+1.881\tabularnewline
 Ponisio \emph{et al.} (2017) & Pollinator & 100 & 226 & 0.079 & 23.0 &
-0.056 & 1.436 & 1.870 \\
+0.056 & 1.436 & 1.870\tabularnewline
 Hadfield \emph{et al.} (2014) & Host-Parasite & 51 & 327 & 0.085 & 32.71
-& 0.337 & 1.477 & 1.952 \\
+& 0.337 & 1.477 & 1.952\tabularnewline
 Closs \& Lake (1994) & Food Web & 12 & 61 & 0.14 & 29.09 & 0.080 & 1.736
-& 1.864 \\
+& 1.864\tabularnewline
 CaraDonna \emph{et al.} (2017) & Pollinator & 86 & 122 & 0.18 & 21.42 &
-0.312 & 1.527 & 1.907 \\
-\bottomrule()
+0.312 & 1.527 & 1.907\tabularnewline
+\bottomrule
 \end{longtable}
 
 In each of these datasets, the joint probably of co-occurrence \(P(AB)\)
@@ -843,7 +829,7 @@ structure of metawebs on large scales is a practical necessity.
 False-negatives could pose a problem for many forms of inference in
 network ecology. For example, inferring the structural or dynamic
 stability of a network could be prone to error if the observed network
-is not sampled ``enough''. What exactly ``enough'' means is then
+is not sampled ``enough.'' What exactly ``enough'' means is then
 specific to the application, and should be assessed via methods like
 those here when designing samples. Further, predictions about network
 rewiring (Thompson \& Gonzalez 2017) due to range shifts in response to
@@ -908,301 +894,252 @@ forecasts about the future of ecological interactions on our planet.
 
 \hypertarget{refs}{}
 \begin{CSLReferences}{1}{0}
-\leavevmode\vadjust pre{\hypertarget{ref-Banville2021ManJl}{}}%
-Banville, F., Vissault, S. \& Poisot, T. (2021).
-\href{https://doi.org/10.21105/joss.02721}{Mangal.jl and
+\leavevmode\hypertarget{ref-Banville2021ManJl}{}%
+Banville, F., Vissault, S. \& Poisot, T. (2021). Mangal.jl and
 EcologicalNetworks.jl: Two complementary packages for analyzing
-ecological networks in Julia}. \emph{Journal of Open Source Software},
-6, 2721.
+ecological networks in Julia. \emph{Journal of Open Source Software}, 6,
+2721.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Bascompte2007PlaMut}{}}%
-Bascompte, J. \& Jordano, P. (2007).
-\href{https://doi.org/10.1146/annurev.ecolsys.38.091206.095818}{Plant-Animal
-Mutualistic Networks: The Architecture of Biodiversity}. \emph{Annual
-Review of Ecology, Evolution, and Systematics}, 38, 567--593.
+\leavevmode\hypertarget{ref-Bascompte2007PlaMut}{}%
+Bascompte, J. \& Jordano, P. (2007). Plant-Animal Mutualistic Networks:
+The Architecture of Biodiversity. \emph{Annual Review of Ecology,
+Evolution, and Systematics}, 38, 567--593.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Becker2021OptPre}{}}%
+\leavevmode\hypertarget{ref-Becker2021OptPre}{}%
 Becker, D.J., Albery, G.F., Sjodin, A.R., Poisot, T., Bergner, L.M.,
-Dallas, T.A., \emph{et al.} (2021).
-\href{https://doi.org/10.1101/2020.05.22.111344}{Optimizing predictive
-models to prioritize viral discovery in zoonotic reservoirs}.
+Dallas, T.A., \emph{et al.} (2021). Optimizing predictive models to
+prioritize viral discovery in zoonotic reservoirs.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Bezanson2015JulFre}{}}%
-Bezanson, J., Edelman, A., Karpinski, S. \& Shah, V.B. (2015).
-\href{https://doi.org/10.48550/arXiv.1411.1607}{Julia: A Fresh Approach
-to Numerical Computing}.
+\leavevmode\hypertarget{ref-Bezanson2015JulFre}{}%
+Bezanson, J., Edelman, A., Karpinski, S. \& Shah, V.B. (2015). Julia: A
+Fresh Approach to Numerical Computing.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Blanchet2020CooNot}{}}%
-Blanchet, F.G., Cazelles, K. \& Gravel, D. (2020).
-\href{https://doi.org/10.1111/ele.13525}{Co-occurrence is not evidence
-of ecological interactions}. \emph{Ecology Letters}, 23, 1050--1063.
+\leavevmode\hypertarget{ref-Blanchet2020CooNot}{}%
+Blanchet, F.G., Cazelles, K. \& Gravel, D. (2020). Co-occurrence is not
+evidence of ecological interactions. \emph{Ecology Letters}, 23,
+1050--1063.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Blaom2020MljJul}{}}%
+\leavevmode\hypertarget{ref-Blaom2020MljJul}{}%
 Blaom, A.D., Kiraly, F., Lienart, T., Simillides, Y., Arenas, D. \&
-Vollmer, S.J. (2020). \href{https://doi.org/10.21105/joss.02704}{MLJ: A
-Julia package for composable machine learning}. \emph{Journal of Open
-Source Software}, 5, 2704.
+Vollmer, S.J. (2020). MLJ: A Julia package for composable machine
+learning. \emph{Journal of Open Source Software}, 5, 2704.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Boakes2015InfSpe}{}}%
-Boakes, E.H., Rout, T.M. \& Collen, B. (2015).
-\href{https://doi.org/10.1111/2041-210X.12365}{Inferring species
-extinction: The use of sighting records}. \emph{Methods in Ecology and
+\leavevmode\hypertarget{ref-Boakes2015InfSpe}{}%
+Boakes, E.H., Rout, T.M. \& Collen, B. (2015). Inferring species
+extinction: The use of sighting records. \emph{Methods in Ecology and
 Evolution}, 6, 678--687.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Canard2012EmeStr}{}}%
+\leavevmode\hypertarget{ref-Canard2012EmeStr}{}%
 Canard, E., Mouquet, N., Marescot, L., Gaston, K.J., Gravel, D. \&
-Mouillot, D. (2012).
-\href{https://doi.org/10.1371/journal.pone.0038295}{Emergence of
-Structural Patterns in Neutral Trophic Networks}. \emph{PLOS ONE}, 7,
-e38295.
+Mouillot, D. (2012). Emergence of Structural Patterns in Neutral Trophic
+Networks. \emph{PLOS ONE}, 7, e38295.
 
-\leavevmode\vadjust pre{\hypertarget{ref-CaraDonna2017IntRew}{}}%
+\leavevmode\hypertarget{ref-CaraDonna2017IntRew}{}%
 CaraDonna, P.J., Petry, W.K., Brennan, R.M., Cunningham, J.L.,
-Bronstein, J.L., Waser, N.M., \emph{et al.} (2017).
-\href{https://doi.org/10.1111/ele.12740}{Interaction rewiring and the
-rapid turnover of plantpollinator networks}. \emph{Ecology Letters}, 20,
-385--394.
+Bronstein, J.L., Waser, N.M., \emph{et al.} (2017). Interaction rewiring
+and the rapid turnover of plantpollinator networks. \emph{Ecology
+Letters}, 20, 385--394.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Carlson2020WhaWou}{}}%
+\leavevmode\hypertarget{ref-Carlson2020WhaWou}{}%
 Carlson, C.J., Dallas, T.A., Alexander, L.W., Phelan, A.L. \& Phillips,
-A.J. (2020). \href{https://doi.org/10.1098/rspb.2020.1841}{What would it
-take to describe the global diversity of parasites?} \emph{Proceedings
-of the Royal Society B: Biological Sciences}, 287, 20201841.
+A.J. (2020). What would it take to describe the global diversity of
+parasites? \emph{Proceedings of the Royal Society B: Biological
+Sciences}, 287, 20201841.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Cazelles2016TheSpe}{}}%
-Cazelles, K., Araújo, M.B., Mouquet, N. \& Gravel, D. (2016).
-\href{https://doi.org/10.1007/s12080-015-0281-9}{A theory for species
-co-occurrence in interaction networks}. \emph{Theoretical Ecology}, 9,
-39--48.
+\leavevmode\hypertarget{ref-Cazelles2016TheSpe}{}%
+Cazelles, K., Araújo, M.B., Mouquet, N. \& Gravel, D. (2016). A theory
+for species co-occurrence in interaction networks. \emph{Theoretical
+Ecology}, 9, 39--48.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Closs1994SpaTem}{}}%
-Closs, G.P. \& Lake, P.S. (1994).
-\href{https://doi.org/10.2307/2937053}{Spatial and Temporal Variation in
-the Structure of an Intermittent-Stream Food Web}. \emph{Ecological
+\leavevmode\hypertarget{ref-Closs1994SpaTem}{}%
+Closs, G.P. \& Lake, P.S. (1994). Spatial and Temporal Variation in the
+Structure of an Intermittent-Stream Food Web. \emph{Ecological
 Monographs}, 64, 1--21.
 
-\leavevmode\vadjust pre{\hypertarget{ref-deAguiar2019RevBia}{}}%
+\leavevmode\hypertarget{ref-deAguiar2019RevBia}{}%
 de Aguiar, M.A.M., Newman, E.A., Pires, M.M., Yeakel, J.D., Boettiger,
-C., Burkle, L.A., \emph{et al.} (2019).
-\href{https://doi.org/10.7717/peerj.7566}{Revealing biases in the
-sampling of ecological interaction networks}. \emph{PeerJ}, 7, e7566.
+C., Burkle, L.A., \emph{et al.} (2019). Revealing biases in the sampling
+of ecological interaction networks. \emph{PeerJ}, 7, e7566.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Gauzens2013FooAgg}{}}%
+\leavevmode\hypertarget{ref-Gauzens2013FooAgg}{}%
 Gauzens, B., Legendre, S., Lazzaro, X. \& Lacroix, G. (2013). Food-web
 aggregation, methodological and functional issues. \emph{Oikos}, 122,
 1606--1615.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Giacomuzzo2021FooWeb}{}}%
-Giacomuzzo, E. \& Jordán, F. (2021).
-\href{https://doi.org/10.1111/oik.08541}{Food web aggregation: Effects
-on key positions}. \emph{Oikos}, 130, 2170--2181.
+\leavevmode\hypertarget{ref-Giacomuzzo2021FooWeb}{}%
+Giacomuzzo, E. \& Jordán, F. (2021). Food web aggregation: Effects on
+key positions. \emph{Oikos}, 130, 2170--2181.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Griffiths1998SamEff}{}}%
-Griffiths, D. (1998).
-\href{https://doi.org/10.1046/j.1365-2656.1998.00244.x}{Sampling effort,
-regression method, and the shape and slope of sizeabundance relations}.
-\emph{Journal of Animal Ecology}, 67, 795--804.
+\leavevmode\hypertarget{ref-Griffiths1998SamEff}{}%
+Griffiths, D. (1998). Sampling effort, regression method, and the shape
+and slope of sizeabundance relations. \emph{Journal of Animal Ecology},
+67, 795--804.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Hadfield2014TalTwo}{}}%
-Hadfield, J.D., Krasnov, B.R., Poulin, R. \& Nakagawa, S. (2014).
-\href{https://doi.org/10.1086/674445}{A Tale of Two Phylogenies:
-Comparative Analyses of Ecological Interactions.} \emph{The American
-Naturalist}, 183, 174--187.
+\leavevmode\hypertarget{ref-Hadfield2014TalTwo}{}%
+Hadfield, J.D., Krasnov, B.R., Poulin, R. \& Nakagawa, S. (2014). A Tale
+of Two Phylogenies: Comparative Analyses of Ecological Interactions.
+\emph{The American Naturalist}, 183, 174--187.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Havens1992ScaStr}{}}%
-Havens, K. (1992).
-\href{https://doi.org/10.1126/science.257.5073.1107}{Scale and Structure
-in Natural Food Webs}. \emph{Science}, 257, 1107--1109.
+\leavevmode\hypertarget{ref-Havens1992ScaStr}{}%
+Havens, K. (1992). Scale and Structure in Natural Food Webs.
+\emph{Science}, 257, 1107--1109.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Johnson2021BayEst}{}}%
-Johnson, E.K. \& Larremore, D.B. (2021).
-\href{https://doi.org/10.1101/2021.07.06.451319}{Bayesian estimation of
-population size and overlap from random subsamples}.
+\leavevmode\hypertarget{ref-Johnson2021BayEst}{}%
+Johnson, E.K. \& Larremore, D.B. (2021). Bayesian estimation of
+population size and overlap from random subsamples.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Jordano2016SamNet}{}}%
-Jordano, P. (2016).
-\href{https://doi.org/10.1111/1365-2435.12763}{Sampling networks of
-ecological interactions}. \emph{Functional Ecology}, 30, 1883--1893.
+\leavevmode\hypertarget{ref-Jordano2016SamNet}{}%
+Jordano, P. (2016). Sampling networks of ecological interactions.
+\emph{Functional Ecology}, 30, 1883--1893.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Joseph2020NeuHie}{}}%
-Joseph, M.B. (2020). \href{https://doi.org/10.1111/ele.13462}{Neural
-hierarchical models of ecological populations}. \emph{Ecology Letters},
-23, 734--747.
+\leavevmode\hypertarget{ref-Joseph2020NeuHie}{}%
+Joseph, M.B. (2020). Neural hierarchical models of ecological
+populations. \emph{Ecology Letters}, 23, 734--747.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Kenall2014OpeFut}{}}%
-Kenall, A., Harold, S. \& Foote, C. (2014).
-\href{https://doi.org/10.1186/1471-2148-14-66}{An open future for
-ecological and evolutionary data?} \emph{BMC Evolutionary Biology}, 14,
+\leavevmode\hypertarget{ref-Kenall2014OpeFut}{}%
+Kenall, A., Harold, S. \& Foote, C. (2014). An open future for
+ecological and evolutionary data? \emph{BMC Evolutionary Biology}, 14,
 66.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Khoshraftar2022SurGra}{}}%
-Khoshraftar, S. \& An, A. (2022).
-\href{https://doi.org/10.48550/arXiv.2204.01855}{A Survey on Graph
-Representation Learning Methods}.
+\leavevmode\hypertarget{ref-Khoshraftar2022SurGra}{}%
+Khoshraftar, S. \& An, A. (2022). A Survey on Graph Representation
+Learning Methods.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Koleff2003MeaBet}{}}%
-Koleff, P., Gaston, K.J. \& Lennon, J.J. (2003).
-\href{https://doi.org/10.1046/j.1365-2656.2003.00710.x}{Measuring beta
-diversity for presenceabsence data}. \emph{Journal of Animal Ecology},
+\leavevmode\hypertarget{ref-Koleff2003MeaBet}{}%
+Koleff, P., Gaston, K.J. \& Lennon, J.J. (2003). Measuring beta
+diversity for presenceabsence data. \emph{Journal of Animal Ecology},
 72, 367--382.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Kopelke2017FooStr}{}}%
+\leavevmode\hypertarget{ref-Kopelke2017FooStr}{}%
 Kopelke, J.-P., Nyman, T., Cazelles, K., Gravel, D., Vissault, S. \&
-Roslin, T. (2017). \href{https://doi.org/10.1002/ecy.1832}{Food-web
-structure of willow-galling sawflies and their natural enemies across
-Europe}. \emph{Ecology}, 98, 1730--1730.
+Roslin, T. (2017). Food-web structure of willow-galling sawflies and
+their natural enemies across Europe. \emph{Ecology}, 98, 1730--1730.
 
-\leavevmode\vadjust pre{\hypertarget{ref-MacDonald2020RevLin}{}}%
-MacDonald, A.A.M., Banville, F. \& Poisot, T. (2020).
-\href{https://doi.org/10.1016/j.patter.2020.100079}{Revisiting the
-Links-Species Scaling Relationship in Food Webs}. \emph{Patterns}, 1.
+\leavevmode\hypertarget{ref-MacDonald2020RevLin}{}%
+MacDonald, A.A.M., Banville, F. \& Poisot, T. (2020). Revisiting the
+Links-Species Scaling Relationship in Food Webs. \emph{Patterns}, 1.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Makiola2020KeyQue}{}}%
+\leavevmode\hypertarget{ref-Makiola2020KeyQue}{}%
 Makiola, A., Compson, Z.G., Baird, D.J., Barnes, M.A., Boerlijst, S.P.,
 Bouchez, A., \emph{et al.} (2020). Key Questions for Next-Generation
 Biomonitoring. \emph{Frontiers in Environmental Science}, 7.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Martinez1999EffSam}{}}%
+\leavevmode\hypertarget{ref-Martinez1999EffSam}{}%
 Martinez, N.D., Hawkins, B.A., Dawah, H.A. \& Feifarek, B.P. (1999).
-\href{https://doi.org/10.1890/0012-9658(1999)080\%5B1044:EOSEOC\%5D2.0.CO;2}{Effects
-of Sampling Effort on Characterization of Food-Web Structure}.
+Effects of Sampling Effort on Characterization of Food-Web Structure.
 \emph{Ecology}, 80, 1044--1055.
 
-\leavevmode\vadjust pre{\hypertarget{ref-McLeod2021SamAsy}{}}%
+\leavevmode\hypertarget{ref-McLeod2021SamAsy}{}%
 McLeod, A., Leroux, S.J., Gravel, D., Chu, C., Cirtwill, A.R., Fortin,
-M.-J., \emph{et al.} (2021).
-\href{https://doi.org/10.1111/oik.08650}{Sampling and asymptotic network
-properties of spatial multi-trophic networks}. \emph{Oikos}, 130,
-2250--2259.
+M.-J., \emph{et al.} (2021). Sampling and asymptotic network properties
+of spatial multi-trophic networks. \emph{Oikos}, 130, 2250--2259.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Moore2016OptEco}{}}%
-Moore, A.L. \& McCarthy, M.A. (2016).
-\href{https://doi.org/10.1111/2041-210X.12564}{Optimizing ecological
-survey effort over space and time}. \emph{Methods in Ecology and
-Evolution}, 7, 891--899.
+\leavevmode\hypertarget{ref-Moore2016OptEco}{}%
+Moore, A.L. \& McCarthy, M.A. (2016). Optimizing ecological survey
+effort over space and time. \emph{Methods in Ecology and Evolution}, 7,
+891--899.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Niedballa2019AssAna}{}}%
+\leavevmode\hypertarget{ref-Niedballa2019AssAna}{}%
 Niedballa, J., Wilting, A., Sollmann, R., Hofer, H. \& Courtiol, A.
-(2019). \href{https://doi.org/10.1002/rse2.107}{Assessing analytical
-methods for detecting spatiotemporal interactions between species from
-camera trapping data}. \emph{Remote Sensing in Ecology and
-Conservation}, 5, 272--285.
+(2019). Assessing analytical methods for detecting spatiotemporal
+interactions between species from camera trapping data. \emph{Remote
+Sensing in Ecology and Conservation}, 5, 272--285.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Paine1988RoaMap}{}}%
-Paine, R.T. (1988). \href{https://doi.org/10.2307/1941141}{Road Maps of
-Interactions or Grist for Theoretical Development?} \emph{Ecology}, 69,
-1648--1654.
+\leavevmode\hypertarget{ref-Paine1988RoaMap}{}%
+Paine, R.T. (1988). Road Maps of Interactions or Grist for Theoretical
+Development? \emph{Ecology}, 69, 1648--1654.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Poisot2022GuiPre}{}}%
-Poisot, T. (2022).
-\href{https://doi.org/10.32942/osf.io/aty7n}{Guidelines for the
-prediction of species interactions through binary classification}.
+\leavevmode\hypertarget{ref-Poisot2022GuiPre}{}%
+Poisot, T. (2022). Guidelines for the prediction of species interactions
+through binary classification.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Poisot2021GloKno}{}}%
+\leavevmode\hypertarget{ref-Poisot2021GloKno}{}%
 Poisot, T., Bergeron, G., Cazelles, K., Dallas, T., Gravel, D.,
-MacDonald, A., \emph{et al.} (2021).
-\href{https://doi.org/10.1111/jbi.14127}{Global knowledge gaps in
-species interaction networks data}. \emph{Journal of Biogeography}, 48,
+MacDonald, A., \emph{et al.} (2021). Global knowledge gaps in species
+interaction networks data. \emph{Journal of Biogeography}, 48,
 1552--1563.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Poisot2022NetEmb}{}}%
+\leavevmode\hypertarget{ref-Poisot2022NetEmb}{}%
 Poisot, T., Ouellet, M.-A., Mollentze, N., Farrell, M.J., Becker, D.J.,
-Brierly, L., \emph{et al.} (2022).
-\href{https://doi.org/10.48550/arXiv.2105.14973}{Network embedding
-unveils the hidden interactions in the mammalian virome}.
+Brierly, L., \emph{et al.} (2022). Network embedding unveils the hidden
+interactions in the mammalian virome.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Poisot2015SpeWhy}{}}%
-Poisot, T., Stouffer, D.B. \& Gravel, D. (2015).
-\href{https://doi.org/10.1111/oik.01719}{Beyond species: Why ecological
-interaction networks vary through space and time}. \emph{Oikos}, 124,
-243--251.
+\leavevmode\hypertarget{ref-Poisot2015SpeWhy}{}%
+Poisot, T., Stouffer, D.B. \& Gravel, D. (2015). Beyond species: Why
+ecological interaction networks vary through space and time.
+\emph{Oikos}, 124, 243--251.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Ponisio2017OppAtt}{}}%
-Ponisio, L.C., Gaiarsa, M.P. \& Kremen, C. (2017).
-\href{https://doi.org/10.1111/ele.12821}{Opportunistic attachment
-assembles plantpollinator networks}. \emph{Ecology Letters}, 20,
-1261--1272.
+\leavevmode\hypertarget{ref-Ponisio2017OppAtt}{}%
+Ponisio, L.C., Gaiarsa, M.P. \& Kremen, C. (2017). Opportunistic
+attachment assembles plantpollinator networks. \emph{Ecology Letters},
+20, 1261--1272.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Savage2004EffBod}{}}%
+\leavevmode\hypertarget{ref-Savage2004EffBod}{}%
 Savage, V.M., Gillooly, J.F., Brown, J.H., West, G.B. \& Charnov, E.L.
-(2004). \href{https://doi.org/10.1086/381872}{Effects of Body Size and
-Temperature on Population Growth.} \emph{The American Naturalist}, 163,
-429--441.
+(2004). Effects of Body Size and Temperature on Population Growth.
+\emph{The American Naturalist}, 163, 429--441.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Song2022GenDri}{}}%
+\leavevmode\hypertarget{ref-Song2022GenDri}{}%
 Song, C., Simmons, B.I., Fortin, M.-J. \& Gonzalez, A. (2022).
-\href{https://doi.org/10.1371/journal.pcbi.1010302}{Generalism drives
-abundance: A computational causal discovery approach}. \emph{PLOS
-Computational Biology}, 18, e1010302.
+Generalism drives abundance: A computational causal discovery approach.
+\emph{PLOS Computational Biology}, 18, e1010302.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Stephenson2020TecAdv}{}}%
-Stephenson, P. (2020).
-\href{https://doi.org/10.1016/j.cosust.2020.08.005}{Technological
-advances in biodiversity monitoring: Applicability, opportunities and
-challenges}. \emph{Current Opinion in Environmental Sustainability},
-Open Issue 2020 Part A: Technology Innovations and Environmental
-Sustainability in the Anthropocene, 45, 36--41.
+\leavevmode\hypertarget{ref-Stephenson2020TecAdv}{}%
+Stephenson, P. (2020). Technological advances in biodiversity
+monitoring: Applicability, opportunities and challenges. \emph{Current
+Opinion in Environmental Sustainability}, Open issue 2020 part A:
+Technology Innovations and Environmental Sustainability in the
+Anthropocene, 45, 36--41.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Stock2017LinFil}{}}%
-Stock, M., Poisot, T., Waegeman, W. \& De Baets, B. (2017).
-\href{https://doi.org/10.1038/srep45908}{Linear filtering reveals false
-negatives in species interaction data}. \emph{Scientific Reports}, 7,
-45908.
+\leavevmode\hypertarget{ref-Stock2017LinFil}{}%
+Stock, M., Poisot, T., Waegeman, W. \& De Baets, B. (2017). Linear
+filtering reveals false negatives in species interaction data.
+\emph{Scientific Reports}, 7, 45908.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Strydom2021RoaPre}{}}%
+\leavevmode\hypertarget{ref-Strydom2021RoaPre}{}%
 Strydom, T., Catchen, M.D., Banville, F., Caron, D., Dansereau, G.,
-Desjardins-Proulx, P., \emph{et al.} (2021).
-\href{https://doi.org/10.1098/rstb.2021.0063}{A roadmap towards
-predicting species interaction networks (across space and time)}.
+Desjardins-Proulx, P., \emph{et al.} (2021). A roadmap towards
+predicting species interaction networks (across space and time).
 \emph{Philosophical Transactions of the Royal Society B: Biological
 Sciences}, 376, 20210063.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Thompson2017DisGov}{}}%
-Thompson, P.L. \& Gonzalez, A. (2017).
-\href{https://doi.org/10.1038/s41559-017-0162}{Dispersal governs the
-reorganization of ecological networks under environmental change}.
+\leavevmode\hypertarget{ref-Thompson2017DisGov}{}%
+Thompson, P.L. \& Gonzalez, A. (2017). Dispersal governs the
+reorganization of ecological networks under environmental change.
 \emph{Nature Ecology \& Evolution}, 1, 1--8.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Thompson2000ResSol}{}}%
-Thompson, R.M. \& Townsend, C.R. (2000).
-\href{https://doi.org/10.1046/j.1365-2427.2000.00579.x}{Is resolution
-the solution?: The effect of taxonomic resolution on the calculated
-properties of three stream food webs}. \emph{Freshwater Biology}, 44,
-413--422.
+\leavevmode\hypertarget{ref-Thompson2000ResSol}{}%
+Thompson, R.M. \& Townsend, C.R. (2000). Is resolution the solution?:
+The effect of taxonomic resolution on the calculated properties of three
+stream food webs. \emph{Freshwater Biology}, 44, 413--422.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Volkov2003NeuThe}{}}%
-Volkov, I., Banavar, J.R., Hubbell, S.P. \& Maritan, A. (2003).
-\href{https://doi.org/10.1038/nature01883}{Neutral theory and relative
-species abundance in ecology}. \emph{Nature}, 424, 1035--1037.
+\leavevmode\hypertarget{ref-Volkov2003NeuThe}{}%
+Volkov, I., Banavar, J.R., Hubbell, S.P. \& Maritan, A. (2003). Neutral
+theory and relative species abundance in ecology. \emph{Nature}, 424,
+1035--1037.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Walther1995SamEff}{}}%
+\leavevmode\hypertarget{ref-Walther1995SamEff}{}%
 Walther, B.A., Cotgreave, P., Price, R.D., Gregory, R.D. \& Clayton,
-D.H. (1995).
-\href{https://doi.org/10.1016/0169-4758(95)80047-6}{Sampling Effort and
-Parasite Species Richness}. \emph{Parasitology Today}, 11, 306--310.
+D.H. (1995). Sampling Effort and Parasite Species Richness.
+\emph{Parasitology Today}, 11, 306--310.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Williams2000SimRul}{}}%
-Williams, R.J. \& Martinez, N.D. (2000).
-\href{https://doi.org/10.1038/35004572}{Simple rules yield complex food
-webs}. \emph{Nature}, 404, 180--183.
+\leavevmode\hypertarget{ref-Williams2000SimRul}{}%
+Williams, R.J. \& Martinez, N.D. (2000). Simple rules yield complex food
+webs. \emph{Nature}, 404, 180--183.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Willott2001SpeAcc}{}}%
-Willott, S.j. (2001).
-\href{https://doi.org/10.1046/j.1365-2664.2001.00589.x}{Species
-accumulation curves and the measure of sampling effort}. \emph{Journal
-of Applied Ecology}, 38, 484--486.
+\leavevmode\hypertarget{ref-Willott2001SpeAcc}{}%
+Willott, S.j. (2001). Species accumulation curves and the measure of
+sampling effort. \emph{Journal of Applied Ecology}, 38, 484--486.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Young2021RecPla}{}}%
-Young, J.-G., Valdovinos, F.S. \& Newman, M.E.J. (2021).
-\href{https://doi.org/10.1038/s41467-021-24149-x}{Reconstruction of
-plantpollinator networks from observational data}. \emph{Nature
+\leavevmode\hypertarget{ref-Young2021RecPla}{}%
+Young, J.-G., Valdovinos, F.S. \& Newman, M.E.J. (2021). Reconstruction
+of plantpollinator networks from observational data. \emph{Nature
 Communications}, 12, 3911.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Zhang2019GraCon}{}}%
-Zhang, S., Tong, H., Xu, J. \& Maciejewski, R. (2019).
-\href{https://doi.org/10.1186/s40649-019-0069-y}{Graph convolutional
-networks: A comprehensive review}. \emph{Computational Social Networks},
-6, 11.
+\leavevmode\hypertarget{ref-Zhang2019GraCon}{}%
+Zhang, S., Tong, H., Xu, J. \& Maciejewski, R. (2019). Graph
+convolutional networks: A comprehensive review. \emph{Computational
+Social Networks}, 6, 11.
 
 \end{CSLReferences}
 
