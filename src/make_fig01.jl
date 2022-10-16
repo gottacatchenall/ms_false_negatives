@@ -85,7 +85,7 @@ for I in CartesianIndices(size(exp_obs))
 end
 
 function maketicks_1b(x)
-    x
+    string.("1e", x)
     #latexstring.(["10^{$(i)}" for i in x])
 end
 
@@ -219,4 +219,4 @@ end
 
 f
 
-#f |> save(joinpath("figures","fig1.png"))
+f |> save(joinpath("figures","fig1.png"))
