@@ -85,7 +85,8 @@ for I in CartesianIndices(size(exp_obs))
 end
 
 function maketicks_1b(x)
-    latexstring.(["10^{$(i)}" for i in x])
+    x
+    #latexstring.(["10^{$(i)}" for i in x])
 end
 
 
@@ -218,17 +219,4 @@ end
 
 f
 
-
-ax3 = Axis(fig[2,1], 
-    xticks=0:0.1:1,
-    xlabel="Added FNR",
-    ylabel="Mean trophic level",
-    xminorgridvisible=true,
-    xminorticks=0:0.05:1,
-    yminorticksvisible=true,
-    yminorticks=0:0.5:1,
-    xlabelsize=22,
-    ylabelsize=22,
-)
-
-f |> save(joinpath("figures","fig1.png"))
+#f |> save(joinpath("figures","fig1.png"))
