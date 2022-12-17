@@ -135,7 +135,7 @@ particular pair of species (@fig:geometric(B)). As an example, if we hypothesize
 that $A$ and $B$ do not interact, and we want to see species $A$ and $B$ both
 co-occurring and _not interacting_ 10 times to be confident this is a true
 negative, then we need an expected 1000 observations of all species if the
-relative abundances of $A$ and $B$ are both $0.1$. 
+relative abundances of $A$ and $B$ are both $0.1$.
 
 Because the true FNR is latent, we can never actually be sure what the actual
 number of false negatives in our data---however, we can use simulation to
@@ -258,6 +258,10 @@ across the species pool? These arguments are well-considered when sampling
 individual species [@Willott2001SpeAcc], but have not yet been adopted for
 designing samples of communities.
 
+# Resampling interaction probabilities to account for detection error
+
+![todo](./figures/uncertainty_sampler.png)
+
 
 # Positive associations increase the false-negative rate
 
@@ -299,7 +303,7 @@ underestimate the realized FNR. In @fig:mangal, we see the difference between
 $P(AB)$ and $P(A)P(B)$ for the seven suitable datasets with enough
 spatio-temporal replicates and a shared taxonomic backbone (meaning all
 individual networks use common species identifiers) found on Mangal to perform
-this analysis. Further details about each dataset are reported in @tbl:id. 
+this analysis. Further details about each dataset are reported in @tbl:id.
 
 In each of these datasets, the joint probability of co-occurrence $P(AB)$ is
 decisively greater than our expectation if species co-occur in proportion to
@@ -394,7 +398,7 @@ sampled across space and time (@tbl:id). Once we start to get into the
 thousands, these models will become more useful, but this can only be done with
 systematic monitoring of interactions. This again highlights the need to
 optimize our sampling effort to maximize the amount of information contained in
-our data given the expensive nature of sampling interactions. 
+our data given the expensive nature of sampling interactions.
 
 We also consider how the FNR affects network properties. In @fig:addedfnr(C) we
 see the mean trophic level across networks simulated using the niche model (as
@@ -410,9 +414,9 @@ removing edges, not adding them, and thus we are witnessing the dissolution of a
 giant component, rather than the emergence of one. Further applications of
 percolation theory to the topology of ecological networks could improve our
 understanding of how false-negatives impact the inferences about the structure
-and dynamics on these networks. 
+and dynamics on these networks.
 
-# Discussion 
+# Discussion
 
 Species interactions enable the persistence and functioning of ecosystems, but
 our understanding of interactions is limited due to the intrinsic difficulty of
