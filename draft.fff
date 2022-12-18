@@ -44,6 +44,13 @@ food-web.}\label{fig:geometric}
 \efloatseparator
  
 \begin{figure}
+\centering
+\includegraphics{./figures/uncertainty_sampler.png}
+\caption{todo}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
 \hypertarget{fig:mangal}{%
 \centering
 \includegraphics{./figures/fig2.png}
