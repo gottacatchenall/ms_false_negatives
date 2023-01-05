@@ -279,7 +279,12 @@ false-positive probabilities to produce an output distribution of interaction
 probability that accounts for observation error. We implement this in the
 software package InteractionUncertaintySampler.jl. 
 
-![FIG CAPTION](./figures/uncertainty_sampler.png)
+![(A) The process for estimating the false-negative rate (FNR) for an
+interaction dataset consisting of $N$ total observed interactions. (B) The
+method for resampling interaction probability based on estimates of
+false-negative and false-positive rates. (C) The method for interaction
+probability resampling applied to three mammals and three parasites from the
+@Hadfield2014TalTwo dataset.](./figures/uncertainty_sampler.png){#fig:resampling_concept}
 
 We do this by using the process for simulating a distribution of null
 false-negative rates for a given dataset as described above
@@ -288,7 +293,7 @@ arbitrary prediction model, which is the probability $p_{ij}$ that two species
 $i$ and $j$ interact. To get an estimate of $p_{ij}$ that accounts for
 observation error, we resample the probability of each interaction $p_{ij}$ by
 simulating a series of particles. Each particle is the product of the resampling
-algorithm (“Resampling” within @fig:resampling:concept (B)), where the value of
+algorithm (“Resampling” within @fig:resampling_concept (B)), where the value of
 a particle is first drawn from a Bernoulli with weight $p_{ij}$, and if that
 value is true, the value remains true with probability $1-p_{fn}$, and if the
 first draw is false, the value remains false with probability $1-p_{fp}$. Over
