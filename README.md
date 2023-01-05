@@ -97,19 +97,19 @@ indicative of an interaction, it _is_ a precondition for an interaction.
 Here, we illustrate how our confidence that a pair of species never interacts
 highly depends on sampling effort. We suggest that surveys of species
 interactions can benefit from simulation modeling of the sampling process. We
-demonstrate that the realized false-negative rate of interactions is directly
-related to the relative abundance of the species pool, and demonstrate how
-simulation can be used to produce a null estimate of the false-negative rate
-given total sampling effort (the total count of all individuals of all species
-seen). We also introduce a method for resampling of model predictions of
-interaction probability to account for observation error. We show that positive
-associations in co-occurrence data can increase the realized number of
-false-negatives, and demonstrate these positive associations are rampant in
-network datasets. We conclude by recommending that the simulation of sampling
-effort and species occurrence can and should be used to help design surveys of
-species interaction diversity [@Moore2016OptEco], and by advocating use of null
-models like those presented here as a tool for both guiding design of surveys of
-species interactions and for modeling detection error in predictive models.
+demonstrate how the realized false-negative rate of interactions is related to
+the relative abundance of the species pool, and use simulation to produce a null
+estimate of the false-negative rate given total sampling effort (the total count
+of all individuals of all species seen), and to introduce a method for
+resampling of model predictions of interaction probability to account for
+observation error. We then show that positive associations in co-occurrence data
+can increase the realized number of false-negatives, and demonstrate these
+positive associations are rampant in network datasets, and conclude by
+recommending that the simulation of sampling effort and species occurrence can
+and should be used to help design surveys of species interaction diversity
+[@Moore2016OptEco], and by advocating use of null models like those presented
+here as a tool for both guiding design of surveys of species interactions and
+for modeling detection error in predictive models.
 
 
 ![This conceptual example considers a sample of the trophic community of bears, wolves, salmon (pink fish), pike (yellow fish), berry trees, and aspen trees. The true metaweb (all realized interactions across the entire spatial extent) is shown on the left. In the center is what a hypothetical ecologist samples at each site. Notice that although bears are observed co-occurring with both salmon and pike, there was never a direct observation of bears eating pike, even though they actually do. Therefore, this interaction between bears and pike is a false negative.](./figures/concept.png){#fig:concept}
@@ -118,7 +118,7 @@ species interactions and for modeling detection error in predictive models.
 
 We start with a naive model of interaction detection: we assume that every
 interacting pair of species is incorrectly observed as not-interacting with an
-independent and fixed probability, which we denote $p_fn$ and subsequently refer
+independent and fixed probability, which we denote $p_{fn}$ and subsequently refer
 to as the False-Negative Rate (FNR). If we observe the same species
 not-interacting $N$ times, then the probability of a true-negative (denoted
 $p_{tn}$) is given by $p_{tn}=1-(p_{fn})^N$. This relation (the
@@ -264,19 +264,19 @@ across the species pool? These arguments are well-considered when sampling
 individual species [@Willott2001SpeAcc], but have not yet been adopted for
 designing samples of communities.
 
-# Resampling interaction probabilities to account for uncertainty in detection error
+# Resampling interaction probabilities to account for uncertainty in observation error
 
-Here we show how to incorporate imperfect detection (both false-negatives and
+Here we show how to incorporate imperfect observation (both false-negatives and
 false-positives) into model predictions of interaction probability.  Models for
 interaction prediction typically yield a probability of interaction between each
 pair of species. When these are considered with uncertainty, it is usually
 model-uncertainty, e.g. the variance in the interaction probability prediction
 across several cross-validation folds, where the data is split into training and
-test sets several times.Here we introduce a method for resampling interaction
-probabilities (outlined in figure @fig:resampling) that simulates the
+test sets several times. Here we introduce a method for resampling interaction
+probabilities (outlined in figure @fig:resampling_concept) that simulates the
 observation process with prior estimates of both false-negative and
 false-positive probabilities to produce an output distribution of interaction
-probability that accounts for observation error. We implement this in the
+probabilities that accounts for observation error. We implement this in the
 software package InteractionUncertaintySampler.jl. 
 
 ![(A) The process for estimating the false-negative rate (FNR) for an
@@ -320,10 +320,10 @@ implications for what we mean by ‘uncertainty’ in interaction predictions. A
 model’s prediction can be ‘uncertain’ in two different ways: the model’s
 predictions may have high variance, or the model’s predictions may be centered
 around a probability of interaction of $0.5$, where we are the most unsure about
-whether this interaction exists. A more statistically robust framework for
-accounting for different forms of uncertainty in probabilistic interaction
-predictions seems a necessary goal that the field must undertake. 
-
+whether this interaction exists. Improving the incorporation of different forms
+of uncertainty in probabilistic interaction predictions seems a necessary next
+step toward understanding what pairs of species we know the least about, in
+order to prioritize sampling to provide the most new information possible. 
 
 
 # Positive associations increase the false-negative rate
