@@ -528,7 +528,7 @@ using species distribution models could aid in this spatial prioritization of
 sampling sites.
 
 We also should address the impact of false-negatives on the inference of process
-and causity in community ecology. We demonstrated that in model food webs,
+and causality in community ecology. We demonstrated that in model food webs,
 false-negatives do not impact the measure of total trophic levels until very
 high FNR (figure @fig:addedfnr(C)), although we cannot generalize this further
 to other properties. This has immediate practical concern for how we design what
@@ -537,18 +537,18 @@ has been shown that the stability of subnetworks can be used to infer the
 stability of the metaweb paper beyond a threshold of samples [@Song2022RapMon].
 But does this extend to other network properties? And how can we be sure we are
 at the threshold at which we can be confident our sample characterizes the whole
-system? 
-
-To try and sample to avoid all false-negatives is a fool's errand. Species
-ranges overlap to form mosaics, which themselves are often changing in time.
-Communities and networks don't end in space, and the interactions that connect
-species on the 'periphery' of a given network to species outside the spatial
-extent of a given sample will inevitably appear as false-negatives in practical
-samples. The goal should instead be to sample enough to have a statistically
-robust estimate of the current state and empirical change over time of an
-ecological community at a given spatial extent and temporal resolution, and to
-determine what the sampling effort required the describe the current state prior
-to sampling.
+system? We suggest that modeling observation error like we have done here can
+address these questions and aid in the design of samples of species
+interactions. To try and sample to avoid all false-negatives is a fool's errand.
+Species ranges overlap to form mosaics, which themselves are often changing in
+time. Communities and networks don't end in space, and the interactions that
+connect species on the 'periphery' of a given network to species outside the
+spatial extent of a given sample will inevitably appear as false-negatives in
+practical samples. The goal should instead be to sample a system enough to have
+a statistically robust estimate of the current state and empirical change over
+time of an ecological community at a given spatial extent and temporal
+resolution, and to determine what the sampling effort required prior to
+sampling.
 
 Our work highlights the need for a quantitatively robust approach to sampling
 design, both for interactions [@Jordano2016SamNet] and all other aspects of
