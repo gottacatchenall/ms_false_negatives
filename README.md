@@ -226,7 +226,7 @@ where the MAP estimate of $(\mu, \phi)$ applied to Mangal data from
 with 500 independent replicates of unique niche model networks per unique number
 of observations $n$. All analyses presented here are done in Julia v1.8
 [@Bezanson2015JulFre] using both EcologicalNetworks.jl v0.5 and Mangal.jl v0.4
-[@Banville2021ManJl] and are hosted at (GITHUB_LINK_TODO). Note that the
+[@Banville2021ManJl] and are hosted on \href{https://github.com/gottacatchenall/ms_false_negatives/tree/main/src}{Github}). Note that the
 empirical data, for the reasons described above, very likely already contains
 many false negatives, we'll revisit this issue in the final section.
 
