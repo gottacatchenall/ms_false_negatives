@@ -1504,6 +1504,18 @@
         "volume": "130"
     },
     {
+        "id": "MetPer",
+        "publisher": "https://royalsocietypublishing-org.proxy3.library.mcgill.ca/doi/full/10.1098/rspb.2022.2029",
+        "title": "Metapopulation persistence can be inferred from incomplete surveys | Proceedings of the Royal Society B: Biological Sciences",
+        "type": ""
+    },
+    {
+        "id": "MetPera",
+        "publisher": "https://royalsocietypublishing-org.proxy3.library.mcgill.ca/doi/full/10.1098/rspb.2022.2029",
+        "title": "Metapopulation persistence can be inferred from incomplete surveys | Proceedings of the Royal Society B: Biological Sciences",
+        "type": ""
+    },
+    {
         "DOI": "10.1111/2041-210X.12564",
         "author": [
             {
@@ -2137,6 +2149,80 @@
         "title": "Generalism drives abundance: A computational causal discovery approach",
         "type": "article-journal",
         "volume": "18"
+    },
+    {
+        "DOI": "10.1098/rspb.2022.2029",
+        "author": [
+            {
+                "family": "Song",
+                "given": "Chuliang"
+            },
+            {
+                "family": "Fortin",
+                "given": "Marie-Jos\u00e9e"
+            },
+            {
+                "family": "Gonzalez",
+                "given": "Andrew"
+            }
+        ],
+        "container-title": "Proceedings of the Royal Society B: Biological Sciences",
+        "id": "Song2022MetPer",
+        "issue": "1989",
+        "issued": {
+            "date-parts": [
+                [
+                    2022
+                ]
+            ]
+        },
+        "page": "20222029",
+        "publisher": "Royal Society",
+        "title": "Metapopulation persistence can be inferred from incomplete surveys",
+        "type": "article-journal",
+        "volume": "289"
+    },
+    {
+        "DOI": "10.1101/2022.07.02.498308",
+        "author": [
+            {
+                "family": "Song",
+                "given": "Chuliang"
+            },
+            {
+                "family": "Simmons",
+                "given": "Benno I."
+            },
+            {
+                "family": "Fortin",
+                "given": "Marie-Jos\u00e9e"
+            },
+            {
+                "family": "Gonzalez",
+                "given": "Andrew"
+            },
+            {
+                "family": "Kaiser-Bunbury",
+                "given": "Christopher N."
+            },
+            {
+                "family": "Saavedra",
+                "given": "Serguei"
+            }
+        ],
+        "chapter-number": "New Results",
+        "id": "Song2022RapMon",
+        "issued": {
+            "date-parts": [
+                [
+                    2022
+                ]
+            ]
+        },
+        "page": "2022.07.02.498308",
+        "publisher": "bioRxiv",
+        "title": "Rapid monitoring for ecological persistence",
+        "type": ""
     },
     {
         "DOI": "10.1016/j.cosust.2020.08.005",

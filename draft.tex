@@ -561,9 +561,17 @@ error. We implement this in the software package
 InteractionUncertaintySampler.jl.
 
 \begin{figure}
+\hypertarget{fig:resampling_concept}{%
 \centering
 \includegraphics{./figures/uncertainty_sampler.png}
-\caption{FIG CAPTION}
+\caption{(A) The process for estimating the false-negative rate (FNR)
+for an interaction dataset consisting of \(N\) total observed
+interactions. (B) The method for resampling interaction probability
+based on estimates of false-negative and false-positive rates. (C) The
+method for interaction probability resampling applied to three mammals
+and three parasites from the Hadfield \emph{et al.} (2014)
+dataset.}\label{fig:resampling_concept}
+}
 \end{figure}
 
 We do this by using the process for simulating a distribution of null
@@ -574,7 +582,7 @@ prediction from an arbitrary prediction model, which is the probability
 of \(p_{ij}\) that accounts for observation error, we resample the
 probability of each interaction \(p_{ij}\) by simulating a series of
 particles. Each particle is the product of the resampling algorithm
-(``Resampling'' within fig.~\ref{fig:resampling:concept} (B)), where the
+(``Resampling'' within fig.~\ref{fig:resampling_concept} (B)), where the
 value of a particle is first drawn from a Bernoulli with weight
 \(p_{ij}\), and if that value is true, the value remains true with
 probability \(1-p_{fn}\), and if the first draw is false, the value
@@ -670,7 +678,7 @@ observed property of nestedness seen in bipartite networks (Bascompte \&
 Jordano 2007)---perhaps the reason we have lots of observations between
 generalists is because they are more abundant, and this is particularly
 relevant as we have strong evidence that generalism drives abundance
-(Song \emph{et al.} 2022), not vice-versa.
+(Song \emph{et al.} 2022a), not vice-versa.
 
 \begin{figure}
 \hypertarget{fig:mangal}{%
@@ -896,22 +904,22 @@ although we cannot generalize this further to other properties. This has
 immediate practical concern for how we design what taxa to sample---does
 it matter if the sampled network is fully connected? It has been shown
 that the stability of subnetworks can be used to infer the stability of
-the metaweb paper beyond a threshold of samples
-(\textbf{Song2022RapMon?}). But does this extend to other network
-properties? And how can we be sure we are at the threshold at which we
-can be confident our sample characterizes the whole system? We suggest
-that modeling observation error like we have done here can address these
-questions and aid in the design of samples of species interactions. To
-try and sample to avoid all false-negatives is a fool's errand. Species
-ranges overlap to form mosaics, which themselves are often changing in
-time. Communities and networks don't end in space, and the interactions
-that connect species on the `periphery' of a given network to species
-outside the spatial extent of a given sample will inevitably appear as
-false-negatives in practical samples. The goal should instead be to
-sample a system enough to have a statistically robust estimate of the
-current state and empirical change over time of an ecological community
-at a given spatial extent and temporal resolution, and to determine what
-the sampling effort required prior to sampling.
+the metaweb paper beyond a threshold of samples (Song \emph{et al.}
+2022b). But does this extend to other network properties? And how can we
+be sure we are at the threshold at which we can be confident our sample
+characterizes the whole system? We suggest that modeling observation
+error like we have done here can address these questions and aid in the
+design of samples of species interactions. To try and sample to avoid
+all false-negatives is a fool's errand. Species ranges overlap to form
+mosaics, which themselves are often changing in time. Communities and
+networks don't end in space, and the interactions that connect species
+on the `periphery' of a given network to species outside the spatial
+extent of a given sample will inevitably appear as false-negatives in
+practical samples. The goal should instead be to sample a system enough
+to have a statistically robust estimate of the current state and
+empirical change over time of an ecological community at a given spatial
+extent and temporal resolution, and to determine what the sampling
+effort required prior to sampling.
 
 Our work highlights the need for a quantitatively robust approach to
 sampling design, both for interactions (Jordano 2016) and all other
@@ -1125,9 +1133,14 @@ Savage, V.M., Gillooly, J.F., Brown, J.H., West, G.B. \& Charnov, E.L.
 \emph{The American Naturalist}, 163, 429--441.
 
 \leavevmode\hypertarget{ref-Song2022GenDri}{}%
-Song, C., Simmons, B.I., Fortin, M.-J. \& Gonzalez, A. (2022).
+Song, C., Simmons, B.I., Fortin, M.-J. \& Gonzalez, A. (2022a).
 Generalism drives abundance: A computational causal discovery approach.
 \emph{PLOS Computational Biology}, 18, e1010302.
+
+\leavevmode\hypertarget{ref-Song2022RapMon}{}%
+Song, C., Simmons, B.I., Fortin, M.-J., Gonzalez, A., Kaiser-Bunbury,
+C.N. \& Saavedra, S. (2022b). Rapid monitoring for ecological
+persistence.
 
 \leavevmode\hypertarget{ref-Stephenson2020TecAdv}{}%
 Stephenson, P. (2020). Technological advances in biodiversity

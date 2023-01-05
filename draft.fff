@@ -44,9 +44,17 @@ food-web.}\label{fig:geometric}
 \efloatseparator
  
 \begin{figure}
+\hypertarget{fig:resampling_concept}{%
 \centering
 \includegraphics{./figures/uncertainty_sampler.png}
-\caption{FIG CAPTION}
+\caption{(A) The process for estimating the false-negative rate (FNR)
+for an interaction dataset consisting of \(N\) total observed
+interactions. (B) The method for resampling interaction probability
+based on estimates of false-negative and false-positive rates. (C) The
+method for interaction probability resampling applied to three mammals
+and three parasites from the Hadfield \emph{et al.} (2014)
+dataset.}\label{fig:resampling_concept}
+}
 \end{figure}
 \efloatseparator
  
