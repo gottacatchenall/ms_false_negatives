@@ -101,7 +101,7 @@ demonstrate how the realized false-negative rate of interactions is related to
 the relative abundance of the species pool, and use simulation to produce a null
 estimate of the false-negative rate given total sampling effort (the total count
 of all individuals of all species seen), and to introduce a method for
-resampling of model predictions of interaction probability to account for
+introducing uncertainty into model predictions of interaction probability to account for
 observation error. We then show that positive associations in co-occurrence data
 can increase the realized number of false-negatives, and demonstrate these
 positive associations are rampant in network datasets, and conclude by
@@ -114,7 +114,9 @@ for modeling detection error in predictive models.
 
 ![This conceptual example considers a sample of the trophic community of bears, wolves, salmon (pink fish), pike (yellow fish), berry trees, and aspen trees. The true metaweb (all realized interactions across the entire spatial extent) is shown on the left. In the center is what a hypothetical ecologist samples at each site. Notice that although bears are observed co-occurring with both salmon and pike, there was never a direct observation of bears eating pike, even though they actually do. Therefore, this interaction between bears and pike is a false negative.](./figures/concept.png){#fig:concept}
 
-# How many observations of a non-interaction do we need to be confident it's a true negative?
+# Accounting for false-negatives in species interactions
+
+## How many observations of a non-interaction do we need to be confident it's a true negative?
 
 We start with a naive model of interaction detection: we assume that every
 interacting pair of species is incorrectly observed as not-interacting with an
@@ -173,7 +175,7 @@ The outlier on **(D)** is a 714 species
 food-web.](./figures/fig1.png){#fig:geometric}
 
 
-# False-negatives as a product of relative abundance
+## False-negatives as a product of relative abundance
 
 We now show that the realized FNR changes drastically with sampling effort due
 to the intrinsic variation of the abundance of individuals of each species
@@ -264,7 +266,7 @@ across the species pool? These arguments are well-considered when sampling
 individual species [@Willott2001SpeAcc], but have not yet been adopted for
 designing samples of communities.
 
-# Resampling interaction probabilities to account for uncertainty in observation error
+## Including observation-error in interaction predictions 
 
 Here we show how to incorporate imperfect observation (both false-negatives and
 false-positives) into model predictions of interaction probability.  Models for
@@ -302,11 +304,34 @@ single resample of the interaction probability $p_{ij}^*$. Across many
 resamples, this forms a distribution of probabilities which are adjusted by the
 true and false negative rates.
 
+There is also an analytic way to represent this.
+
+Normal approximation to binomial, as the total number of samples from $n_p$
+particles approaches infinity, the sum of total successes across all particles
+approaches a normal distribution with parameters 
+
+$$\mathcal{N}\bigg(n_p p_{ij}, \sqrt{n_p p_{ij}(1-p_{ij})}\bigg)$$
+
+
+Corrected $p_{ij}$ based on $p_fn$ and $p_tn$ as $p_{ij}^* = p_{ij}(1+p_{fp})(1-p_{fn})$
+$$\mathcal{N}\bigg(n_p p_{ij}^*, \sqrt{n_p p_{ij}^* (1-p_{ij}^*)}\bigg)$$
+
+and then by normalizing back to $(0,1)$.
+
+$$\mathcal{N}\bigg(p^*_{ij}, \sqrt{\frac{ p_{ij}(1-p_{ij})}{n_p}} \bigg)$$
+
+We can then further truncate this, although in practice probability mass outside
+(0,1) is exteremly loss.
+
+Number of particles $n_p$ as a uncertainty width. Nautral analogue to number of
+observations of co-occurrence. 
+
+
 As an example case study, we use a boosted-regresssion-tree to predict
-interactions in a host-parasite network [@Hadfield2014TalTwo] (with features derived
-in the same manner as @Strydom2021RoaPre derives features on this data) to
-produce a set of interaction predictions. We then applied this method to a set
-of a few resampled interaction probabilities between mammals and parasite
+interactions in a host-parasite network [@Hadfield2014TalTwo] (with features
+derived in the same manner as @Strydom2021RoaPre derives features on this data)
+to produce a set of interaction predictions. We then applied this method to a
+set of a few resampled interaction probabilities between mammals and parasite
 species shown in figure @fig:resampling_concept (C). Here we implement a simple
 resampling algorithm, but this could be extended, for example by  adjusting the
 expected FNR for each pair of species by the relative abundance of each species.
@@ -326,7 +351,8 @@ step toward understanding what pairs of species we know the least about, in
 order to prioritize sampling to provide the most new information possible. 
 
 
-# Positive associations increase the false-negative rate
+
+# Positive associations in co-occurrence increase the false-negative rate
 
 The model above doesn't consider the possibility that there are positive or
 negative associations which shift the probability of species cooccurrence
