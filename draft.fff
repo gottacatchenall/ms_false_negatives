@@ -10,7 +10,7 @@ the center is what a hypothetical ecologist samples at each site. Notice
 that although bears are observed co-occurring with both salmon and pike,
 there was never a direct observation of bears eating pike, even though
 they actually do. Therefore, this interaction between bears and pike is
-a false negative.}\label{fig:concept}
+a false-negative.}\label{fig:concept}
 }
 \end{figure}
 \efloatseparator
@@ -22,22 +22,22 @@ a false negative.}\label{fig:concept}
 \caption{\textbf{(A)} The probability that an observed interaction is a
 true negative (y-axis) given how many times it has been sampled as a
 non-interaction (x-axis). Each color reflects a different value of
-\(p_{fn}\), the false-negative rate (FNR)---this is effectively the cdf
+\(p_{fn}\), the false-negative-rate (FNR)---this is effectively the cdf
 of the geometric distribution. \textbf{(B)} The expected number of total
 observations needed (colors) to observe 10 co-occurrences between a
 species with relative abundance \(P(A)\) (x-axis) and a second species
-with relative abundance \(P(Y)\). \textbf{(C)}: False negative rate
+with relative abundance \(P(Y)\). \textbf{(C)}: false-negative-rate
 (y-axis) as a function of total sampling effort (x-axis) and network
 size, computed using the method described above. For 500 independent
 draws from the niche model (Williams \& Martinez (2000)) at varying
 levels of species richness (colors) with connectance drawn according to
 the flexible-links model (MacDonald \emph{et al.} (2020)) as described
 in the main text. For each draw from the niche model, 200 sets of 1500
-observations are simulated, for which each the mean false negative rate
-at each observation-step is computed. Means denoted with points, with 1
-in the first shade and 2 in the second. \textbf{(D)}: Same as
-\textbf{(C)}, except using empirical food webs from Mangal database,
-where richness. The outlier on \textbf{(D)} is a 714 species
+observations are simulated, for which the mean false-negative-rate at
+each observation-step is computed. Means denoted with points, with 1 in
+the first shade and 2 in the second. \textbf{(D)}: Same as \textbf{(C)},
+except using empirical food webs from Mangal database, where richness.
+The outlier on \textbf{(D)} is a 714 species
 food-web.}\label{fig:geometric}
 }
 \end{figure}
@@ -47,7 +47,7 @@ food-web.}\label{fig:geometric}
 \hypertarget{fig:resampling_concept}{%
 \centering
 \includegraphics{./figures/uncertainty_sampler.png}
-\caption{(A) The process for estimating the false-negative rate (FNR)
+\caption{(A) The process for estimating the false-negative-rate (FNR)
 for an interaction dataset consisting of \(N\) total observed
 interactions. (B) The method for resampling interaction probability
 based on estimates of false-negative and false-positive rates. (C) The
@@ -81,7 +81,7 @@ each distribution to 0.}\label{fig:mangal}
 \caption{\textbf{(A)} The area-under the receiver-operator curve
 (ROC-AUC) and \textbf{(B)} The area-under the precision-recall curve
 (PR-AUC; right) for each different predictive model (colors/shapes)
-across a spectrum of the proportion of added false negatives (x-axis).
+across a spectrum of the proportion of added false-negatives (x-axis).
 \textbf{(C)} The mean trophic-level of all species in a network
 generated with the niche model across different species richnesses
 (colors). For each value of the FNR, the mean trophic level was computed
