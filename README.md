@@ -309,8 +309,8 @@ forms a distribution of probabilities which are adjusted by the true and false
 negative rates.
 
 There is also an analytic way to approximate this distribution using the normal
-approximation to binomial. As a reminder, as the total number of samples  $n$
-from a binomial distribution with success probability $p$ from approaches
+approximation to binomial. As a reminder, as the total number of samples $N$
+from a binomial distribution for $n$ trials with success probability $p$ from approaches
 infinity, the sum of total successes across all samples approaches a normal
 distribution with mean $np$ and variance $np(1-p)$. We can use this to correct
 the estimate $p_{ij}$ based on the expected false-negative-rate $p_{fn}$ and
