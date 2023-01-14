@@ -351,53 +351,52 @@ required by simulating samples from this distribution directly. Further, it
 enables continuous exanination of the number of particles $n_p$ as a uncertainty
 width. The natural analogue for the number of particles sampled is the number of
 observations of co-occurrence for a given pair of species---the fewer the
-particles, the higher the variance of the resulting approximation (see
-supplemental figure 1 for an example). Equation @ref:eq:eq1 is undefined for 0
-particles (i.e. 0 observations co-occurrence), although as $n_p$ approaches $0$
-the approxated normal (once truncated) approaches a uniform distribution on the
-interval $(0,1)$, the maximum entropy distribution where we have no information
-about the possibility of an interaction. 
+particles, the higher the variance of the resulting approximation. The normal
+approximation is undefined for 0 particles (i.e. 0 observations co-occurrence),
+although as $n_p$ approaches $0$ the approxated normal (once truncated)
+approaches a uniform distribution on the interval $(0,1)$, the maximum entropy
+distribution where we have no information about the possibility of an
+interaction. 
 
 This also has implications for what we mean by ‘uncertainty’ in interaction
 predictions. A model’s prediction can be ‘uncertain’ in two different ways: (1)
 the model’s predictions may have high variance, or (2) the model’s predictions
 may be centered around a probability of interaction of $0.5$, where we are the
-most unsure about whether this interaction exists . For non-zero $p_{fn}$ and
-$p_{fp}$, the above model always moves the mean interaction probability toward
-0.5 (supplemental figure 2), siding toward higher uncertainty in the latter
-(higher entropy) sense. Improving the incorporation of different forms of
-uncertainty in probabilistic interaction predictions seems a necessary next step
-toward understanding what pairs of species we know the least about, in order to
-prioritize sampling to provide the most new information possible. 
+most unsure about whether this interaction exists. Improving the incorporation
+of different forms of uncertainty in probabilistic interaction predictions seems
+a necessary next step toward understanding what pairs of species we know the
+least about, in order to prioritize sampling to provide the most new information
+possible. 
 
 
 # Positive associations in co-occurrence increase the false-negative-rate
 
 The model above doesn't consider the possibility that there are positive or
-negative associations which shift the probability of species cooccurrence
-together due to their interaction [@Cazelles2016TheSpe]. However, here we
-demonstrate that the probability of having a false-negative can be higher if
-there is some positive association in the occurrence of species $A$ and $B$. If
-we denote the probability that we observe the co-occurrence of two species $A$
-and $B$ as $P(AB)$ and if there is no association between the marginal
-probabilities of observing $A$ and observing $B$, denoted $P(A)$ and $P(B)$
-respectively, then the probability of observing their co-occurrence is the
-product of the marginal probabilities for each species, $P(AB) = P(A)P(B)$. In
-the other case where there is some positive strength of association between
-observing both $A$ and $B$ because this interaction is "important" for each
-species, then the probability of observation both $A$ and $B$, $P(AB)$, is
-greater than $P(A)P(B)$ as $P(A)$ and $P(B)$ are not independent and instead are
-positively correlated, i.e. $P(AB)> P(A)P(B)$. In this case, the probability of
-observing a single false-negative in our naive model from @fig:geometric(A) is
-$p_{fn}= 1-P(AB)$, which due to the above inequality implies
-$p_{fn}>1-P(A)P(B)$. This indicates an increasingly greater probability of a false
-negative as the strength of association gets stronger, $P(AB) \to P(AB) \gg
-P(A)P(B)$. However, this still does not consider variation in species abundance
-in space and time [@Poisot2015SpeWhy]. If positive or negative associations
-between species structure variation in the distribution of $P(AB)$ across
-space/time, then the spatial/temporal biases induced by data collection would
-further impact the realized false-negative-rate, as the probability of false
-negative would not be constant for each pair of species across sites.
+negative associations which shift the probability of species cooccurrence away
+from what is expected based on their relative abundances due to their
+interaction [@Cazelles2016TheSpe]. However, here we demonstrate that the
+probability of having a false-negative can be higher if there is some positive
+association in the occurrence of species $A$ and $B$. If we denote the
+probability that we observe the co-occurrence of two species $A$ and $B$ as
+$P(AB)$ and if there is no association between the marginal probabilities of
+observing $A$ and observing $B$, denoted $P(A)$ and $P(B)$ respectively, then
+the probability of observing their co-occurrence is the product of the marginal
+probabilities for each species, $P(AB) = P(A)P(B)$. In the other case where
+there is some positive strength of association between observing both $A$ and
+$B$ because this interaction is "important" for each species, then the
+probability of observation both $A$ and $B$, $P(AB)$, is greater than $P(A)P(B)$
+as $P(A)$ and $P(B)$ are not independent and instead are positively correlated,
+i.e. $P(AB)> P(A)P(B)$. In this case, the probability of observing a single
+false-negative in our naive model from @fig:geometric(A) is $p_{fn}= 1-P(AB)$,
+which due to the above inequality implies $p_{fn}>1-P(A)P(B)$. This indicates an
+increasingly greater probability of a false negative as the strength of
+association gets stronger, $P(AB) \to P(AB) \gg P(A)P(B)$. However, this still
+does not consider variation in species abundance in space and time
+[@Poisot2015SpeWhy]. If positive or negative associations between species
+structure variation in the distribution of $P(AB)$ across space/time, then the
+spatial/temporal biases induced by data collection would further impact the
+realized false-negative-rate, as the probability of false negative would not be
+constant for each pair of species across sites.
 
 To test for these positive associations in data we scoured Mangal for datasets
 with many spatial or temporal replicates of the same system, which led the the
