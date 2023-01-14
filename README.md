@@ -494,6 +494,11 @@ positive rate (one of the components of ROC-AUC). This highlights a more broad
 issue of label class imbalance, meaning there are far more non-interactions than
 interactions in data. A full treatment of the importance of class-balance is
 outside the scope of this paper, but is explored in-depth in @Poisot2022GuiPre.
+Further we see, if anything, gradual decline in the performance of the model
+until we reach very high FNR levels (i.e. $p_{fn} > 0.7$). This is consistent
+with other recent work [@Gupta2023HowMan], although it must be considered that
+the empircal data on which these models are trained already are almost certain
+to already contain false-negatives. 
 
 Although these ML models are surprisingly performant at link prediction given
 their simplicity, there have been several major developments in applying
@@ -515,7 +520,7 @@ see the mean trophic level across networks simulated using the niche model (as
 above), across a spectrum of FNR values. In addition to the clear dependence on
 richness, we see that mean trophic level, despite varying widely between niche
 model simulations, tends to be relatively robust to false-negatives and does not
-deviate widely from the true value until very large FNRs, i.e. $p_{fn} > 0.7$.
+deviate widely from the true value until very large FNRs.
 This is not entirely unsurprising. Removing links randomly from a food-web is
 effectively the inverse problem of the emergence of a giant component (more than
 half of the nodes are in a connected network) in random graphs (see
@@ -564,7 +569,6 @@ This includes explicitly accounting for observation error
 hidden states which account for detection error in occupancy modeling
 [@Joseph2020NeuHie], and could be integrated in the predictive models of
 interactions in the future.
-
 
 This work has several practical consequences for the design of surveys for
 species' interactions. Simulating the process of observation could be a powerful tool for
