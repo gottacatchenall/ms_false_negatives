@@ -315,17 +315,17 @@ number of resamples approaches infinity for the resampled $p_{ij}^*$ for a given
 number of particles $n_p$. We do this by first adjusting for the rates of
 observation error to get the mean resampled probability, $\mathbb{E}[{p_{ij}^*}]$, as
 
-$$\mathbb{E}[{p_{ij}^*}] = p_{ij}(1+p_{fp})(1-p_{fn})$$
+$$\mathbb{E}[{p_{ij}^*}] = p_{ij}(1-p_{fp})+ (1-p_{ij})p_{fn}$$
 
 which yields the normal approximation
 
-$$\mathcal{N}\bigg(n_p \cdot \mathbb{E}[p_{ij}^*], \sqrt{n_p \mathbb{E}[p_{ij}^*] (1- \mathbb{E}[p_{ij}^*])}\bigg)$$
+$$\mathcal{N}\bigg(n_p \cdot \mathbb{E}[p_{ij}^*], \sqrt{n_p\mathbb{E}[p_{ij}^*] (1- \mathbb{E}[p_{ij}^*])}\bigg)$$
 
 which then can be converted back to a distribution of frequency of successes to
 yield the final approximation
 
-$$\mathcal{N}\bigg( \mathbb{E}[{p_{ij}^*}] ,
-\sqrt{\frac{\mathbb{E}[p_{ij}^*](1-\mathbb{E}[p_{ij}^*] )}{n_p}} \bigg)$$
+$$\mathcal{N}\bigg( \mathbb{E}[p_{ij}^*] , \sqrt{\frac{\mathbb{E}[p_{ij}^*]
+(1-\mathbb{E}[p_{ij}^*] )}{n_p}} \bigg)$$ 
 {#eq:eq1}
 
 We can then further truncate to remain on the interval $(0,1)$ (as the output is
