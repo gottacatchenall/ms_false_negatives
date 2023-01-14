@@ -341,23 +341,22 @@ other. So, although co-occurrence is not directly indicative of an
 interaction, it \emph{is} a precondition for an interaction.
 
 Here, we illustrate how our confidence that a pair of species never
-interacts highly depends on sampling effort. We suggest that surveys of
-species interactions can benefit from simulation modeling of the
-sampling process. We demonstrate how the realized false-negative-rate of
-interactions is related to the relative abundance of the species pool,
-and introduce a method to produce a null estimate of the
-false-negative-rate given total sampling effort (the total count of all
-interactions seen among all species-pairs) and a method for including
-uncertainty into model predictions of interaction probabilities to
-account for observation error. We then show that positive associations
-in co-occurrence data can increase the realized number of
-false-negatives, and demonstrate these positive associations are rampant
-in network datasets, and conclude by recommending that the simulation of
-sampling effort and species occurrence can and should be used to help
-design surveys of species interaction diversity (Moore \& McCarthy
-2016), and by advocating use of null models like those presented here as
-a tool for both guiding design of surveys of species interactions and
-for modeling detection error in predictive models.
+interacts highly depends on sampling effort. We demonstrate how the
+realized false-negative-rate of interactions is related to the relative
+abundance of the species pool, and introduce a method to produce a null
+estimate of the false-negative-rate given total sampling effort (the
+total count of all interactions seen among all species-pairs) and a
+method for including uncertainty into model predictions of interaction
+probabilities to account for observation error. We then confront these
+models with data, by showing that positive associations in co-occurrence
+data can increase the realized number of false-negatives and by showing
+these positive associations are rampant in network datasets. We conclude
+by recommending that the simulation of sampling effort and species
+occurrence can and should be used to help design surveys of species
+interaction diversity (Moore \& McCarthy 2016), and by advocating use of
+null models like those presented here as a tool for both guiding design
+of surveys of species interactions and for including detection error
+into predictive models.
 
 \begin{figure}
 \hypertarget{fig:concept}{%
@@ -618,12 +617,12 @@ probabilities which are adjusted by the true and false negative rates.
 
 There is also an analytic way to approximate this distribution using the
 normal approximation to binomial. As a reminder, as the total number of
-samples \(n\) from a binomial distribution with success probability
-\(p\) from approaches infinity, the sum of total successes across all
-samples approaches a normal distribution with mean \(np\) and variance
-\(np(1-p)\). We can use this to correct the estimate \(p_{ij}\) based on
-the expected false-negative-rate \(p_{fn}\) and false-positive rate
-\(p_{fp}\) to obtain the limiting distribution as the number of
+samples \(N\) from a binomial distribution for \(n\) trials with success
+probability \(p\) from approaches infinity, the sum of total successes
+across all samples approaches a normal distribution with mean \(np\) and
+variance \(np(1-p)\). We can use this to correct the estimate \(p_{ij}\)
+based on the expected false-negative-rate \(p_{fn}\) and false-positive
+rate \(p_{fp}\) to obtain the limiting distribution as the number of
 resamples approaches infinity for the resampled \(p_{ij}^*\) for a given
 number of particles \(n_p\). We do this by first adjusting for the rates
 of observation error to get the mean resampled probability,
