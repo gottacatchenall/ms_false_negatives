@@ -339,14 +339,16 @@ $$p_{ij}^* \sim \mathcal{N}\bigg( \mathbb{E}[p_{ij}^*] , \sqrt{\frac{\mathbb{E}[
 (1-\mathbb{E}[p_{ij}^*] )}{n_p}} \bigg)$$ 
 {#eq:eq1}
 
-We can then further truncate to remain on the interval $(0,1)$ (as the output is
-a probability, although in practice often the probability mass outside $(0,1)$
-is extremely low.  As an example case study, we use a boosted-regression-tree to
-predict interactions in a host-parasite network [@Hadfield2014TalTwo] (with
-features derived in the same manner as @Strydom2021RoaPre derives features on
-this data) to produce a set of interaction predictions. We then applied this
-method to a set of a few resampled interaction probabilities between mammals and
-parasite species shown in figure @fig:resampling_concept(C). 
+We can then further truncate this distribution to remain on the interval
+$(0,1)$, as the output is a probability, although in practice often the
+probability mass outside $(0,1)$ is extremely low except for $p_{ij}$ values
+very close to 0 or 1.  As an example case study, we use a
+boosted-regression-tree to predict interactions in a host-parasite network
+[@Hadfield2014TalTwo] (with features derived in the same manner as
+@Strydom2021RoaPre derives features on this data) to produce a set of
+interaction predictions. We then applied this method to a set of a few resampled
+interaction probabilities between mammals and parasite species shown in figure
+@fig:resampling_concept(C). 
 
 Why is this useful? For one, this analytic method avoids the extra computation
 required by simulating samples from this distribution directly. Further, it
