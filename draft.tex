@@ -546,7 +546,7 @@ well-considered when sampling individual species (Willott 2001), but
 have not yet been adopted for designing samples of communities.
 
 \hypertarget{including-observation-error-in-interaction-predictions}{%
-\subsection{Including observation-error in interaction
+\subsection{Including observation error in interaction
 predictions}\label{including-observation-error-in-interaction-predictions}}
 
 Here we show how to incorporate imperfect observation (both
@@ -596,27 +596,38 @@ resample of the interaction probability \(p_{ij}^*\). Across many
 resamples, this forms a distribution of probabilities which are adjusted
 by the true and false negative rates.
 
-There is also an analytic way to represent this.
+There is also an analytic way to represent approximate this distribution
+using the normal approximation to binomial. As a reminder, as the total
+number of samples \(n\) from a binomial distribution with success
+probability \(p\) from approaches infinity, the sum of total successes
+across all samples approaches a normal distribution with mean \(np\) and
+variance \(np(1-p)\). We can use this to correct the estimate \(p_{ij}\)
+based on the expected false-negative-rate \(p_{fn}\) and false-positive
+rate \(p_{fp}\) to obtain the limiting distribution as the number of
+resamples approaches infinity for the resampled \(p_{ij}^*\) for a given
+number of particles \(n_p\). We do this by first adjusting for the rates
+of observation error to get the mean resampled probability,
+\(\bar{p_{ij}^*}\), as
 
-Normal approximation to binomial, as the total number of samples from
-\(n_p\) particles approaches infinity, the sum of total successes across
-all particles approaches a normal distribution with parameters
+\[\bar{p_{ij}^*} = p_{ij}(1+p_{fp})(1-p_{fn})\]
 
-\[\mathcal{N}\bigg(n_p p_{ij}, \sqrt{n_p p_{ij}(1-p_{ij})}\bigg)\]
+which yields the normal approximation
 
-Corrected \(p_{ij}\) based on \(p_fn\) and \(p_tn\) as
-\(p_{ij}^* = p_{ij}(1+p_{fp})(1-p_{fn})\)
-\[\mathcal{N}\bigg(n_p p_{ij}^*, \sqrt{n_p p_{ij}^* (1-p_{ij}^*)}\bigg)\]
+\[\mathcal{N}\bigg(n_p \bar{p_{ij}^*}, \sqrt{n_p \bar{p_{ij}^*} (1-\bar{p_{ij}^*})}\bigg)\]
 
-and then by normalizing back to \((0,1)\).
+which then can be converted back to a distribution of frequency of
+successes to yield the final approximation
 
-\[\mathcal{N}\bigg(p^*_{ij}, \sqrt{\frac{ p_{ij}(1-p_{ij})}{n_p}} \bigg)\]
+\begin{equation}\protect\hypertarget{eq:eq1}{}{\mathcal{N}\bigg(\bar{p^*_{ij}},
+\sqrt{\frac{\bar{p_{ij}^*}(1-\bar{p_{ij}^*})}{n_p}} \bigg)}\label{eq:eq1}\end{equation}
 
-We can then further truncate this, although in practice probability mass
-outside (0,1) is exteremly loss.
+We can then further truncate to remain on the interval \((0,1)\) (as the
+output is a probability, although in practice often the probability mass
+outside \((0,1)\) is exteremly low.
 
-Number of particles \(n_p\) as a uncertainty width. Nautral analogue to
-number of observations of co-occurrence.
+Why is this useful? Less computation, number of particles \(n_p\) as a
+uncertainty width, nautral analogue to number of observations of
+co-occurrence. More about this here.
 
 As an example case study, we use a boosted-regresssion-tree to predict
 interactions in a host-parasite network (Hadfield \emph{et al.} 2014)
