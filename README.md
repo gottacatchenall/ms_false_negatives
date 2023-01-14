@@ -52,8 +52,6 @@ toward the usual suspects [@Poisot2021GloKno]. We therefore need a statistical
 approach to assessing these biases in the observation process and their
 consequences for our understanding of interaction networks. 
 
-
-
 The importance of _sampling effort_ and its impact on resulting ecological data
 has produced a rich body of literature.The recorded number of species in a
 dataset or sample depends on the total number of observations
@@ -101,15 +99,15 @@ demonstrate how the realized false-negative rate of interactions is related to
 the relative abundance of the species pool, and use simulation to produce a null
 estimate of the false-negative rate given total sampling effort (the total count
 of all individuals of all species seen), and to introduce a method for
-introducing uncertainty into model predictions of interaction probability to account for
-observation error. We then show that positive associations in co-occurrence data
-can increase the realized number of false-negatives, and demonstrate these
-positive associations are rampant in network datasets, and conclude by
-recommending that the simulation of sampling effort and species occurrence can
-and should be used to help design surveys of species interaction diversity
-[@Moore2016OptEco], and by advocating use of null models like those presented
-here as a tool for both guiding design of surveys of species interactions and
-for modeling detection error in predictive models.
+introducing uncertainty into model predictions of interaction probability to
+account for observation error. We then show that positive associations in
+co-occurrence data can increase the realized number of false-negatives, and
+demonstrate these positive associations are rampant in network datasets, and
+conclude by recommending that the simulation of sampling effort and species
+occurrence can and should be used to help design surveys of species interaction
+diversity [@Moore2016OptEco], and by advocating use of null models like those
+presented here as a tool for both guiding design of surveys of species
+interactions and for modeling detection error in predictive models.
 
 
 ![This conceptual example considers a sample of the trophic community of bears, wolves, salmon (pink fish), pike (yellow fish), berry trees, and aspen trees. The true metaweb (all realized interactions across the entire spatial extent) is shown on the left. In the center is what a hypothetical ecologist samples at each site. Notice that although bears are observed co-occurring with both salmon and pike, there was never a direct observation of bears eating pike, even though they actually do. Therefore, this interaction between bears and pike is a false negative.](./figures/concept.png){#fig:concept}
@@ -210,7 +208,8 @@ false-negative, and a true-negative otherwise. For each pair of species $(i,j)$,
 if both $i$ and $j$ are observed within the n-observations, the interaction is
 tallied as a true positive if $M_{ij}=1$. If only one of $i$ or $j$ are
 observed---but not both---in these $n$ observations, but $M_{ij}=1$, this is
-counted as a false-negative, and a true-negative otherwise ($M_{ij} = 0$).
+counted as a false-negative, and a true-negative otherwise ($M_{ij} = 0$). This
+process is illustrated conceptually in @fig:resampling_concept(A). 
 
 
 In @fig:geometric(C) we see this model of observation applied to niche model
@@ -268,18 +267,20 @@ designing samples of communities.
 
 ## Including observation error in interaction predictions 
 
-Here we show how to incorporate imperfect observation (both false-negatives and
-false-positives) into model predictions of interaction probability.  Models for
-interaction prediction typically yield a probability of interaction between each
-pair of species. When these are considered with uncertainty, it is usually
+Here we show how to incorporate uncertainty into model predictions of
+interaction probability to account for imperfect observation (both
+false-negatives and false-positives). Models for interaction prediction
+typically yield a probability of interaction between each pair of species,
+$p_{ij}$. When these are considered with uncertainty, it is usually
 model-uncertainty, e.g. the variance in the interaction probability prediction
 across several cross-validation folds, where the data is split into training and
-test sets several times. Here we introduce a method for resampling interaction
-probabilities (outlined in figure @fig:resampling_concept) that simulates the
-observation process with prior estimates of both false-negative and
-false-positive probabilities to produce an output distribution of interaction
-probabilities that accounts for observation error. We implement this in the
-software package InteractionUncertaintySampler.jl. 
+test sets several times.  The method we introduce adjusts the value of a model's
+predictions to produce a distribution of interaction probabilities, which are
+adjusted by a given false-negative-rate $p_{fn}$ and false-positive-rate
+$p_{fp}$ (outlined in figure @fig:resampling_concept). We describe first how to
+sample from this distribution of adjusted interaction probabilities via
+simulation, and show that this distribution can be well-approximated
+analytically. 
 
 ![(A) The process for estimating the false-negative rate (FNR) for an
 interaction dataset consisting of $N$ total observed interactions. (B) The
@@ -288,38 +289,40 @@ false-negative and false-positive rates. (C) The method for interaction
 probability resampling applied to three mammals and three parasites from the
 @Hadfield2014TalTwo dataset.](./figures/uncertainty_sampler.png){#fig:resampling_concept}
 
-We do this by using the process for simulating a distribution of null
-false-negative rates for a given dataset as described above
-(@fig:resampling_concept (A)). We then consider the output prediction from an
-arbitrary prediction model, which is the probability $p_{ij}$ that two species
-$i$ and $j$ interact. To get an estimate of $p_{ij}$ that accounts for
-observation error, we resample the probability of each interaction $p_{ij}$ by
-simulating a series of particles. Each particle is the product of the resampling
-algorithm (“Resampling” within @fig:resampling_concept (B)), where the value of
-a particle is first drawn from a Bernoulli with weight $p_{ij}$, and if that
-value is true, the value remains true with probability $1-p_{fn}$, and if the
-first draw is false, the value remains false with probability $1-p_{fp}$. Over
-many samples of particles, the resulting frequency of ‘true’ outcomes is a
-single resample of the interaction probability $p_{ij}^*$. Across many
-resamples, this forms a distribution of probabilities which are adjusted by the
-true and false negative rates.
+We then consider the output prediction from an arbitrary prediction model, which
+is the probability $p_{ij}$ that two species $i$ and $j$ interact. To get an
+estimate of $p_{ij}$ that accounts for observation error, we resample the
+probability of each interaction $p_{ij}$ by simulating a set of several
+'particles', where each particle is a realization of an interaction occurring
+(either true or false with probabilities $p_{ij}$ and $1-p_{ij}$ respectively)
+and then being correctly observed with probabilities given by $p_{fp}$ and
+$p_{fn}$ to yield a single boolean outcome for each particle.  (“Resampling”
+within @fig:resampling_concept (B)). Over many samples of particles, the
+resulting frequency of ‘true’ outcomes is a single resample of the interaction
+probability $p_{ij}^*$. Across several samples each of several particles, this
+forms a distribution of probabilities which are adjusted by the true and false
+negative rates.
 
-There is also an analytic way to represent approximate this distribution using
-the normal approximation to binomial. As a reminder, as the total number of
-samples  $n$ from a binomial distribution with success probability $p$ from
-approaches infinity, the sum of total successes across all samples approaches a
-normal distribution with mean $np$ and variance $np(1-p)$. We can use this to
-correct the estimate $p_{ij}$ based on the expected false-negative-rate $p_{fn}$
-and false-positive rate $p_{fp}$ to obtain the limiting distribution as the
-number of resamples approaches infinity for the resampled $p_{ij}^*$ for a given
-number of particles $n_p$. We do this by first adjusting for the rates of
-observation error to get the mean resampled probability, $\mathbb{E}[{p_{ij}^*}]$, as
+There is also an analytic way to approximate this distribution using the normal
+approximation to binomial. As a reminder, as the total number of samples  $n$
+from a binomial distribution with success probability $p$ from approaches
+infinity, the sum of total successes across all samples approaches a normal
+distribution with mean $np$ and variance $np(1-p)$. We can use this to correct
+the estimate $p_{ij}$ based on the expected false-negative-rate $p_{fn}$ and
+false-positive rate $p_{fp}$ to obtain the limiting distribution as the number
+of resamples approaches infinity for the resampled $p_{ij}^*$ for a given number
+of particles $n_p$. We do this by first adjusting for the rates of observation
+error to get the mean resampled probability, $\mathbb{E}[{p_{ij}^*}]$, as
 
-$$\mathbb{E}[{p_{ij}^*}] = p_{ij}(1-p_{fp})+ (1-p_{ij})p_{fn}$$
+$$
+\mathbb{E}[{p_{ij}^*}] = p_{ij}(1-p_{fp})+ (1-p_{ij})p_{fn}
+$$
 
 which yields the normal approximation
 
-$$\sum_{i=1}^{n_p} p_{ij}^* \sim \mathcal{N}\bigg(n_p \cdot \mathbb{E}[p_{ij}^*], \sqrt{n_p\mathbb{E}[p_{ij}^*] (1- \mathbb{E}[p_{ij}^*])}\bigg)$$
+$$
+\sum_{i=1}^{n_p} p_{ij}^* \sim \mathcal{N}\bigg(n_p \cdot \mathbb{E}[p_{ij}^*], \sqrt{n_p\mathbb{E}[p_{ij}^*] (1- \mathbb{E}[p_{ij}^*])}\bigg)
+$$
 
 which then can be converted back to a distribution of frequency of successes to
 yield the final approximation
@@ -329,37 +332,37 @@ $$p_{ij}^* \sim \mathcal{N}\bigg( \mathbb{E}[p_{ij}^*] , \sqrt{\frac{\mathbb{E}[
 {#eq:eq1}
 
 We can then further truncate to remain on the interval $(0,1)$ (as the output is
-a probability, although in practice often the probability mass outside
-$(0,1)$ is exteremly low.
+a probability, although in practice often the probability mass outside $(0,1)$
+is exteremly low.  As an example case study, we use a boosted-regression-tree to
+predict interactions in a host-parasite network [@Hadfield2014TalTwo] (with
+features derived in the same manner as @Strydom2021RoaPre derives features on
+this data) to produce a set of interaction predictions. We then applied this
+method to a set of a few resampled interaction probabilities between mammals and
+parasite species shown in figure @fig:resampling_concept(C). 
 
-Why is this useful? Less computation, number of particles $n_p$ as a uncertainty
-width, nautral analogue to number of observations of co-occurrence. More about
-this here. 
+Why is this useful? For one, this analytic method avoids the extra computation
+required by simulating samples from this distribution directly. Further, it
+enables continuous exanination of the number of particles $n_p$ as a uncertainty
+width. The natural analogue for the number of particles sampled is the number of
+observations of co-occurrence for a given pair of species---the fewer the
+particles, the higher the variance of the resulting approximation (see
+supplemental figure 1 for an example). Equation @ref:eq:eq1 is undefined for 0
+particles (i.e. 0 observations co-occurrence), although as $n_p$ approaches $0$
+the approxated normal (once truncated) approaches a uniform distribution on the
+interval $(0,1)$, the maximum entropy distribution where we have no information
+about the possibility of an interaction. 
 
-
-As an example case study, we use a boosted-regresssion-tree to predict
-interactions in a host-parasite network [@Hadfield2014TalTwo] (with features
-derived in the same manner as @Strydom2021RoaPre derives features on this data)
-to produce a set of interaction predictions. We then applied this method to a
-set of a few resampled interaction probabilities between mammals and parasite
-species shown in figure @fig:resampling_concept (C). Here we implement a simple
-resampling algorithm, but this could be extended, for example by  adjusting the
-expected FNR for each pair of species by the relative abundance of each species.
-We have implemented a general framework for this resampling methodology in the
-Julia package InteractionUncertaintySampler.jl, which enables flexible choices
-for priors on false-negative and false-positive rates.
-
-This method allows us to more effectively represent our uncertainty about
-observation error in predictions of species interactions. This also has
-implications for what we mean by ‘uncertainty’ in interaction predictions. A
-model’s prediction can be ‘uncertain’ in two different ways: the model’s
-predictions may have high variance, or the model’s predictions may be centered
-around a probability of interaction of $0.5$, where we are the most unsure about
-whether this interaction exists. Improving the incorporation of different forms
-of uncertainty in probabilistic interaction predictions seems a necessary next
-step toward understanding what pairs of species we know the least about, in
-order to prioritize sampling to provide the most new information possible. 
-
+This also has implications for what we mean by ‘uncertainty’ in interaction
+predictions. A model’s prediction can be ‘uncertain’ in two different ways: (1)
+the model’s predictions may have high variance, or (2) the model’s predictions
+may be centered around a probability of interaction of $0.5$, where we are the
+most unsure about whether this interaction exists . For non-zero $p_{fn}$ and
+$p_{fp}$, the above model always moves the mean interaction probability toward
+0.5 (supplemental figure 2), siding toward higher uncertainty in the latter
+(higher entropy) sense. Improving the incorporation of different forms of
+uncertainty in probabilistic interaction predictions seems a necessary next step
+toward understanding what pairs of species we know the least about, in order to
+prioritize sampling to provide the most new information possible. 
 
 
 # Positive associations in co-occurrence increase the false-negative rate
@@ -367,7 +370,7 @@ order to prioritize sampling to provide the most new information possible.
 The model above doesn't consider the possibility that there are positive or
 negative associations which shift the probability of species cooccurrence
 together due to their interaction [@Cazelles2016TheSpe]. However, here we
-demonstrate that the probability of observing a false negative can be higher if
+demonstrate that the probability of observing a false-negative can be higher if
 there is some positive association in the occurrence of species $A$ and $B$. If
 we denote the probability that we observe the co-occurrence of two species $A$
 and $B$ as $P(AB)$ and if there is no association between the marginal
