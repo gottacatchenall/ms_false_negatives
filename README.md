@@ -319,12 +319,12 @@ $$\mathbb{E}[{p_{ij}^*}] = p_{ij}(1-p_{fp})+ (1-p_{ij})p_{fn}$$
 
 which yields the normal approximation
 
-$$\mathcal{N}\bigg(n_p \cdot \mathbb{E}[p_{ij}^*], \sqrt{n_p\mathbb{E}[p_{ij}^*] (1- \mathbb{E}[p_{ij}^*])}\bigg)$$
+$$\sum_{i=1}^{n_p} p_{ij}^* \sim \mathcal{N}\bigg(n_p \cdot \mathbb{E}[p_{ij}^*], \sqrt{n_p\mathbb{E}[p_{ij}^*] (1- \mathbb{E}[p_{ij}^*])}\bigg)$$
 
 which then can be converted back to a distribution of frequency of successes to
 yield the final approximation
 
-$$\mathcal{N}\bigg( \mathbb{E}[p_{ij}^*] , \sqrt{\frac{\mathbb{E}[p_{ij}^*]
+$$p_{ij}^* \sim \mathcal{N}\bigg( \mathbb{E}[p_{ij}^*] , \sqrt{\frac{\mathbb{E}[p_{ij}^*]
 (1-\mathbb{E}[p_{ij}^*] )}{n_p}} \bigg)$$ 
 {#eq:eq1}
 
