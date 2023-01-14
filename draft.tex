@@ -209,10 +209,10 @@ species occurrence data has rapidly increased in the last decade,
 species interaction data has not kept pace, largely due to the intrinsic
 difficulty and effort required to sample interactions. This means there
 are many interactions between species that occur in nature, but we do
-not think this interaction occurs because we have no record of it. These
-so-called ``false-negatives'' bias data and hinder inference about the
-structure and dynamics of interaction networks. Here, we demonstrate the
-realized rate of false-negatives in data can be quite high, even in
+not know these interactions occur because we have never observed them.
+These so-called ``false-negatives'' bias data and hinder inference about
+the structure and dynamics of interaction networks. Here, we demonstrate
+the realized rate of false-negatives in data can be quite high, even in
 thoroughly sampled systems, due to the intrinsic variation in abundances
 across species in a community. We illustrate how a null model of
 occurrence detection can be used to estimate the false-negative rate in
@@ -869,7 +869,12 @@ positive rate (one of the components of ROC-AUC). This highlights a more
 broad issue of label class imbalance, meaning there are far more
 non-interactions than interactions in data. A full treatment of the
 importance of class-balance is outside the scope of this paper, but is
-explored in-depth in Poisot (2022).
+explored in-depth in Poisot (2022). Further we see, if anything, gradual
+decline in the performance of the model until we reach very high FNR
+levels (i.e.~\(p_{fn} > 0.7\)). This is consistent with other recent
+work (Gupta \emph{et al.} 2023), although it must be considered that the
+empircal data on which these models are trained already are almost
+certain to already contain false-negatives.
 
 Although these ML models are surprisingly performant at link prediction
 given their simplicity, there have been several major developments in
@@ -894,18 +899,17 @@ simulated using the niche model (as above), across a spectrum of FNR
 values. In addition to the clear dependence on richness, we see that
 mean trophic level, despite varying widely between niche model
 simulations, tends to be relatively robust to false-negatives and does
-not deviate widely from the true value until very large FNRs,
-i.e.~\(p_{fn} > 0.7\). This is not entirely unsurprising. Removing links
-randomly from a food-web is effectively the inverse problem of the
-emergence of a giant component (more than half of the nodes are in a
-connected network) in random graphs (see Li \emph{et al.} (2021) for a
-thorough review). The primary difference being that we are removing
-edges, not adding them, and thus we are witnessing the dissolution of a
-giant component, rather than the emergence of one. Further applications
-of percolation theory (Li \emph{et al.} 2021) to the topology of sampled
-ecological networks could improve our understanding of how
-false-negatives impact the inferences about the structure and dynamics
-on these networks.
+not deviate widely from the true value until very large FNRs. This is
+not entirely unsurprising. Removing links randomly from a food-web is
+effectively the inverse problem of the emergence of a giant component
+(more than half of the nodes are in a connected network) in random
+graphs (see Li \emph{et al.} (2021) for a thorough review). The primary
+difference being that we are removing edges, not adding them, and thus
+we are witnessing the dissolution of a giant component, rather than the
+emergence of one. Further applications of percolation theory (Li
+\emph{et al.} 2021) to the topology of sampled ecological networks could
+improve our understanding of how false-negatives impact the inferences
+about the structure and dynamics on these networks.
 
 \hypertarget{discussion}{%
 \section{Discussion}\label{discussion}}
@@ -1096,6 +1100,11 @@ key positions. \emph{Oikos}, 130, 2170--2181.
 Griffiths, D. (1998). Sampling effort, regression method, and the shape
 and slope of sizeabundance relations. \emph{Journal of Animal Ecology},
 67, 795--804.
+
+\leavevmode\hypertarget{ref-Gupta2023HowMan}{}%
+Gupta, A., Figueroa H., D., O'Gorman, E., Jones, I., Woodward, G. \&
+Petchey, O.L. (2023). How many predator guts are required to predict
+trophic interactions? \emph{Food Webs}, 34, e00269.
 
 \leavevmode\hypertarget{ref-Hadfield2014TalTwo}{}%
 Hadfield, J.D., Krasnov, B.R., Poulin, R. \& Nakagawa, S. (2014). A Tale

@@ -1,0 +1,2731 @@
+[
+    {
+        "DOI": "10.7717/peerj.7566",
+        "author": [
+            {
+                "dropping-particle": "de",
+                "family": "Aguiar",
+                "given": "Marcus A. M."
+            },
+            {
+                "family": "Newman",
+                "given": "Erica A."
+            },
+            {
+                "family": "Pires",
+                "given": "Mathias M."
+            },
+            {
+                "family": "Yeakel",
+                "given": "Justin D."
+            },
+            {
+                "family": "Boettiger",
+                "given": "Carl"
+            },
+            {
+                "family": "Burkle",
+                "given": "Laura A."
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            },
+            {
+                "family": "Jr",
+                "given": "Paulo R. Guimar\u00e3es"
+            },
+            {
+                "family": "O\u2019Donnell",
+                "given": "James L."
+            },
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Fortin",
+                "given": "Marie-Jos\u00e9e"
+            },
+            {
+                "family": "Hembry",
+                "given": "David H."
+            }
+        ],
+        "container-title": "PeerJ",
+        "id": "Aguiar2019RevBia",
+        "issued": {
+            "date-parts": [
+                [
+                    2019
+                ]
+            ]
+        },
+        "page": "e7566",
+        "publisher": "PeerJ Inc.",
+        "title": "Revealing biases in the sampling of ecological interaction networks",
+        "type": "article-journal",
+        "volume": "7"
+    },
+    {
+        "DOI": "10.1038/s41559-019-0950-y",
+        "author": [
+            {
+                "family": "Albouy",
+                "given": "Camille"
+            },
+            {
+                "family": "Archambault",
+                "given": "Philippe"
+            },
+            {
+                "family": "Appeltans",
+                "given": "Ward"
+            },
+            {
+                "family": "Ara\u00fajo",
+                "given": "Miguel B."
+            },
+            {
+                "family": "Beauchesne",
+                "given": "David"
+            },
+            {
+                "family": "Cazelles",
+                "given": "Kevin"
+            },
+            {
+                "family": "Cirtwill",
+                "given": "Alyssa R."
+            },
+            {
+                "family": "Fortin",
+                "given": "Marie-Jos\u00e9e"
+            },
+            {
+                "family": "Galiana",
+                "given": "Nuria"
+            },
+            {
+                "family": "Leroux",
+                "given": "Shawn J."
+            },
+            {
+                "family": "Pellissier",
+                "given": "Lo\u00efc"
+            },
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Stouffer",
+                "given": "Daniel B."
+            },
+            {
+                "family": "Wood",
+                "given": "Spencer A."
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            }
+        ],
+        "container-title": "Nature Ecology & Evolution",
+        "id": "Albouy2019MarFis",
+        "issue": "8",
+        "issued": {
+            "date-parts": [
+                [
+                    2019
+                ]
+            ]
+        },
+        "page": "1153-1161",
+        "title": "The marine fish food web is globally connected",
+        "type": "article-journal",
+        "volume": "3"
+    },
+    {
+        "DOI": "10.21105/joss.02721",
+        "author": [
+            {
+                "family": "Banville",
+                "given": "Francis"
+            },
+            {
+                "family": "Vissault",
+                "given": "Steve"
+            },
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            }
+        ],
+        "container-title": "Journal of Open Source Software",
+        "id": "Banville2021ManJl",
+        "issue": "61",
+        "issued": {
+            "date-parts": [
+                [
+                    2021
+                ]
+            ]
+        },
+        "page": "2721",
+        "title": "Mangal.jl and EcologicalNetworks.jl: Two complementary packages for analyzing ecological networks in Julia",
+        "type": "article-journal",
+        "volume": "6"
+    },
+    {
+        "DOI": "10.1146/annurev.ecolsys.38.091206.095818",
+        "author": [
+            {
+                "family": "Bascompte",
+                "given": "Jordi"
+            },
+            {
+                "family": "Jordano",
+                "given": "Pedro"
+            }
+        ],
+        "container-title": "Annual Review of Ecology, Evolution, and Systematics",
+        "id": "Bascompte2007PlaMut",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2007
+                ]
+            ]
+        },
+        "page": "567-593",
+        "title": "Plant-Animal Mutualistic Networks: The Architecture of Biodiversity",
+        "type": "article-journal",
+        "volume": "38"
+    },
+    {
+        "DOI": "10.1101/2020.05.22.111344",
+        "author": [
+            {
+                "family": "Becker",
+                "given": "Daniel J."
+            },
+            {
+                "family": "Albery",
+                "given": "Gregory F."
+            },
+            {
+                "family": "Sjodin",
+                "given": "Anna R."
+            },
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Bergner",
+                "given": "Laura M."
+            },
+            {
+                "family": "Dallas",
+                "given": "Tad A."
+            },
+            {
+                "family": "Eskew",
+                "given": "Evan A."
+            },
+            {
+                "family": "Farrell",
+                "given": "Maxwell J."
+            },
+            {
+                "family": "Guth",
+                "given": "Sarah"
+            },
+            {
+                "family": "Han",
+                "given": "Barbara A."
+            },
+            {
+                "family": "Simmons",
+                "given": "Nancy B."
+            },
+            {
+                "family": "Stock",
+                "given": "Michiel"
+            },
+            {
+                "family": "Teeling",
+                "given": "Emma C."
+            },
+            {
+                "family": "Carlson",
+                "given": "Colin J."
+            }
+        ],
+        "chapter-number": "New Results",
+        "id": "Becker2021OptPre",
+        "issued": {
+            "date-parts": [
+                [
+                    2021
+                ]
+            ]
+        },
+        "page": "2020.05.22.111344",
+        "publisher": "bioRxiv",
+        "title": "Optimizing predictive models to prioritize viral discovery in zoonotic reservoirs",
+        "type": ""
+    },
+    {
+        "DOI": "10.48550/arXiv.1411.1607",
+        "URL": "http://arxiv.org/abs/1411.1607",
+        "author": [
+            {
+                "family": "Bezanson",
+                "given": "Jeff"
+            },
+            {
+                "family": "Edelman",
+                "given": "Alan"
+            },
+            {
+                "family": "Karpinski",
+                "given": "Stefan"
+            },
+            {
+                "family": "Shah",
+                "given": "Viral B."
+            }
+        ],
+        "id": "Bezanson2015JulFre",
+        "issued": {
+            "date-parts": [
+                [
+                    2015
+                ]
+            ]
+        },
+        "number": "arXiv:1411.1607",
+        "publisher": "arXiv",
+        "title": "Julia: A Fresh Approach to Numerical Computing",
+        "type": ""
+    },
+    {
+        "DOI": "10.1111/ele.13525",
+        "author": [
+            {
+                "family": "Blanchet",
+                "given": "F. Guillaume"
+            },
+            {
+                "family": "Cazelles",
+                "given": "Kevin"
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            }
+        ],
+        "container-title": "Ecology Letters",
+        "id": "Blanchet2020CooNot",
+        "issue": "7",
+        "issued": {
+            "date-parts": [
+                [
+                    2020
+                ]
+            ]
+        },
+        "page": "1050-1063",
+        "title": "Co-occurrence is not evidence of ecological interactions",
+        "type": "article-journal",
+        "volume": "23"
+    },
+    {
+        "DOI": "10.21105/joss.02704",
+        "author": [
+            {
+                "family": "Blaom",
+                "given": "Anthony D."
+            },
+            {
+                "family": "Kiraly",
+                "given": "Franz"
+            },
+            {
+                "family": "Lienart",
+                "given": "Thibaut"
+            },
+            {
+                "family": "Simillides",
+                "given": "Yiannis"
+            },
+            {
+                "family": "Arenas",
+                "given": "Diego"
+            },
+            {
+                "family": "Vollmer",
+                "given": "Sebastian J."
+            }
+        ],
+        "container-title": "Journal of Open Source Software",
+        "id": "Blaom2020MljJul",
+        "issue": "55",
+        "issued": {
+            "date-parts": [
+                [
+                    2020
+                ]
+            ]
+        },
+        "page": "2704",
+        "title": "MLJ: A Julia package for composable machine learning",
+        "type": "article-journal",
+        "volume": "5"
+    },
+    {
+        "DOI": "10.1111/2041-210X.12365",
+        "author": [
+            {
+                "family": "Boakes",
+                "given": "Elizabeth H."
+            },
+            {
+                "family": "Rout",
+                "given": "Tracy M."
+            },
+            {
+                "family": "Collen",
+                "given": "Ben"
+            }
+        ],
+        "container-title": "Methods in Ecology and Evolution",
+        "id": "Boakes2015InfSpe",
+        "issue": "6",
+        "issued": {
+            "date-parts": [
+                [
+                    2015
+                ]
+            ]
+        },
+        "page": "678-687",
+        "title": "Inferring species extinction: The use of sighting records",
+        "type": "article-journal",
+        "volume": "6"
+    },
+    {
+        "DOI": "10.1371/journal.pone.0038295",
+        "author": [
+            {
+                "family": "Canard",
+                "given": "Elsa"
+            },
+            {
+                "family": "Mouquet",
+                "given": "Nicolas"
+            },
+            {
+                "family": "Marescot",
+                "given": "Lucile"
+            },
+            {
+                "family": "Gaston",
+                "given": "Kevin J."
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            },
+            {
+                "family": "Mouillot",
+                "given": "David"
+            }
+        ],
+        "container-title": "PLOS ONE",
+        "id": "Canard2012EmeStr",
+        "issue": "8",
+        "issued": {
+            "date-parts": [
+                [
+                    2012
+                ]
+            ]
+        },
+        "page": "e38295",
+        "publisher": "Public Library of Science",
+        "title": "Emergence of Structural Patterns in Neutral Trophic Networks",
+        "type": "article-journal",
+        "volume": "7"
+    },
+    {
+        "DOI": "10.1111/ele.12740",
+        "author": [
+            {
+                "family": "CaraDonna",
+                "given": "Paul J."
+            },
+            {
+                "family": "Petry",
+                "given": "William K."
+            },
+            {
+                "family": "Brennan",
+                "given": "Ross M."
+            },
+            {
+                "family": "Cunningham",
+                "given": "James L."
+            },
+            {
+                "family": "Bronstein",
+                "given": "Judith L."
+            },
+            {
+                "family": "Waser",
+                "given": "Nickolas M."
+            },
+            {
+                "family": "Sanders",
+                "given": "Nathan J."
+            }
+        ],
+        "container-title": "Ecology Letters",
+        "id": "CaraDonna2017IntRew",
+        "issue": "3",
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        },
+        "page": "385-394",
+        "title": "Interaction rewiring and the rapid turnover of plantpollinator networks",
+        "type": "article-journal",
+        "volume": "20"
+    },
+    {
+        "DOI": "10.5061/dryad.s91p4",
+        "author": [
+            {
+                "family": "CaraDonna",
+                "given": "Paul J."
+            },
+            {
+                "family": "Petry",
+                "given": "William K."
+            },
+            {
+                "family": "Brennan",
+                "given": "Ross M."
+            },
+            {
+                "family": "Cunningham",
+                "given": "James L."
+            },
+            {
+                "family": "Bronstein",
+                "given": "Judith L."
+            },
+            {
+                "family": "Waser",
+                "given": "Nickolas M."
+            },
+            {
+                "family": "Sanders",
+                "given": "Nathan J."
+            }
+        ],
+        "id": "CaraDonna2018DatInt",
+        "issued": {
+            "date-parts": [
+                [
+                    2018
+                ]
+            ]
+        },
+        "title": "Data from: Interaction rewiring and the rapid turnover of plant-pollinator networks",
+        "type": ""
+    },
+    {
+        "DOI": "10.1098/rspb.2020.1841",
+        "author": [
+            {
+                "family": "Carlson",
+                "given": "Colin J."
+            },
+            {
+                "family": "Dallas",
+                "given": "Tad A."
+            },
+            {
+                "family": "Alexander",
+                "given": "Laura W."
+            },
+            {
+                "family": "Phelan",
+                "given": "Alexandra L."
+            },
+            {
+                "family": "Phillips",
+                "given": "Anna J."
+            }
+        ],
+        "container-title": "Proceedings of the Royal Society B: Biological Sciences",
+        "id": "Carlson2020WhaWou",
+        "issue": "1939",
+        "issued": {
+            "date-parts": [
+                [
+                    2020
+                ]
+            ]
+        },
+        "page": "20201841",
+        "publisher": "Royal Society",
+        "title": "What would it take to describe the global diversity of parasites?",
+        "type": "article-journal",
+        "volume": "287"
+    },
+    {
+        "DOI": "10.1007/s12080-015-0281-9",
+        "author": [
+            {
+                "family": "Cazelles",
+                "given": "K\u00e9vin"
+            },
+            {
+                "family": "Ara\u00fajo",
+                "given": "Miguel B."
+            },
+            {
+                "family": "Mouquet",
+                "given": "Nicolas"
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            }
+        ],
+        "container-title": "Theoretical Ecology",
+        "id": "Cazelles2016TheSpe",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2016
+                ]
+            ]
+        },
+        "page": "39-48",
+        "title": "A theory for species co-occurrence in interaction networks",
+        "type": "article-journal",
+        "volume": "9"
+    },
+    {
+        "DOI": "10.2307/2937053",
+        "author": [
+            {
+                "family": "Closs",
+                "given": "G. P."
+            },
+            {
+                "family": "Lake",
+                "given": "P. S."
+            }
+        ],
+        "container-title": "Ecological Monographs",
+        "id": "Closs1994SpaTem",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    1994
+                ]
+            ]
+        },
+        "page": "1-21",
+        "title": "Spatial and Temporal Variation in the Structure of an Intermittent-Stream Food Web",
+        "type": "article-journal",
+        "volume": "64"
+    },
+    {
+        "DOI": "10.1371/journal.pone.0176751",
+        "author": [
+            {
+                "family": "Connor",
+                "given": "Nora"
+            },
+            {
+                "family": "Barber\u00e1n",
+                "given": "Albert"
+            },
+            {
+                "family": "Clauset",
+                "given": "Aaron"
+            }
+        ],
+        "container-title": "PLOS ONE",
+        "id": "Connor2017UsiNul",
+        "issue": "5",
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        },
+        "page": "e0176751",
+        "publisher": "Public Library of Science",
+        "title": "Using null models to infer microbial co-occurrence networks",
+        "type": "article-journal",
+        "volume": "12"
+    },
+    {
+        "DOI": "10.7717/peerj.7566",
+        "author": [
+            {
+                "family": "Aguiar",
+                "given": "Marcus A. M.",
+                "non-dropping-particle": "de"
+            },
+            {
+                "family": "Newman",
+                "given": "Erica A."
+            },
+            {
+                "family": "Pires",
+                "given": "Mathias M."
+            },
+            {
+                "family": "Yeakel",
+                "given": "Justin D."
+            },
+            {
+                "family": "Boettiger",
+                "given": "Carl"
+            },
+            {
+                "family": "Burkle",
+                "given": "Laura A."
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            },
+            {
+                "family": "Guimar\u00e3es",
+                "given": "Paulo R."
+            },
+            {
+                "family": "O\u2019Donnell",
+                "given": "James L."
+            },
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Fortin",
+                "given": "Marie-Jos\u00e9e"
+            },
+            {
+                "family": "Hembry",
+                "given": "David H."
+            }
+        ],
+        "container-title": "PeerJ",
+        "id": "deAguiar2019RevBia",
+        "issued": {
+            "date-parts": [
+                [
+                    2019
+                ]
+            ]
+        },
+        "page": "e7566",
+        "title": "Revealing biases in the sampling of ecological interaction networks",
+        "type": "article-journal",
+        "volume": "7"
+    },
+    {
+        "author": [
+            {
+                "family": "Gauzens",
+                "given": "Beno\u00eet"
+            },
+            {
+                "family": "Legendre",
+                "given": "St\u00e9phane"
+            },
+            {
+                "family": "Lazzaro",
+                "given": "Xavier"
+            },
+            {
+                "family": "Lacroix",
+                "given": "G\u00e9rard"
+            }
+        ],
+        "container-title": "Oikos",
+        "id": "Gauzens2013FooAgg",
+        "issue": "11",
+        "issued": {
+            "date-parts": [
+                [
+                    2013
+                ]
+            ]
+        },
+        "page": "1606-1615",
+        "publisher": "[Nordic Society Oikos, Wiley]",
+        "title": "Food-web aggregation, methodological and functional issues",
+        "type": "article-journal",
+        "volume": "122"
+    },
+    {
+        "DOI": "10.1111/oik.08541",
+        "author": [
+            {
+                "family": "Giacomuzzo",
+                "given": "Emanuele"
+            },
+            {
+                "family": "Jord\u00e1n",
+                "given": "Ferenc"
+            }
+        ],
+        "container-title": "Oikos",
+        "id": "Giacomuzzo2021FooWeb",
+        "issue": "12",
+        "issued": {
+            "date-parts": [
+                [
+                    2021
+                ]
+            ]
+        },
+        "page": "2170-2181",
+        "title": "Food web aggregation: Effects on key positions",
+        "type": "article-journal",
+        "volume": "130"
+    },
+    {
+        "DOI": "10.1046/j.1365-2656.1998.00244.x",
+        "author": [
+            {
+                "family": "Griffiths",
+                "given": "David"
+            }
+        ],
+        "container-title": "Journal of Animal Ecology",
+        "id": "Griffiths1998SamEff",
+        "issue": "5",
+        "issued": {
+            "date-parts": [
+                [
+                    1998
+                ]
+            ]
+        },
+        "page": "795-804",
+        "title": "Sampling effort, regression method, and the shape and slope of sizeabundance relations",
+        "type": "article-journal",
+        "volume": "67"
+    },
+    {
+        "DOI": "10.1016/j.fooweb.2022.e00269",
+        "author": [
+            {
+                "family": "Gupta",
+                "given": "Anubhav"
+            },
+            {
+                "family": "Figueroa H.",
+                "given": "David"
+            },
+            {
+                "family": "O\u2019Gorman",
+                "given": "Eoin"
+            },
+            {
+                "family": "Jones",
+                "given": "Iwan"
+            },
+            {
+                "family": "Woodward",
+                "given": "Guy"
+            },
+            {
+                "family": "Petchey",
+                "given": "Owen L."
+            }
+        ],
+        "container-title": "Food Webs",
+        "id": "Gupta2023HowMan",
+        "issued": {
+            "date-parts": [
+                [
+                    2023
+                ]
+            ]
+        },
+        "page": "e00269",
+        "title": "How many predator guts are required to predict trophic interactions?",
+        "type": "article-journal",
+        "volume": "34"
+    },
+    {
+        "DOI": "10.1086/674445",
+        "author": [
+            {
+                "family": "Hadfield",
+                "given": "Jarrod D."
+            },
+            {
+                "family": "Krasnov",
+                "given": "Boris R."
+            },
+            {
+                "family": "Poulin",
+                "given": "Robert"
+            },
+            {
+                "family": "Nakagawa",
+                "given": "Shinichi"
+            }
+        ],
+        "container-title": "The American Naturalist",
+        "id": "Hadfield2014TalTwo",
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    2014
+                ]
+            ]
+        },
+        "page": "174-187",
+        "publisher": "The University of Chicago Press",
+        "title": "A Tale of Two Phylogenies: Comparative Analyses of Ecological Interactions.",
+        "type": "article-journal",
+        "volume": "183"
+    },
+    {
+        "DOI": "10.1126/science.257.5073.1107",
+        "author": [
+            {
+                "family": "Havens",
+                "given": "Karl"
+            }
+        ],
+        "container-title": "Science",
+        "id": "Havens1992ScaStr",
+        "issue": "5073",
+        "issued": {
+            "date-parts": [
+                [
+                    1992
+                ]
+            ]
+        },
+        "page": "1107-1109",
+        "publisher": "American Association for the Advancement of Science",
+        "title": "Scale and Structure in Natural Food Webs",
+        "type": "article-journal",
+        "volume": "257"
+    },
+    {
+        "id": "IntRew",
+        "publisher": "https://onlinelibrary.wiley.com/doi/full/10.1111/ele.12740",
+        "title": "Interaction rewiring and the rapid turnover of plantpollinator networks - CaraDonna - 2017 - Ecology Letters - Wiley Online Library",
+        "type": ""
+    },
+    {
+        "id": "IntRewa",
+        "publisher": "https://onlinelibrary.wiley.com/doi/full/10.1111/ele.12740",
+        "title": "Interaction rewiring and the rapid turnover of plantpollinator networks - CaraDonna - 2017 - Ecology Letters - Wiley Online Library",
+        "type": ""
+    },
+    {
+        "id": "IntRewb",
+        "publisher": "https://onlinelibrary.wiley.com/doi/full/10.1111/ele.12740",
+        "title": "Interaction rewiring and the rapid turnover of plantpollinator networks - CaraDonna - 2017 - Ecology Letters - Wiley Online Library",
+        "type": ""
+    },
+    {
+        "DOI": "10.1101/2021.07.06.451319",
+        "author": [
+            {
+                "family": "Johnson",
+                "given": "Erik K."
+            },
+            {
+                "family": "Larremore",
+                "given": "Daniel B."
+            }
+        ],
+        "chapter-number": "New Results",
+        "id": "Johnson2021BayEst",
+        "issued": {
+            "date-parts": [
+                [
+                    2021
+                ]
+            ]
+        },
+        "page": "2021.07.06.451319",
+        "publisher": "bioRxiv",
+        "title": "Bayesian estimation of population size and overlap from random subsamples",
+        "type": ""
+    },
+    {
+        "DOI": "10.1371/journal.pbio.1002559",
+        "author": [
+            {
+                "family": "Jordano",
+                "given": "Pedro"
+            }
+        ],
+        "container-title": "PLOS Biology",
+        "id": "Jordano2016ChaEco",
+        "issue": "9",
+        "issued": {
+            "date-parts": [
+                [
+                    2016
+                ]
+            ]
+        },
+        "page": "e1002559",
+        "publisher": "Public Library of Science",
+        "title": "Chasing Ecological Interactions",
+        "type": "article-journal",
+        "volume": "14"
+    },
+    {
+        "DOI": "10.1111/1365-2435.12763",
+        "author": [
+            {
+                "family": "Jordano",
+                "given": "Pedro"
+            }
+        ],
+        "container-title": "Functional Ecology",
+        "id": "Jordano2016SamNet",
+        "issue": "12",
+        "issued": {
+            "date-parts": [
+                [
+                    2016
+                ]
+            ]
+        },
+        "page": "1883-1893",
+        "title": "Sampling networks of ecological interactions",
+        "type": "article-journal",
+        "volume": "30"
+    },
+    {
+        "DOI": "10.1111/ele.13462",
+        "author": [
+            {
+                "family": "Joseph",
+                "given": "Maxwell B."
+            }
+        ],
+        "container-title": "Ecology Letters",
+        "id": "Joseph2020NeuHie",
+        "issue": "4",
+        "issued": {
+            "date-parts": [
+                [
+                    2020
+                ]
+            ]
+        },
+        "page": "734-747",
+        "title": "Neural hierarchical models of ecological populations",
+        "type": "article-journal",
+        "volume": "23"
+    },
+    {
+        "DOI": "10.1186/1471-2148-14-66",
+        "author": [
+            {
+                "family": "Kenall",
+                "given": "Amye"
+            },
+            {
+                "family": "Harold",
+                "given": "Simon"
+            },
+            {
+                "family": "Foote",
+                "given": "Christopher"
+            }
+        ],
+        "container-title": "BMC Evolutionary Biology",
+        "id": "Kenall2014OpeFut",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2014
+                ]
+            ]
+        },
+        "page": "66",
+        "title": "An open future for ecological and evolutionary data?",
+        "type": "article-journal",
+        "volume": "14"
+    },
+    {
+        "DOI": "10.48550/arXiv.2204.01855",
+        "URL": "http://arxiv.org/abs/2204.01855",
+        "author": [
+            {
+                "family": "Khoshraftar",
+                "given": "Shima"
+            },
+            {
+                "family": "An",
+                "given": "Aijun"
+            }
+        ],
+        "id": "Khoshraftar2022SurGra",
+        "issued": {
+            "date-parts": [
+                [
+                    2022
+                ]
+            ]
+        },
+        "number": "arXiv:2204.01855",
+        "publisher": "arXiv",
+        "title": "A Survey on Graph Representation Learning Methods",
+        "type": ""
+    },
+    {
+        "DOI": "10.1046/j.1365-2656.2003.00710.x",
+        "author": [
+            {
+                "family": "Koleff",
+                "given": "Patricia"
+            },
+            {
+                "family": "Gaston",
+                "given": "Kevin J."
+            },
+            {
+                "family": "Lennon",
+                "given": "Jack J."
+            }
+        ],
+        "container-title": "Journal of Animal Ecology",
+        "id": "Koleff2003MeaBet",
+        "issue": "3",
+        "issued": {
+            "date-parts": [
+                [
+                    2003
+                ]
+            ]
+        },
+        "page": "367-382",
+        "title": "Measuring beta diversity for presenceabsence data",
+        "type": "article-journal",
+        "volume": "72"
+    },
+    {
+        "DOI": "10.1002/ecy.1832",
+        "author": [
+            {
+                "family": "Kopelke",
+                "given": "Jens-Peter"
+            },
+            {
+                "family": "Nyman",
+                "given": "Tommi"
+            },
+            {
+                "family": "Cazelles",
+                "given": "K\u00e9vin"
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            },
+            {
+                "family": "Vissault",
+                "given": "Steve"
+            },
+            {
+                "family": "Roslin",
+                "given": "Tomas"
+            }
+        ],
+        "container-title": "Ecology",
+        "id": "Kopelke2017FooStr",
+        "issue": "6",
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        },
+        "page": "1730-1730",
+        "title": "Food-web structure of willow-galling sawflies and their natural enemies across Europe",
+        "type": "article-journal",
+        "volume": "98"
+    },
+    {
+        "DOI": "10.1016/j.physrep.2020.12.003",
+        "author": [
+            {
+                "family": "Li",
+                "given": "Ming"
+            },
+            {
+                "family": "Liu",
+                "given": "Run-Ran"
+            },
+            {
+                "family": "L\u00fc",
+                "given": "Linyuan"
+            },
+            {
+                "family": "Hu",
+                "given": "Mao-Bin"
+            },
+            {
+                "family": "Xu",
+                "given": "Shuqi"
+            },
+            {
+                "family": "Zhang",
+                "given": "Yi-Cheng"
+            }
+        ],
+        "collection-title": "Percolation on complex networks: Theory and application",
+        "container-title": "Physics Reports",
+        "id": "Li2021PerCom",
+        "issued": {
+            "date-parts": [
+                [
+                    2021
+                ]
+            ]
+        },
+        "page": "1-68",
+        "title": "Percolation on complex networks: Theory and application",
+        "type": "article-journal",
+        "volume": "907"
+    },
+    {
+        "DOI": "10.1016/j.physrep.2020.12.003",
+        "author": [
+            {
+                "family": "Li",
+                "given": "Ming"
+            },
+            {
+                "family": "Liu",
+                "given": "Run-Ran"
+            },
+            {
+                "family": "L\u00fc",
+                "given": "Linyuan"
+            },
+            {
+                "family": "Hu",
+                "given": "Mao-Bin"
+            },
+            {
+                "family": "Xu",
+                "given": "Shuqi"
+            },
+            {
+                "family": "Zhang",
+                "given": "Yi-Cheng"
+            }
+        ],
+        "collection-title": "Percolation on complex networks: Theory and application",
+        "container-title": "Physics Reports",
+        "id": "Li2021PerComa",
+        "issued": {
+            "date-parts": [
+                [
+                    2021
+                ]
+            ]
+        },
+        "page": "1-68",
+        "title": "Percolation on complex networks: Theory and application",
+        "type": "article-journal",
+        "volume": "907"
+    },
+    {
+        "DOI": "10.1016/j.patter.2020.100079",
+        "author": [
+            {
+                "family": "MacDonald",
+                "given": "Arthur Andrew Meahan"
+            },
+            {
+                "family": "Banville",
+                "given": "Francis"
+            },
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            }
+        ],
+        "container-title": "Patterns",
+        "id": "MacDonald2020RevLin",
+        "issue": "7",
+        "issued": {
+            "date-parts": [
+                [
+                    2020
+                ]
+            ]
+        },
+        "publisher": "Elsevier",
+        "title": "Revisiting the Links-Species Scaling Relationship in Food Webs",
+        "type": "article-journal",
+        "volume": "1"
+    },
+    {
+        "author": [
+            {
+                "family": "Makiola",
+                "given": "Andreas"
+            },
+            {
+                "family": "Compson",
+                "given": "Zacchaeus G."
+            },
+            {
+                "family": "Baird",
+                "given": "Donald J."
+            },
+            {
+                "family": "Barnes",
+                "given": "Matthew A."
+            },
+            {
+                "family": "Boerlijst",
+                "given": "Sam P."
+            },
+            {
+                "family": "Bouchez",
+                "given": "Agn\u00e8s"
+            },
+            {
+                "family": "Brennan",
+                "given": "Georgina"
+            },
+            {
+                "family": "Bush",
+                "given": "Alex"
+            },
+            {
+                "family": "Canard",
+                "given": "Elsa"
+            },
+            {
+                "family": "Cordier",
+                "given": "Tristan"
+            },
+            {
+                "family": "Creer",
+                "given": "Simon"
+            },
+            {
+                "family": "Curry",
+                "given": "R. Allen"
+            },
+            {
+                "family": "David",
+                "given": "Patrice"
+            },
+            {
+                "family": "Dumbrell",
+                "given": "Alex J."
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            },
+            {
+                "family": "Hajibabaei",
+                "given": "Mehrdad"
+            },
+            {
+                "family": "Hayden",
+                "given": "Brian"
+            },
+            {
+                "family": "Hoorn",
+                "given": "Berry",
+                "non-dropping-particle": "van der"
+            },
+            {
+                "family": "Jarne",
+                "given": "Philippe"
+            },
+            {
+                "family": "Jones",
+                "given": "J. Iwan"
+            },
+            {
+                "family": "Karimi",
+                "given": "Battle"
+            },
+            {
+                "family": "Keck",
+                "given": "Francois"
+            },
+            {
+                "family": "Kelly",
+                "given": "Martyn"
+            },
+            {
+                "family": "Knot",
+                "given": "Ineke E."
+            },
+            {
+                "family": "Krol",
+                "given": "Louie"
+            },
+            {
+                "family": "Massol",
+                "given": "Francois"
+            },
+            {
+                "family": "Monk",
+                "given": "Wendy A."
+            },
+            {
+                "family": "Murphy",
+                "given": "John"
+            },
+            {
+                "family": "Pawlowski",
+                "given": "Jan"
+            },
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Porter",
+                "given": "Teresita M."
+            },
+            {
+                "family": "Randall",
+                "given": "Kate C."
+            },
+            {
+                "family": "Ransome",
+                "given": "Emma"
+            },
+            {
+                "family": "Ravign\u00e9",
+                "given": "Virginie"
+            },
+            {
+                "family": "Raybould",
+                "given": "Alan"
+            },
+            {
+                "family": "Robin",
+                "given": "Stephane"
+            },
+            {
+                "family": "Schrama",
+                "given": "Maarten"
+            },
+            {
+                "family": "Schatz",
+                "given": "Bertrand"
+            },
+            {
+                "family": "Tamaddoni-Nezhad",
+                "given": "Alireza"
+            },
+            {
+                "family": "Trimbos",
+                "given": "Krijn B."
+            },
+            {
+                "family": "Vacher",
+                "given": "Corinne"
+            },
+            {
+                "family": "Vasselon",
+                "given": "Valentin"
+            },
+            {
+                "family": "Wood",
+                "given": "Susie"
+            },
+            {
+                "family": "Woodward",
+                "given": "Guy"
+            },
+            {
+                "family": "Bohan",
+                "given": "David A."
+            }
+        ],
+        "container-title": "Frontiers in Environmental Science",
+        "id": "Makiola2020KeyQue",
+        "issued": {
+            "date-parts": [
+                [
+                    2020
+                ]
+            ]
+        },
+        "title": "Key Questions for Next-Generation Biomonitoring",
+        "type": "article-journal",
+        "volume": "7"
+    },
+    {
+        "DOI": "10.1890/0012-9658(1999)080[1044:EOSEOC]2.0.CO;2",
+        "author": [
+            {
+                "family": "Martinez",
+                "given": "Neo D."
+            },
+            {
+                "family": "Hawkins",
+                "given": "Bradford A."
+            },
+            {
+                "family": "Dawah",
+                "given": "Hassan Ali"
+            },
+            {
+                "family": "Feifarek",
+                "given": "Brian P."
+            }
+        ],
+        "container-title": "Ecology",
+        "id": "Martinez1999EffSam",
+        "issue": "3",
+        "issued": {
+            "date-parts": [
+                [
+                    1999
+                ]
+            ]
+        },
+        "page": "1044-1055",
+        "title": "Effects of Sampling Effort on Characterization of Food-Web Structure",
+        "type": "article-journal",
+        "volume": "80"
+    },
+    {
+        "DOI": "10.1111/oik.08650",
+        "author": [
+            {
+                "family": "McLeod",
+                "given": "Anne"
+            },
+            {
+                "family": "Leroux",
+                "given": "Shawn J."
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            },
+            {
+                "family": "Chu",
+                "given": "Cindy"
+            },
+            {
+                "family": "Cirtwill",
+                "given": "Alyssa R."
+            },
+            {
+                "family": "Fortin",
+                "given": "Marie-Jos\u00e9e"
+            },
+            {
+                "family": "Galiana",
+                "given": "N\u00faria"
+            },
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Wood",
+                "given": "Spencer A."
+            }
+        ],
+        "container-title": "Oikos",
+        "id": "McLeod2021SamAsy",
+        "issue": "12",
+        "issued": {
+            "date-parts": [
+                [
+                    2021
+                ]
+            ]
+        },
+        "page": "2250-2259",
+        "title": "Sampling and asymptotic network properties of spatial multi-trophic networks",
+        "type": "article-journal",
+        "volume": "130"
+    },
+    {
+        "id": "MetPer",
+        "publisher": "https://royalsocietypublishing-org.proxy3.library.mcgill.ca/doi/full/10.1098/rspb.2022.2029",
+        "title": "Metapopulation persistence can be inferred from incomplete surveys | Proceedings of the Royal Society B: Biological Sciences",
+        "type": ""
+    },
+    {
+        "id": "MetPera",
+        "publisher": "https://royalsocietypublishing-org.proxy3.library.mcgill.ca/doi/full/10.1098/rspb.2022.2029",
+        "title": "Metapopulation persistence can be inferred from incomplete surveys | Proceedings of the Royal Society B: Biological Sciences",
+        "type": ""
+    },
+    {
+        "DOI": "10.1111/2041-210X.12564",
+        "author": [
+            {
+                "family": "Moore",
+                "given": "Alana L."
+            },
+            {
+                "family": "McCarthy",
+                "given": "Michael A."
+            }
+        ],
+        "container-title": "Methods in Ecology and Evolution",
+        "id": "Moore2016OptEco",
+        "issue": "8",
+        "issued": {
+            "date-parts": [
+                [
+                    2016
+                ]
+            ]
+        },
+        "page": "891-899",
+        "title": "Optimizing ecological survey effort over space and time",
+        "type": "article-journal",
+        "volume": "7"
+    },
+    {
+        "DOI": "10.1002/rse2.107",
+        "author": [
+            {
+                "family": "Niedballa",
+                "given": "J\u00fcrgen"
+            },
+            {
+                "family": "Wilting",
+                "given": "Andreas"
+            },
+            {
+                "family": "Sollmann",
+                "given": "Rahel"
+            },
+            {
+                "family": "Hofer",
+                "given": "Heribert"
+            },
+            {
+                "family": "Courtiol",
+                "given": "Alexandre"
+            }
+        ],
+        "container-title": "Remote Sensing in Ecology and Conservation",
+        "id": "Niedballa2019AssAna",
+        "issue": "3",
+        "issued": {
+            "date-parts": [
+                [
+                    2019
+                ]
+            ]
+        },
+        "page": "272-285",
+        "title": "Assessing analytical methods for detecting spatiotemporal interactions between species from camera trapping data",
+        "type": "article-journal",
+        "volume": "5"
+    },
+    {
+        "DOI": "10.1111/j.1365-2745.2007.01271.x",
+        "author": [
+            {
+                "family": "Nielsen",
+                "given": "Anders"
+            },
+            {
+                "family": "Bascompte",
+                "given": "Jordi"
+            }
+        ],
+        "container-title": "Journal of Ecology",
+        "id": "Nielsen2007EcoNet",
+        "issue": "5",
+        "issued": {
+            "date-parts": [
+                [
+                    2007
+                ]
+            ]
+        },
+        "page": "1134-1141",
+        "title": "Ecological networks, nestedness and sampling effort",
+        "type": "article-journal",
+        "volume": "95"
+    },
+    {
+        "DOI": "10.2307/1941141",
+        "author": [
+            {
+                "family": "Paine",
+                "given": "R. T."
+            }
+        ],
+        "container-title": "Ecology",
+        "id": "Paine1988RoaMap",
+        "issue": "6",
+        "issued": {
+            "date-parts": [
+                [
+                    1988
+                ]
+            ]
+        },
+        "page": "1648-1654",
+        "title": "Road Maps of Interactions or Grist for Theoretical Development?",
+        "type": "article-journal",
+        "volume": "69"
+    },
+    {
+        "DOI": "10.1111/oik.01719",
+        "author": [
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Stouffer",
+                "given": "Daniel B."
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            }
+        ],
+        "container-title": "Oikos",
+        "id": "Poisot2015SpeWhy",
+        "issue": "3",
+        "issued": {
+            "date-parts": [
+                [
+                    2015
+                ]
+            ]
+        },
+        "page": "243-251",
+        "title": "Beyond species: Why ecological interaction networks vary through space and time",
+        "type": "article-journal",
+        "volume": "124"
+    },
+    {
+        "DOI": "10.1111/ecog.00976",
+        "author": [
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Baiser",
+                "given": "Benjamin"
+            },
+            {
+                "family": "Dunne",
+                "given": "Jennifer A."
+            },
+            {
+                "family": "K\u00e9fi",
+                "given": "Sonia"
+            },
+            {
+                "family": "Massol",
+                "given": "Fran\u00e7ois"
+            },
+            {
+                "family": "Mouquet",
+                "given": "Nicolas"
+            },
+            {
+                "family": "Romanuk",
+                "given": "Tamara N."
+            },
+            {
+                "family": "Stouffer",
+                "given": "Daniel B."
+            },
+            {
+                "family": "Wood",
+                "given": "Spencer A."
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            }
+        ],
+        "container-title": "Ecography",
+        "id": "Poisot2016ManMak",
+        "issue": "4",
+        "issued": {
+            "date-parts": [
+                [
+                    2016
+                ]
+            ]
+        },
+        "page": "384-390",
+        "title": "Mangal  making ecological network analysis simple",
+        "type": "article-journal",
+        "volume": "39"
+    },
+    {
+        "DOI": "10.1111/jbi.14127",
+        "author": [
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Bergeron",
+                "given": "Gabriel"
+            },
+            {
+                "family": "Cazelles",
+                "given": "Kevin"
+            },
+            {
+                "family": "Dallas",
+                "given": "Tad"
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            },
+            {
+                "family": "MacDonald",
+                "given": "Andrew"
+            },
+            {
+                "family": "Mercier",
+                "given": "Benjamin"
+            },
+            {
+                "family": "Violet",
+                "given": "Cl\u00e9ment"
+            },
+            {
+                "family": "Vissault",
+                "given": "Steve"
+            }
+        ],
+        "container-title": "Journal of Biogeography",
+        "id": "Poisot2021GloKno",
+        "issue": "7",
+        "issued": {
+            "date-parts": [
+                [
+                    2021
+                ]
+            ]
+        },
+        "page": "1552-1563",
+        "title": "Global knowledge gaps in species interaction networks data",
+        "type": "article-journal",
+        "volume": "48"
+    },
+    {
+        "DOI": "10.32942/osf.io/aty7n",
+        "author": [
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            }
+        ],
+        "id": "Poisot2022GuiPre",
+        "issued": {
+            "date-parts": [
+                [
+                    2022
+                ]
+            ]
+        },
+        "publisher": "EcoEvoRxiv",
+        "title": "Guidelines for the prediction of species interactions through binary classification",
+        "type": ""
+    },
+    {
+        "DOI": "10.48550/arXiv.2105.14973",
+        "URL": "http://arxiv.org/abs/2105.14973",
+        "author": [
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Ouellet",
+                "given": "Marie-Andr\u00e9e"
+            },
+            {
+                "family": "Mollentze",
+                "given": "Nardus"
+            },
+            {
+                "family": "Farrell",
+                "given": "Maxwell J."
+            },
+            {
+                "family": "Becker",
+                "given": "Daniel J."
+            },
+            {
+                "family": "Brierly",
+                "given": "Liam"
+            },
+            {
+                "family": "Albery",
+                "given": "Gregory F."
+            },
+            {
+                "family": "Gibb",
+                "given": "Rory J."
+            },
+            {
+                "family": "Seifert",
+                "given": "Stephanie N."
+            },
+            {
+                "family": "Carlson",
+                "given": "Colin J."
+            }
+        ],
+        "id": "Poisot2022NetEmb",
+        "issued": {
+            "date-parts": [
+                [
+                    2022
+                ]
+            ]
+        },
+        "number": "arXiv:2105.14973",
+        "publisher": "arXiv",
+        "title": "Network embedding unveils the hidden interactions in the mammalian virome",
+        "type": ""
+    },
+    {
+        "DOI": "10.1111/ele.12821",
+        "author": [
+            {
+                "family": "Ponisio",
+                "given": "Lauren C."
+            },
+            {
+                "family": "Gaiarsa",
+                "given": "Marilia P."
+            },
+            {
+                "family": "Kremen",
+                "given": "Claire"
+            }
+        ],
+        "container-title": "Ecology Letters",
+        "id": "Ponisio2017OppAtt",
+        "issue": "10",
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        },
+        "page": "1261-1272",
+        "title": "Opportunistic attachment assembles plantpollinator networks",
+        "type": "article-journal",
+        "volume": "20"
+    },
+    {
+        "DOI": "10.1111/oik.01523",
+        "author": [
+            {
+                "family": "Rafferty",
+                "given": "Nicole E."
+            },
+            {
+                "family": "CaraDonna",
+                "given": "Paul J."
+            },
+            {
+                "family": "Bronstein",
+                "given": "Judith L."
+            }
+        ],
+        "container-title": "Oikos",
+        "id": "Rafferty2015PheShi",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2015
+                ]
+            ]
+        },
+        "page": "14-21",
+        "title": "Phenological shifts and the fate of mutualisms",
+        "type": "article-journal",
+        "volume": "124"
+    },
+    {
+        "DOI": "10.1002/ecy.3359",
+        "author": [
+            {
+                "family": "Resasco",
+                "given": "Julian"
+            },
+            {
+                "family": "Chacoff",
+                "given": "Natacha P."
+            },
+            {
+                "family": "V\u00e1zquez",
+                "given": "Diego P."
+            }
+        ],
+        "container-title": "Ecology",
+        "id": "Resasco2021PlaPol",
+        "issue": "6",
+        "issued": {
+            "date-parts": [
+                [
+                    2021
+                ]
+            ]
+        },
+        "page": "e03359",
+        "title": "Plantpollinator interactions between generalists persist over time and space",
+        "type": "article-journal",
+        "volume": "102"
+    },
+    {
+        "DOI": "10.1086/381872",
+        "author": [
+            {
+                "family": "Savage",
+                "given": "Van M."
+            },
+            {
+                "family": "Gillooly",
+                "given": "James F."
+            },
+            {
+                "family": "Brown",
+                "given": "James H."
+            },
+            {
+                "family": "West",
+                "given": "Geoffrey B."
+            },
+            {
+                "family": "Charnov",
+                "given": "Eric L."
+            }
+        ],
+        "container-title": "The American Naturalist",
+        "id": "Savage2004EffBod",
+        "issue": "3",
+        "issued": {
+            "date-parts": [
+                [
+                    2004
+                ]
+            ]
+        },
+        "page": "429-441",
+        "publisher": "The University of Chicago Press",
+        "title": "Effects of Body Size and Temperature on Population Growth.",
+        "type": "article-journal",
+        "volume": "163"
+    },
+    {
+        "id": "ScaStr",
+        "publisher": "https://www.science.org/doi/10.1126/science.257.5073.1107",
+        "title": "Scale and Structure in Natural Food Webs | Science",
+        "type": ""
+    },
+    {
+        "id": "ScaStra",
+        "publisher": "https://www.science.org/doi/10.1126/science.257.5073.1107",
+        "title": "Scale and Structure in Natural Food Webs | Science",
+        "type": ""
+    },
+    {
+        "DOI": "10.1111/oik.07303",
+        "author": [
+            {
+                "family": "Schwarz",
+                "given": "Benjamin"
+            },
+            {
+                "family": "V\u00e1zquez",
+                "given": "Diego P."
+            },
+            {
+                "family": "CaraDonna",
+                "given": "Paul J."
+            },
+            {
+                "family": "Knight",
+                "given": "Tiffany M."
+            },
+            {
+                "family": "Benadi",
+                "given": "Gita"
+            },
+            {
+                "family": "Dormann",
+                "given": "Carsten F."
+            },
+            {
+                "family": "Gauzens",
+                "given": "Benoit"
+            },
+            {
+                "family": "Motivans",
+                "given": "Elena"
+            },
+            {
+                "family": "Resasco",
+                "given": "Julian"
+            },
+            {
+                "family": "Bl\u00fcthgen",
+                "given": "Nico"
+            },
+            {
+                "family": "Burkle",
+                "given": "Laura A."
+            },
+            {
+                "family": "Fang",
+                "given": "Qiang"
+            },
+            {
+                "family": "Kaiser-Bunbury",
+                "given": "Christopher N."
+            },
+            {
+                "family": "Alarc\u00f3n",
+                "given": "Ruben"
+            },
+            {
+                "family": "Bain",
+                "given": "Justin A."
+            },
+            {
+                "family": "Chacoff",
+                "given": "Natacha P."
+            },
+            {
+                "family": "Huang",
+                "given": "Shuang-Quan"
+            },
+            {
+                "family": "LeBuhn",
+                "given": "Gretchen"
+            },
+            {
+                "family": "MacLeod",
+                "given": "Molly"
+            },
+            {
+                "family": "Petanidou",
+                "given": "Theodora"
+            },
+            {
+                "family": "Rasmussen",
+                "given": "Claus"
+            },
+            {
+                "family": "Simanonok",
+                "given": "Michael P."
+            },
+            {
+                "family": "Thompson",
+                "given": "Amibeth H."
+            },
+            {
+                "family": "Fr\u00fcnd",
+                "given": "Jochen"
+            }
+        ],
+        "container-title": "Oikos",
+        "id": "Schwarz2020TemSca",
+        "issue": "9",
+        "issued": {
+            "date-parts": [
+                [
+                    2020
+                ]
+            ]
+        },
+        "page": "1289-1302",
+        "title": "Temporal scale-dependence of plantpollinator networks",
+        "type": "article-journal",
+        "volume": "129"
+    },
+    {
+        "DOI": "10.1371/journal.pcbi.1010302",
+        "author": [
+            {
+                "family": "Song",
+                "given": "Chuliang"
+            },
+            {
+                "family": "Simmons",
+                "given": "Benno I."
+            },
+            {
+                "family": "Fortin",
+                "given": "Marie-Jos\u00e9e"
+            },
+            {
+                "family": "Gonzalez",
+                "given": "Andrew"
+            }
+        ],
+        "container-title": "PLOS Computational Biology",
+        "id": "Song2022GenDri",
+        "issue": "9",
+        "issued": {
+            "date-parts": [
+                [
+                    2022
+                ]
+            ]
+        },
+        "page": "e1010302",
+        "publisher": "Public Library of Science",
+        "title": "Generalism drives abundance: A computational causal discovery approach",
+        "type": "article-journal",
+        "volume": "18"
+    },
+    {
+        "DOI": "10.1098/rspb.2022.2029",
+        "author": [
+            {
+                "family": "Song",
+                "given": "Chuliang"
+            },
+            {
+                "family": "Fortin",
+                "given": "Marie-Jos\u00e9e"
+            },
+            {
+                "family": "Gonzalez",
+                "given": "Andrew"
+            }
+        ],
+        "container-title": "Proceedings of the Royal Society B: Biological Sciences",
+        "id": "Song2022MetPer",
+        "issue": "1989",
+        "issued": {
+            "date-parts": [
+                [
+                    2022
+                ]
+            ]
+        },
+        "page": "20222029",
+        "publisher": "Royal Society",
+        "title": "Metapopulation persistence can be inferred from incomplete surveys",
+        "type": "article-journal",
+        "volume": "289"
+    },
+    {
+        "DOI": "10.1101/2022.07.02.498308",
+        "author": [
+            {
+                "family": "Song",
+                "given": "Chuliang"
+            },
+            {
+                "family": "Simmons",
+                "given": "Benno I."
+            },
+            {
+                "family": "Fortin",
+                "given": "Marie-Jos\u00e9e"
+            },
+            {
+                "family": "Gonzalez",
+                "given": "Andrew"
+            },
+            {
+                "family": "Kaiser-Bunbury",
+                "given": "Christopher N."
+            },
+            {
+                "family": "Saavedra",
+                "given": "Serguei"
+            }
+        ],
+        "chapter-number": "New Results",
+        "id": "Song2022RapMon",
+        "issued": {
+            "date-parts": [
+                [
+                    2022
+                ]
+            ]
+        },
+        "page": "2022.07.02.498308",
+        "publisher": "bioRxiv",
+        "title": "Rapid monitoring for ecological persistence",
+        "type": ""
+    },
+    {
+        "DOI": "10.1016/j.cosust.2020.08.005",
+        "author": [
+            {
+                "family": "Stephenson",
+                "given": "PJ"
+            }
+        ],
+        "collection-title": "Open issue 2020 part A: Technology Innovations and Environmental Sustainability in the Anthropocene",
+        "container-title": "Current Opinion in Environmental Sustainability",
+        "id": "Stephenson2020TecAdv",
+        "issued": {
+            "date-parts": [
+                [
+                    2020
+                ]
+            ]
+        },
+        "page": "36-41",
+        "title": "Technological advances in biodiversity monitoring: Applicability, opportunities and challenges",
+        "type": "article-journal",
+        "volume": "45"
+    },
+    {
+        "DOI": "10.1038/srep45908",
+        "author": [
+            {
+                "family": "Stock",
+                "given": "Michiel"
+            },
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Waegeman",
+                "given": "Willem"
+            },
+            {
+                "family": "De Baets",
+                "given": "Bernard"
+            }
+        ],
+        "container-title": "Scientific Reports",
+        "id": "Stock2017LinFil",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        },
+        "page": "45908",
+        "publisher": "Nature Publishing Group",
+        "title": "Linear filtering reveals false negatives in species interaction data",
+        "type": "article-journal",
+        "volume": "7"
+    },
+    {
+        "DOI": "10.1098/rstb.2021.0063",
+        "author": [
+            {
+                "family": "Strydom",
+                "given": "Tanya"
+            },
+            {
+                "family": "Catchen",
+                "given": "Michael D."
+            },
+            {
+                "family": "Banville",
+                "given": "Francis"
+            },
+            {
+                "family": "Caron",
+                "given": "Dominique"
+            },
+            {
+                "family": "Dansereau",
+                "given": "Gabriel"
+            },
+            {
+                "family": "Desjardins-Proulx",
+                "given": "Philippe"
+            },
+            {
+                "family": "Forero-Mu\u00f1oz",
+                "given": "Norma R."
+            },
+            {
+                "family": "Higino",
+                "given": "Gracielle"
+            },
+            {
+                "family": "Mercier",
+                "given": "Benjamin"
+            },
+            {
+                "family": "Gonzalez",
+                "given": "Andrew"
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            },
+            {
+                "family": "Pollock",
+                "given": "Laura"
+            },
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            }
+        ],
+        "container-title": "Philosophical Transactions of the Royal Society B: Biological Sciences",
+        "id": "Strydom2021RoaPre",
+        "issue": "1837",
+        "issued": {
+            "date-parts": [
+                [
+                    2021
+                ]
+            ]
+        },
+        "page": "20210063",
+        "publisher": "Royal Society",
+        "title": "A roadmap towards predicting species interaction networks (across space and time)",
+        "type": "article-journal",
+        "volume": "376"
+    },
+    {
+        "DOI": "10.1046/j.1365-2427.2000.00579.x",
+        "author": [
+            {
+                "family": "Thompson",
+                "given": "Ross M."
+            },
+            {
+                "family": "Townsend",
+                "given": "Colin R."
+            }
+        ],
+        "container-title": "Freshwater Biology",
+        "id": "Thompson2000ResSol",
+        "issue": "3",
+        "issued": {
+            "date-parts": [
+                [
+                    2000
+                ]
+            ]
+        },
+        "page": "413-422",
+        "title": "Is resolution the solution?: The effect of taxonomic resolution on the calculated properties of three stream food webs",
+        "type": "article-journal",
+        "volume": "44"
+    },
+    {
+        "DOI": "10.1038/s41559-017-0162",
+        "author": [
+            {
+                "family": "Thompson",
+                "given": "Patrick L."
+            },
+            {
+                "family": "Gonzalez",
+                "given": "Andrew"
+            }
+        ],
+        "container-title": "Nature Ecology & Evolution",
+        "id": "Thompson2017DisGov",
+        "issue": "6",
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        },
+        "page": "1-8",
+        "publisher": "Nature Publishing Group",
+        "title": "Dispersal governs the reorganization of ecological networks under environmental change",
+        "type": "article-journal",
+        "volume": "1"
+    },
+    {
+        "DOI": "10.1038/nature01883",
+        "author": [
+            {
+                "family": "Volkov",
+                "given": "Igor"
+            },
+            {
+                "family": "Banavar",
+                "given": "Jayanth R."
+            },
+            {
+                "family": "Hubbell",
+                "given": "Stephen P."
+            },
+            {
+                "family": "Maritan",
+                "given": "Amos"
+            }
+        ],
+        "container-title": "Nature",
+        "id": "Volkov2003NeuThe",
+        "issue": "6952",
+        "issued": {
+            "date-parts": [
+                [
+                    2003
+                ]
+            ]
+        },
+        "page": "1035-1037",
+        "publisher": "Nature Publishing Group",
+        "title": "Neutral theory and relative species abundance in ecology",
+        "type": "article-journal",
+        "volume": "424"
+    },
+    {
+        "DOI": "10.1016/0169-4758(95)80047-6",
+        "author": [
+            {
+                "family": "Walther",
+                "given": "B. A."
+            },
+            {
+                "family": "Cotgreave",
+                "given": "P."
+            },
+            {
+                "family": "Price",
+                "given": "R. D."
+            },
+            {
+                "family": "Gregory",
+                "given": "R. D."
+            },
+            {
+                "family": "Clayton",
+                "given": "D. H."
+            }
+        ],
+        "container-title": "Parasitology Today",
+        "id": "Walther1995SamEff",
+        "issue": "8",
+        "issued": {
+            "date-parts": [
+                [
+                    1995
+                ]
+            ]
+        },
+        "page": "306-310",
+        "title": "Sampling Effort and Parasite Species Richness",
+        "type": "article-journal",
+        "volume": "11"
+    },
+    {
+        "DOI": "10.1038/35004572",
+        "author": [
+            {
+                "family": "Williams",
+                "given": "Richard J."
+            },
+            {
+                "family": "Martinez",
+                "given": "Neo D."
+            }
+        ],
+        "container-title": "Nature",
+        "id": "Williams2000SimRul",
+        "issue": "6774",
+        "issued": {
+            "date-parts": [
+                [
+                    2000
+                ]
+            ]
+        },
+        "page": "180-183",
+        "publisher": "Nature Publishing Group",
+        "title": "Simple rules yield complex food webs",
+        "type": "article-journal",
+        "volume": "404"
+    },
+    {
+        "DOI": "10.1073/pnas.192448799",
+        "author": [
+            {
+                "family": "Williams",
+                "given": "Richard J."
+            },
+            {
+                "family": "Berlow",
+                "given": "Eric L."
+            },
+            {
+                "family": "Dunne",
+                "given": "Jennifer A."
+            },
+            {
+                "family": "Barab\u00e1si",
+                "given": "Albert-L\u00e1szl\u00f3"
+            },
+            {
+                "family": "Martinez",
+                "given": "Neo D."
+            }
+        ],
+        "container-title": "Proceedings of the National Academy of Sciences",
+        "id": "Williams2002TwoDeg",
+        "issue": "20",
+        "issued": {
+            "date-parts": [
+                [
+                    2002
+                ]
+            ]
+        },
+        "page": "12913-12916",
+        "publisher": "Proceedings of the National Academy of Sciences",
+        "title": "Two degrees of separation in complex food webs",
+        "type": "article-journal",
+        "volume": "99"
+    },
+    {
+        "DOI": "10.1046/j.1365-2664.2001.00589.x",
+        "author": [
+            {
+                "family": "Willott",
+                "given": "S.j."
+            }
+        ],
+        "container-title": "Journal of Applied Ecology",
+        "id": "Willott2001SpeAcc",
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    2001
+                ]
+            ]
+        },
+        "page": "484-486",
+        "title": "Species accumulation curves and the measure of sampling effort",
+        "type": "article-journal",
+        "volume": "38"
+    },
+    {
+        "DOI": "10.1038/s41467-021-24149-x",
+        "author": [
+            {
+                "family": "Young",
+                "given": "Jean-Gabriel"
+            },
+            {
+                "family": "Valdovinos",
+                "given": "Fernanda S."
+            },
+            {
+                "family": "Newman",
+                "given": "M. E. J."
+            }
+        ],
+        "container-title": "Nature Communications",
+        "id": "Young2021RecPla",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2021
+                ]
+            ]
+        },
+        "page": "3911",
+        "publisher": "Nature Publishing Group",
+        "title": "Reconstruction of plantpollinator networks from observational data",
+        "type": "article-journal",
+        "volume": "12"
+    },
+    {
+        "DOI": "10.1186/s40649-019-0069-y",
+        "author": [
+            {
+                "family": "Zhang",
+                "given": "Si"
+            },
+            {
+                "family": "Tong",
+                "given": "Hanghang"
+            },
+            {
+                "family": "Xu",
+                "given": "Jiejun"
+            },
+            {
+                "family": "Maciejewski",
+                "given": "Ross"
+            }
+        ],
+        "container-title": "Computational Social Networks",
+        "id": "Zhang2019GraCon",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2019
+                ]
+            ]
+        },
+        "page": "11",
+        "title": "Graph convolutional networks: A comprehensive review",
+        "type": "article-journal",
+        "volume": "6"
+    }
+]
