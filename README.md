@@ -161,8 +161,9 @@ FNR ($p_{fn}$) simply as an artifact of sampling effort.
 ![**(A)** The probability that an observed interaction is a true negative
 (y-axis) given how many times it has been sampled as a non-interaction (x-axis).
 Each color reflects a different value of $p_{fn}$, the false-negative-rate
-(FNR)---this is effectively the cdf of the geometric distribution. **(B)** The
-expected number of total observations needed (colors) to observe 10
+(FNR)---this is effectively the cumulative distribution function (cdf) of the
+geometric distribution. **(B)** The expected number of total observations needed
+(colors) to observe 10
 co-occurrences between a species with relative abundance $P(A)$ (x-axis) and a
 second species with relative abundance $P(Y)$. **(C)**: false-negative-rate
 (y-axis) as a function of total sampling effort (x-axis) and network size,
@@ -292,7 +293,9 @@ interaction dataset consisting of $N$ total observed interactions. (B) The
 method for resampling interaction probability based on estimates of
 false-negative and false-positive rates. (C) The method for interaction
 probability resampling applied to three mammals and three parasites from the
-@Hadfield2014TalTwo dataset.](./figures/uncertainty_sampler.png){#fig:resampling_concept}
+@Hadfield2014TalTwo dataset. The original probability $p_{ij}$ is indicated with
+a vertical dashed line. The histogram is simulated from the resampling process,
+and the line indicates the gaussian approximation to this distribution.](./figures/uncertainty_sampler.png){#fig:resampling_concept}
 
 We then consider the output prediction from an arbitrary prediction model, which
 is the probability $p_{ij}$ that two species $i$ and $j$ interact. To get an
@@ -338,7 +341,7 @@ $$p_{ij}^* \sim \mathcal{N}\bigg( \mathbb{E}[p_{ij}^*] , \sqrt{\frac{\mathbb{E}[
 
 We can then further truncate to remain on the interval $(0,1)$ (as the output is
 a probability, although in practice often the probability mass outside $(0,1)$
-is exteremly low.  As an example case study, we use a boosted-regression-tree to
+is extremely low.  As an example case study, we use a boosted-regression-tree to
 predict interactions in a host-parasite network [@Hadfield2014TalTwo] (with
 features derived in the same manner as @Strydom2021RoaPre derives features on
 this data) to produce a set of interaction predictions. We then applied this
@@ -347,12 +350,12 @@ parasite species shown in figure @fig:resampling_concept(C).
 
 Why is this useful? For one, this analytic method avoids the extra computation
 required by simulating samples from this distribution directly. Further, it
-enables continuous exanination of the number of particles $n_p$ as a uncertainty
+enables continuous extension of the number of particles $n_p$ as a uncertainty
 width. The natural analogue for the number of particles sampled is the number of
 observations of co-occurrence for a given pair of species---the fewer the
 particles, the higher the variance of the resulting approximation. The normal
 approximation is undefined for 0 particles (i.e. 0 observations co-occurrence),
-although as $n_p$ approaches $0$ the approxated normal (once truncated)
+although as $n_p$ approaches 0 the approximated normal (once truncated)
 approaches a uniform distribution on the interval $(0,1)$, the maximum entropy
 distribution where we have no information about the possibility of an
 interaction. 
