@@ -1,7 +1,15 @@
 \geometry{verbose,letterpaper,tmargin=2.2cm,bmargin=2.2cm,lmargin=2.2cm,rmargin=2.2cm}
 
 \usepackage{lineno}
-\usepackage[nolists,noheads]{endfloat}
+% \usepackage[nolists,noheads]{endfloat}
+
+\usepackage{floatrow}
+
+\floatsetup[figure]{margins=hangright,
+              facing=no,
+              capposition=beside,
+              capbesideposition={center,outside},
+              floatwidth=\textwidth}
 
 \pagestyle{plain}
 
