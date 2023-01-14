@@ -93,21 +93,20 @@ effect on the fitness of the other. So, although co-occurrence is not directly
 indicative of an interaction, it _is_ a precondition for an interaction. 
 
 Here, we illustrate how our confidence that a pair of species never interacts
-highly depends on sampling effort. We suggest that surveys of species
-interactions can benefit from simulation modeling of the sampling process. We
-demonstrate how the realized false-negative-rate of interactions is related to
-the relative abundance of the species pool, and introduce a method to produce a
-null estimate of the false-negative-rate given total sampling effort (the total
-count of all interactions seen among all species-pairs) and a method for
-including uncertainty into model predictions of interaction probabilities to
-account for observation error. We then show that positive associations in
-co-occurrence data can increase the realized number of false-negatives, and
-demonstrate these positive associations are rampant in network datasets, and
-conclude by recommending that the simulation of sampling effort and species
-occurrence can and should be used to help design surveys of species interaction
-diversity [@Moore2016OptEco], and by advocating use of null models like those
-presented here as a tool for both guiding design of surveys of species
-interactions and for modeling detection error in predictive models.
+highly depends on sampling effort. We demonstrate how the realized
+false-negative-rate of interactions is related to the relative abundance of the
+species pool, and introduce a method to produce a null estimate of the
+false-negative-rate given total sampling effort (the total count of all
+interactions seen among all species-pairs) and a method for including
+uncertainty into model predictions of interaction probabilities to account for
+observation error. We then confront these models with data, by showing that
+positive associations in co-occurrence data can increase the realized number of
+false-negatives and by showing these positive associations are rampant in
+network datasets. We conclude by recommending that the simulation of sampling
+effort and species occurrence can and should be used to help design surveys of
+species interaction diversity [@Moore2016OptEco], and by advocating use of null
+models like those presented here as a tool for both guiding design of surveys of
+species interactions and for including detection error into predictive models.
 
 
 ![This conceptual example considers a sample of the trophic community of bears, wolves, salmon (pink fish), pike (yellow fish), berry trees, and aspen trees. The true metaweb (all realized interactions across the entire spatial extent) is shown on the left. In the center is what a hypothetical ecologist samples at each site. Notice that although bears are observed co-occurring with both salmon and pike, there was never a direct observation of bears eating pike, even though they actually do. Therefore, this interaction between bears and pike is a false-negative.](./figures/concept.png){#fig:concept}
