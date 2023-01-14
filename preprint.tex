@@ -700,10 +700,11 @@ successes to yield the final approximation
 \begin{equation}\protect\hypertarget{eq:eq1}{}{p_{ij}^* \sim \mathcal{N}\bigg( \mathbb{E}[p_{ij}^*] , \sqrt{\frac{\mathbb{E}[p_{ij}^*]
 (1-\mathbb{E}[p_{ij}^*] )}{n_p}} \bigg)}\label{eq:eq1}\end{equation}
 
-We can then further truncate to remain on the interval \((0,1)\) (as the
-output is a probability, although in practice often the probability mass
-outside \((0,1)\) is extremely low. As an example case study, we use a
-boosted-regression-tree to predict interactions in a host-parasite
+We can then further truncate this distribution to remain on the interval
+\((0,1)\), as the output is a probability, although in practice often
+the probability mass outside \((0,1)\) is extremely low except for
+\(p_{ij}\) values very close to 0 or 1. As an example case study, we use
+a boosted-regression-tree to predict interactions in a host-parasite
 network (Hadfield \emph{et al.} 2014) (with features derived in the same
 manner as Strydom \emph{et al.} (2021) derives features on this data) to
 produce a set of interaction predictions. We then applied this method to
