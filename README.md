@@ -304,8 +304,8 @@ probability of each interaction $p_{ij}$ by simulating a set of several
 'particles', where each particle is a realization of an interaction occurring
 (either true or false with probabilities $p_{ij}$ and $1-p_{ij}$ respectively)
 and then being correctly observed with probabilities given by $p_{fp}$ and
-$p_{fn}$ to yield a single boolean outcome for each particle.  (“Resampling”
-within @fig:resampling_concept (B)). Over many samples of particles, the
+$p_{fn}$ to yield a single boolean outcome for each particle (“Resampling”
+within @fig:resampling_concept (B)). Across of many particles, the
 resulting frequency of ‘true’ outcomes is a single resample of the interaction
 probability $p_{ij}^*$. Across several samples each of several particles, this
 forms a distribution of probabilities which are adjusted by the true and false
@@ -357,15 +357,14 @@ interaction probabilities between mammals and parasite species shown in figure
 
 Why is this useful? For one, this analytic method avoids the extra computation
 required by simulating samples from this distribution directly. Further, it
-enables continuous extension of the number of particles $n_p$ as a uncertainty
-width. The natural analogue for the number of particles sampled is the number of
-observations of co-occurrence for a given pair of species---the fewer the
-particles, the higher the variance of the resulting approximation. The normal
-approximation is undefined for 0 particles (i.e. 0 observations co-occurrence),
-although as $n_p$ approaches 0 the approximated normal (once truncated)
-approaches a uniform distribution on the interval $(0,1)$, the maximum entropy
-distribution where we have no information about the possibility of an
-interaction. 
+enables the extension of the natural analogue between $n_p$ (the number of
+particles) and the number of observations of co-occurrence for a given pair of
+species---the fewer the particles, the higher the variance of the resulting
+approximation. The normal approximation is undefined for 0 particles (i.e. 0
+observations co-occurrence), although as $n_p$ approaches 0 the approximated
+normal (once truncated) approaches the uniform distribution on the interval
+$(0,1)$, the maximum entropy distribution where we have no information about the
+possibility of an interaction. 
 
 This also has implications for what we mean by ‘uncertainty’ in interaction
 predictions. A model’s prediction can be ‘uncertain’ in two different ways: (1)
