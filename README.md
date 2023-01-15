@@ -326,7 +326,12 @@ $$
 \mathbb{E}[{p_{ij}^*}] = p_{ij}(1-p_{fp})+ (1-p_{ij})p_{fn}
 $$
 
-which yields the normal approximation
+which is obatinable by definition (supp 1.)
+
+For notation, here we refer to a normal distribution with mean $\mu$ and standard-deviation
+$\sigma$ as $\mathcal{N}(\mu,\sigma)$
+
+Then yields the normal approximation
 
 $$
 \sum_{i=1}^{n_p} p_{ij}^* \sim \mathcal{N}\bigg(n_p \cdot \mathbb{E}[p_{ij}^*], \sqrt{n_p\mathbb{E}[p_{ij}^*] (1- \mathbb{E}[p_{ij}^*])}\bigg)
