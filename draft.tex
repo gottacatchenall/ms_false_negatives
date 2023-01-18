@@ -404,7 +404,7 @@ denote \(p_{fn}\) and subsequently refer to as the False-Negative-Rate
 the probability of a true-negative (denoted \(p_{tn}\)) is given by
 \(p_{tn}=1-(p_{fn})^N\). This relation (the probability-mass-function of
 geometric distribution, a special case of the negative-binomial
-distribution) is shown in fig.~\ref{fig:geometric}(A) for varying values
+distribution) is shown in fig.~\ref{fig:geometric}(a) for varying values
 of \(p_{fn}\) and illustrates a fundamental link between our ability to
 reliably say an interaction doesn't exist---\(p_{tn}\)---and the number
 of times \(N\) we have observed a given species. In addition, note that
@@ -412,13 +412,13 @@ there is no non-zero \(p_{fn}\) for which we can ever \emph{prove} that
 an interaction does not exist---no matter how many observations of
 non-interactions \(N\) we have, \(p_{tn}<1\).
 
-From fig.~\ref{fig:geometric}(A) it is clear that the more often we see
+From fig.~\ref{fig:geometric}(a) it is clear that the more often we see
 two species co-occurring, but \emph{not interacting}, the more likely
 the interaction is a true-negative. This has several practical
 consequences: first it means negatives taken outside the overlap of the
 range of each species aren't informative because co-occurrence was not
 possible, and therefore neither was an interaction. If some of the
-``worst-case'' FNRs presented in fig.~\ref{fig:geometric}(A) seem
+``worst-case'' FNRs presented in fig.~\ref{fig:geometric}(a) seem
 unrealistically high, considering that species are observed in
 proportion to their relative abundance. In the next section we
 demonstrate that the distribution of abundance in ecosystems can lead to
@@ -426,7 +426,7 @@ very high realized values of FNR (\(p_{fn}\)) simply as an artifact of
 sampling effort. Second, we can use this relation to compute the
 expected number of total observations needed to obtain a ``goal'' number
 of observations of a particular pair of species
-(fig.~\ref{fig:geometric}(B)). As an example, if we hypothesize that
+(fig.~\ref{fig:geometric}(b)). As an example, if we hypothesize that
 \(A\) and \(B\) do not interact, and we want to see species \(A\) and
 \(B\) both co-occurring and \emph{not interacting} 10 times to be
 confident this is a true negative, then we need an expected 1000
@@ -437,15 +437,15 @@ observations of all species if the relative abundances of \(A\) and
 \hypertarget{fig:geometric}{%
 \centering
 \includegraphics{./figures/fig1.png}
-\caption{\textbf{(A)} The probability that an observed interaction is a
+\caption{\textbf{(a)} The probability that an observed interaction is a
 true negative (y-axis) given how many times it has been sampled as a
 non-interaction (x-axis). Each color reflects a different value of
 \(p_{fn}\), the false-negative-rate (FNR)---this is effectively the
 cumulative distribution function (cdf) of the geometric distribution.
-\textbf{(B)} The expected number of total observations needed (colors)
+\textbf{(b)} The expected number of total observations needed (colors)
 to observe 10 co-occurrences between a species with relative abundance
 \(P(A)\) (x-axis) and a second species with relative abundance \(P(Y)\).
-\textbf{(C)}: false-negative-rate (y-axis) as a function of total
+\textbf{(c)}: false-negative-rate (y-axis) as a function of total
 sampling effort (x-axis) and network size, computed using the method
 described above. For 500 independent draws from the niche model
 (Williams \& Martinez (2000)) at varying levels of species richness
@@ -454,9 +454,9 @@ described above. For 500 independent draws from the niche model
 draw from the niche model, 200 sets of 1500 observations are simulated,
 for which the mean false-negative-rate at each observation-step is
 computed. Means denoted with points, with 1 in the first shade and 2 in
-the second. \textbf{(D)}: Same as \textbf{(C)}, except using empirical
+the second. \textbf{(d)}: Same as \textbf{(c)}, except using empirical
 food webs from Mangal database, where richness. The outlier on
-\textbf{(D)} is a 714 species food-web.}\label{fig:geometric}
+\textbf{(d)} is a 714 species food-web.}\label{fig:geometric}
 }
 \end{figure}
 
@@ -504,11 +504,11 @@ if \(M_{ij}=1\). If only one of \(i\) or \(j\) are observed---but not
 both---in these \(n\) observations, but \(M_{ij}=1\), this is counted as
 a false-negative, and a true-negative otherwise (\(M_{ij} = 0\)). This
 process is illustrated conceptually in
-fig.~\ref{fig:resampling_concept}(A).
+fig.~\ref{fig:resampling_concept}(a).
 
-In fig.~\ref{fig:geometric}(C) we see this model of observation applied
+In fig.~\ref{fig:geometric}(c) we see this model of observation applied
 to niche model networks across varying levels of species richness, and
-in fig.~\ref{fig:geometric}(D) the observation model applied to Mangal
+in fig.~\ref{fig:geometric}(d) the observation model applied to Mangal
 food webs. For all niche model simulations in this manuscript, for a
 given number of species \(S\) the number of interactions is drawn from
 the flexible-links model fit to Mangal data (MacDonald \emph{et al.}
@@ -529,11 +529,11 @@ Note that the empirical data, for the reasons described above, very
 likely already contains many false-negatives, we'll revisit this issue
 in the final section.
 
-From fig.~\ref{fig:geometric}(C) it is evident that the number of
+From fig.~\ref{fig:geometric}(c) it is evident that the number of
 species considered in a study is inseparable from the
 false-negative-rate in that study, and this effect should be taken into
 account when designing samples of ecological networks in the future. We
-see a similar qualitative pattern in fig.~\ref{fig:geometric}(D) where
+see a similar qualitative pattern in fig.~\ref{fig:geometric}(d) where
 the FNR drops off quickly as a function of observation effort, mediated
 by total richness. The practical consequence of the bottom row of
 fig.~\ref{fig:geometric} is whether the total number of observations of
@@ -563,7 +563,7 @@ to incorporate models of imperfect detection error into predictive
 interactions models, as Joseph (2020) does for species occurrence
 modeling. Additionally, we emphasize that one must consider the context
 for sampling---is the goal to detect a particular species (as in
-fig.~\ref{fig:geometric}(C)), or to get a representative sample of
+fig.~\ref{fig:geometric}(c)), or to get a representative sample of
 interactions across the species pool? These arguments are
 well-considered when sampling individual species (Willott 2001), but
 have not yet been adopted for designing samples of communities.
@@ -592,16 +592,17 @@ well-approximated analytically.
 \hypertarget{fig:resampling_concept}{%
 \centering
 \includegraphics{./figures/uncertainty_sampler.png}
-\caption{(A) The process for estimating the false-negative-rate (FNR)
+\caption{(a) The process for estimating the false-negative-rate (FNR)
 for an interaction dataset consisting of \(N\) total observed
-interactions. (B) The method for resampling interaction probability
-based on estimates of false-negative and false-positive rates. (C) The
+interactions. (b) The method for resampling interaction probability
+based on estimates of false-negative and false-positive rates. (c) The
 method for interaction probability resampling applied to three mammals
 and three parasites from the Hadfield \emph{et al.} (2014) dataset. The
 original probability \(p_{ij}\) is indicated with a vertical dashed
 line. The histogram is simulated from the resampling process, and the
-line indicates the gaussian approximation to this
-distribution.}\label{fig:resampling_concept}
+line indicates the gaussian approximation to this distribution. Both
+resampling simulations and the gaussian approximation is applied with
+\(n_p =150\)}\label{fig:resampling_concept}
 }
 \end{figure}
 
@@ -614,7 +615,7 @@ particle is a realization of an interaction occurring (either true or
 false with probabilities \(p_{ij}\) and \(1-p_{ij}\) respectively) and
 then being correctly observed with probabilities given by \(p_{fp}\) and
 \(p_{fn}\) to yield a single boolean outcome for each particle
-(``Resampling'' within fig.~\ref{fig:resampling_concept} (B)). Across of
+(``Resampling'' within fig.~\ref{fig:resampling_concept}(b)). Across of
 many particles, the resulting frequency of `true' outcomes is a single
 resample of the interaction probability \(p_{ij}^*\). Across several
 samples each of several particles, this forms a distribution of
@@ -663,7 +664,7 @@ network (Hadfield \emph{et al.} 2014) (with features derived in the same
 manner as Strydom \emph{et al.} (2021) derives features on this data) to
 produce a set of interaction predictions. We then applied this method to
 a set of a few resampled interaction probabilities between mammals and
-parasite species shown in figure fig.~\ref{fig:resampling_concept}(C).
+parasite species shown in figure fig.~\ref{fig:resampling_concept}(c).
 
 Why is this useful? For one, this analytic method avoids the extra
 computation required by simulating samples from this distribution
@@ -711,7 +712,7 @@ probability of observation both \(A\) and \(B\), \(P(AB)\), is greater
 than \(P(A)P(B)\) as \(P(A)\) and \(P(B)\) are not independent and
 instead are positively correlated, i.e.~\(P(AB)> P(A)P(B)\). In this
 case, the probability of observing a single false-negative in our naive
-model from fig.~\ref{fig:geometric}(A) is \(p_{fn}= 1-P(AB)\), which due
+model from fig.~\ref{fig:geometric}(a) is \(p_{fn}= 1-P(AB)\), which due
 to the above inequality implies \(p_{fn}>1-P(A)P(B)\). This indicates an
 increasingly greater probability of a false negative as the strength of
 association gets stronger, \(P(AB) \to P(AB) \gg P(A)P(B)\). However,
@@ -845,18 +846,18 @@ binary classifier performance: the area under the receiver-operator
 curve (ROC-AUC) and the area under the precision-recall curve (PR-AUC),
 for more details see Poisot (2022). Here, PR-AUC is slightly more
 relevant as it is a better indicator of prediction of false-negatives.
-The results of these simulations are shown in
-fig.~\ref{fig:addedfnr}(A\&B).
+The results of these simulations are shown in fig.~\ref{fig:addedfnr}(a
+\& b).
 
 \begin{figure}
 \hypertarget{fig:addedfnr}{%
 \centering
 \includegraphics{./figures/fig3.png}
-\caption{\textbf{(A)} The area-under the receiver-operator curve
-(ROC-AUC) and \textbf{(B)} The area-under the precision-recall curve
+\caption{\textbf{(a)} The area-under the receiver-operator curve
+(ROC-AUC) and \textbf{(b)} The area-under the precision-recall curve
 (PR-AUC; right) for each different predictive model (colors/shapes)
 across a spectrum of the proportion of added false-negatives (x-axis).
-\textbf{(C)} The mean trophic-level of all species in a network
+\textbf{(c)} The mean trophic-level of all species in a network
 generated with the niche model across different species richnesses
 (colors). For each value of the FNR, the mean trophic level was computed
 across 50 replicates. The shaded region for each line is one
@@ -864,11 +865,11 @@ standard-deviation across those replicates.}\label{fig:addedfnr}
 }
 \end{figure}
 
-One interesting result seen in fig.~\ref{fig:addedfnr}(A\&B) is that the
-ROC-AUC value does not approach random in the same way the PR-AUC curve
-does as we increase the added FNR. The reason for this is that ROC-AUC
-is fundamentally not as useful a metric in assessing predictive capacity
-as PR-AUC. As we keep adding more false-negatives, the network
+One interesting result seen in fig.~\ref{fig:addedfnr}(a \& b) is that
+the ROC-AUC value does not approach random in the same way the PR-AUC
+curve does as we increase the added FNR. The reason for this is that
+ROC-AUC is fundamentally not as useful a metric in assessing predictive
+capacity as PR-AUC. As we keep adding more false-negatives, the network
 eventually becomes a zeros matrix, and these models can still learn to
 predict ``no-interaction'' for all possible species pairs, which does
 far better than random guessing (ROC-AUC = 0.5) in terms of the false
@@ -901,7 +902,7 @@ maximize the amount of information contained in our data given the
 expense of sampling interactions.
 
 We also consider how the FNR affects network properties. In
-fig.~\ref{fig:addedfnr}(C) we see the mean trophic level across networks
+fig.~\ref{fig:addedfnr}(c) we see the mean trophic level across networks
 simulated using the niche model (as above), across a spectrum of FNR
 values. In addition to the clear dependence on richness, we see that
 mean trophic level, despite varying widely between niche model
@@ -949,7 +950,7 @@ those here when designing samples. Further, predictions about network
 rewiring (Thompson \& Gonzalez 2017) due to range shifts in response to
 climate change could be error-prone without accounting for interactions
 that have not been observed but that still may become climatically
-infeasible. As is evident from fig.~\ref{fig:geometric}(A), we can never
+infeasible. As is evident from fig.~\ref{fig:geometric}(a), we can never
 guarantee there are no false-negatives in data. In recent years, there
 has been interest toward explicitly accounting for false-negatives in
 models (Stock \emph{et al.} 2017; Young \emph{et al.} 2021), and a
@@ -968,7 +969,7 @@ be a powerful tool for estimating the sampling effort required by a
 study that takes relative abundance into account, and provides a null
 baseline for expected FNR. It is necessary to take the size of the
 species pool into account when deciding how many total samples is
-sufficient for an ``acceptable'' FNR (fig.~\ref{fig:geometric}(C \& D)).
+sufficient for an ``acceptable'' FNR (fig.~\ref{fig:geometric}(c \& d)).
 Further the spatial and temporal turnover of interactions means any
 approach to sampling prioritization must be spatiotemporal. We
 demonstrated earlier that observed negatives outside of the range of
@@ -979,7 +980,7 @@ sites.
 We also should address the impact of false-negatives on the inference of
 process and causality in community ecology. We demonstrated that in
 model food webs, false-negatives do not impact the measure of total
-trophic levels until very high FNR (figure fig.~\ref{fig:addedfnr}(C)),
+trophic levels until very high FNR (figure fig.~\ref{fig:addedfnr}(c)),
 although we cannot generalize this further to other properties. This has
 immediate practical concern for how we design what taxa to sample---does
 it matter if the sampled network is fully connected? It has been shown
