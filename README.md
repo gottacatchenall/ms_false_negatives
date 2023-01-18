@@ -38,26 +38,26 @@ have a record of it (assuming they are correctly identified), but not at all
 confident that a pair of species _do not_ interact if we have _no record_ of
 those species observed together. In other words, it is difficult to distinguish
 _true-negatives_ (two species never interact) from _false-negatives_ (two
-species interact sometimes, but we do not have a record of this interaction). For a concrete
-example of a false-negative in a food web, see @fig:concept. Because even the
-most highly sampled systems will still contain false-negatives, there is
-increasing interest in combining species-level data (e.g. traits, abundance,
-range, phylogenetic relatedness, etc.) to build models to predict interactions
-between species we haven't observed together before [@Strydom2021RoaPre].
-However, the noise of false-negatives could impact the efficacy of our
-predictive models and have practical consequences for answering questions about
-interactions [@deAguiar2019RevBia]. This data constraint is amplified as the
-interaction data we have is geographically biased toward the usual suspects
-[@Poisot2021GloKno]. We therefore need a statistical approach to assessing these
-biases in the observation process and their consequences for our understanding
-of interaction networks. 
+species interact sometimes, but we do not have a record of this interaction).
+For a concrete example of a false-negative in a food web, see @fig:concept.
+Because even the most highly sampled systems will still contain false-negatives,
+there is increasing interest in combining species-level data (e.g. traits,
+abundance, range, phylogenetic relatedness, etc.) to build models to predict
+interactions between species we haven't observed together before
+[@Strydom2021RoaPre]. However, the noise of false-negatives could impact the
+efficacy of our predictive models and have practical consequences for answering
+questions about interactions [@deAguiar2019RevBia]. This data constraint is
+amplified as the interaction data we have is geographically biased toward the
+usual suspects [@Poisot2021GloKno]. We therefore need a statistical approach to
+assessing these biases in the observation process and their consequences for our
+understanding of interaction networks. 
 
 The importance of _sampling effort_ and its impact on resulting ecological data
-has produced a rich body of literature.The recorded number of species in a
+has produced a rich body of literature. The recorded number of species in a
 dataset or sample depends on the total number of observations
- [@Willott2001SpeAcc; @Walther1995SamEff], as do estimates of population
-abundance [@Griffiths1998SamEff]. This relationship between sampling effort and
-spatial coverage and species detectability has motivated more quantitatively
+[@Willott2001SpeAcc; @Walther1995SamEff], as do estimates of population
+abundance [@Griffiths1998SamEff]. This relationship between sampling effort,
+spatial coverage, and species detectability has motivated more quantitatively
 robust approaches to account for error in sampling data in many contexts: to
 determine if a given species is extinct [@Boakes2015InfSpe], to determine
 sampling design [@Moore2016OptEco], and to measure species richness across large
@@ -83,7 +83,7 @@ food-web structure where species encounter one-another in proportion to each
 species’ relative-abundance. This assumes that there are no associations in
 species co-occurrence due to an interaction (perhaps because this interaction is
 "important" for both species; @Cazelles2016TheSpe), but in this paper we later
-show increasing strength of associations leads to increasing probability of
+show increasing strength of these associations leads to increasing probability of
 false-negatives in interaction data, and that these positive associations are
 common in existing network data. Second, observed co-occurrence is often
 equated with meaningful interaction strength, but this is not necessarily the
