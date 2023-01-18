@@ -680,24 +680,21 @@ normal approximation to binomial. As a reminder, as the total number of
 samples \(N\) from a binomial distribution for \(n\) trials with success
 probability \(p\) from approaches infinity, the sum of total successes
 across all samples approaches a normal distribution with mean \(np\) and
-variance \(np(1-p)\). We can use this to correct the estimate \(p_{ij}\)
-based on the expected false-negative-rate \(p_{fn}\) and false-positive
-rate \(p_{fp}\) to obtain the limiting distribution as the number of
-resamples approaches infinity for the resampled \(p_{ij}^*\) for a given
-number of particles \(n_p\). We do this by first adjusting for the rates
-of observation error to get the mean resampled probability,
-\(\mathbb{E}[{p_{ij}^*}]\), as
+variance \(np(1-p)\). For notation, here we refer to a normal
+distribution with mean \(\mu\) and standard-deviation \(\sigma\) as
+\(\mathcal{N}(\mu,\sigma)\). We can use this to correct the estimate
+\(p_{ij}\) based on the expected false-negative-rate \(p_{fn}\) and
+false-positive rate \(p_{fp}\) to obtain the limiting distribution as
+the number of resamples approaches infinity for the resampled
+\(p_{ij}^*\) for a given number of particles \(n_p\). We do this by
+first adjusting for the rates of observation error to get the mean
+resampled probability, \(\mathbb{E}[{p_{ij}^*}]\), as
 
 \[
 \mathbb{E}[{p_{ij}^*}] = p_{ij}(1-p_{fp})+ (1-p_{ij})p_{fn}
 \]
 
-which is obatinable by definition (supp 1.)
-
-For notation, here we refer to a normal distribution with mean \(\mu\)
-and standard-deviation \(\sigma\) as \(\mathcal{N}(\mu,\sigma)\)
-
-Then yields the normal approximation
+This yields the normal approximation
 
 \[
 \sum_{i=1}^{n_p} p_{ij}^* \sim \mathcal{N}\bigg(n_p \cdot \mathbb{E}[p_{ij}^*], \sqrt{n_p\mathbb{E}[p_{ij}^*] (1- \mathbb{E}[p_{ij}^*])}\bigg)
