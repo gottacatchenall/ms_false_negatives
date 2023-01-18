@@ -113,11 +113,18 @@ species interactions and for including detection error into predictive models.
 
 # Accounting for false-negatives in species interactions
 
-In this section, we demonstate how difference in relative-abundance can lead to
-many false-negatives in interaction data. We also introduce a method for
-producing a null estimate of the false-negative-rate in datasets via simulation,
-and a method for incorporating uncertainty directly into predictions of species
-interactions to account for observation error.
+In this section, we demonstate how differences in species' relative-abundance
+can lead to many false-negatives in interaction data. We also introduce a method
+for producing a null estimate of the false-negative-rate in datasets via
+simulation. Because the true false-negative-rate is latent, we can never
+actually be sure how many false-negatives are in our data. However, here we
+outline an approach to deal with this fact---first by using simulation to
+estimate the false-negative-rate for a dataset of a fixed size using neutral
+models of observation. We then illustrate how to incorporate uncertainty
+directly into predictions of species interactions to account for observation
+error based on null estimates of both false-positive rates (as an priori
+estimate of species misidentification probability) and false-positive rates (as
+generated via the method we introduce).
 
 ## How many observations of a non-interaction do we need to be confident it's a true negative?
 
@@ -140,23 +147,18 @@ co-occurring, but _not interacting_, the more likely the interaction is a
 true-negative. This has several practical consequences: first it means negatives
 taken outside the overlap of the range of each species aren’t informative
 because co-occurrence was not possible, and therefore neither was an
-interaction. Second, we can use this relation to compute the expected number of
-total observations needed to obtain a "goal" number of observations of a
-particular pair of species (@fig:geometric(B)). As an example, if we hypothesize
-that $A$ and $B$ do not interact, and we want to see species $A$ and $B$ both
-co-occurring and _not interacting_ 10 times to be confident this is a true
-negative, then we need an expected 1000 observations of all species if the
-relative abundances of $A$ and $B$ are both $0.1$.
-
-Because the true FNR is latent, we can never actually be sure what the actual
-number of false-negatives in our data---however, we can use simulation to
-estimate the FNR for datasets of a given size using neutral models of
-observation. If some of the “worst-case” FNRs presented in @fig:geometric(A)
+interaction. If some of the “worst-case” FNRs presented in @fig:geometric(A)
 seem unrealistically high, considering that species are observed in proportion
 to their relative abundance. In the next section we demonstrate that the
 distribution of abundance in ecosystems can lead to very high realized values of
-FNR ($p_{fn}$) simply as an artifact of sampling effort.
-
+FNR ($p_{fn}$) simply as an artifact of sampling effort. Second, we can use this
+relation to compute the expected number of total observations needed to obtain a
+"goal" number of observations of a particular pair of species
+(@fig:geometric(B)). As an example, if we hypothesize that $A$ and $B$ do not
+interact, and we want to see species $A$ and $B$ both co-occurring and _not
+interacting_ 10 times to be confident this is a true negative, then we need an
+expected 1000 observations of all species if the relative abundances of $A$ and
+$B$ are both $0.1$.
 
 ![**(A)** The probability that an observed interaction is a true negative
 (y-axis) given how many times it has been sampled as a non-interaction (x-axis).
