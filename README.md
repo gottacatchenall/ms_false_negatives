@@ -611,19 +611,6 @@ time of an ecological community at a given spatial extent and temporal
 resolution, and to determine what the sampling effort required should be prior to
 sampling.
 
-Our work highlights the need for a quantitatively robust approach to sampling
-design, both for interactions [@Jordano2016SamNet] and all other aspects of
-biodiversity [@Carlson2020WhaWou]. As anthropogenic forces create rapid shifts
-in our planet's climate and biosphere, this is an imperative to maximize the
-amount of ecological information we get in our finite samples, and make our
-inferences and decisions based on this data as robust as possible. Where we
-choose to sample, and how often we choose to sample there, has strong impacts on
-the inferences we make from data. Incorporating a better understanding of
-sampling effort and bias to the design of biodiversity monitoring systems, and
-the inference and predictive models we apply to this data, is imperative in
-understanding how biodiversity is changing, and making forecasts that can guide
-conservation action. 
-
 # Acknowledgements
 
 AG & MDC acknowledge the support of the Liber Ero Chair for Biodiversity
