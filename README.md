@@ -75,6 +75,9 @@ either impractical or infeasible due to the absolute abundance of the species in
 question. 
 
 
+![This conceptual example considers a sample of the trophic community of bears, wolves, salmon (pink fish), pike (yellow fish), berry trees, and aspen trees. The true metaweb (all realized interactions across the entire spatial extent) is shown on the left. In the center is what a hypothetical ecologist samples at each site. Notice that although bears are observed co-occurring with both salmon and pike, there was never a direct observation of bears eating pike, even though they actually do. Therefore, this interaction between bears and pike is a false-negative.](./figures/concept.png){#fig:concept}
+
+
 The intrinsic properties of ecological communities create several challenges for
 sampling: first, species are not observed with equal probability---we are much
 more likely to observe a species of high abundance than one of very low
@@ -108,8 +111,6 @@ species interaction diversity [@Moore2016OptEco], and by advocating use of null
 models like those presented here as a tool for both guiding design of surveys of
 species interactions and for including detection error into predictive models.
 
-
-![This conceptual example considers a sample of the trophic community of bears, wolves, salmon (pink fish), pike (yellow fish), berry trees, and aspen trees. The true metaweb (all realized interactions across the entire spatial extent) is shown on the left. In the center is what a hypothetical ecologist samples at each site. Notice that although bears are observed co-occurring with both salmon and pike, there was never a direct observation of bears eating pike, even though they actually do. Therefore, this interaction between bears and pike is a false-negative.](./figures/concept.png){#fig:concept}
 
 # Accounting for false-negatives in species interactions
 
