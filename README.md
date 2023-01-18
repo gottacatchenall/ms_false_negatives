@@ -124,8 +124,8 @@ outline an approach to deal with this fact---first by using simulation to
 estimate the false-negative-rate for a dataset of a fixed size using neutral
 models of observation. We then illustrate how to incorporate uncertainty
 directly into predictions of species interactions to account for observation
-error based on null estimates of both false-positive rates (as an priori
-estimate of species misidentification probability) and false-positive rates (as
+error based on null estimates of both the false-positive rate (as an _a priori_
+estimate of species misidentification probability) and false-negative rate (as
 generated via the method we introduce).
 
 ## How many observations of a non-interaction do we need to be confident it's a true negative?
@@ -136,7 +136,7 @@ independent and fixed probability, which we denote $p_{fn}$ and subsequently ref
 to as the False-Negative-Rate (FNR). If we observe the same species
 not-interacting $N$ times, then the probability of a true-negative (denoted
 $p_{tn}$) is given by $p_{tn}=1-(p_{fn})^N$. This relation (the
-probability-mass-function of geometric distribution, a special case of the
+cumalitive-distribution-function of geometric distribution, a special case of the
 negative-binomial distribution) is shown in @fig:geometric(a) for varying values
 of $p_{fn}$ and illustrates a fundamental link between our ability to reliably
 say an interaction doesn't exist---$p_{tn}$---and the number of times $N$ we
@@ -149,9 +149,7 @@ co-occurring, but _not interacting_, the more likely the interaction is a
 true-negative. This has several practical consequences: first it means negatives
 taken outside the overlap of the range of each species aren’t informative
 because co-occurrence was not possible, and therefore neither was an
-interaction. If some of the “worst-case” FNRs presented in @fig:geometric(a)
-seem unrealistically high, considering that species are observed in proportion
-to their relative abundance. In the next section we demonstrate that the
+interaction. In the next section we demonstrate that the
 distribution of abundance in ecosystems can lead to very high realized values of
 FNR ($p_{fn}$) simply as an artifact of sampling effort. Second, we can use this
 relation to compute the expected number of total observations needed to obtain a
@@ -199,17 +197,17 @@ addition to the log-normal distribution, we also tested the case where the
 abundance distribution is derived from power-law scaling $Z^{(log(T_i)-1)}$
 where $T_i$ is the trophic level of species $i$ and $Z$ is a scaling coefficient
 [@Savage2004EffBod], which yields the same qualitative behavior. The practical
-consequence of abundance distributions spanning many orders of magnitude of
-abundance is that observing two "rare" species interacting requires two low
-probability events: observing two rare species _at the same time_.
+consequence of abundance distributions spanning many orders of magnitude is that
+observing two "rare" species interacting requires two low probability events:
+observing two rare species _at the same time_.
 
 To simulate the process of observation, for an ecological network $M$ with $S$
-species, we sample abundances for each species from a standard-log-normal
-distribution. For each true interaction in the adjacency matrix $M$ (i.e.
-$M_{ij}=1$) we estimate the probability of observing both species $i$ and $j$ at
-a given place and time by simulating $n$ observations of all individuals of any
-a species, where the species of the individual observed at the
-$\{1,2,\dots,n\}$-th observation is drawn from the generated log-normal
+species, we sample relative abundances for each species from a
+standard-log-normal distribution. For each true interaction in the adjacency
+matrix $M$ (i.e. $M_{ij}=1$) we estimate the probability of observing both
+species $i$ and $j$ at a given place and time by simulating $n$ observations of
+all individuals of any species, where the species of the individual observed at
+the $\{1,2,\dots,n\}$-th observation is drawn from the generated categorical
 distribution of abundances. For each pair of species $(i,j)$, if both $i$ and
 $j$ are observed within the n-observations, the interaction is tallied as a true
 positive if $M_{ij}=1$. If only one of $i$ or $j$ are observed---but not
@@ -235,7 +233,7 @@ $$L \sim  \text{BetaBinomial}(S^2-S+1,\mu\phi, 1-\mu\phi)$$
 where the maximum _a posteriori_ (MAP) estimate of $(\mu, \phi)$ applied to Mangal data from
 [@MacDonald2020RevLin] is $(\mu=0.086, \phi=24.3)$. All simulations were done
 with 500 independent replicates of unique niche model networks per unique number
-of observations $n$. All analyses presented here are done in Julia v1.8
+of total interactions observed $n$. All analyses presented here are done in Julia v1.8
 [@Bezanson2015JulFre] using both EcologicalNetworks.jl v0.5 and Mangal.jl v0.4
 [@Banville2021ManJl] and are hosted on \href{https://github.com/gottacatchenall/ms_false_negatives/tree/main/src}{Github}). Note that the
 empirical data, for the reasons described above, very likely already contains
@@ -244,27 +242,28 @@ many false-negatives, we'll revisit this issue in the final section.
 From @fig:geometric(c) it is evident that the number of species considered in a
 study is inseparable from the false-negative-rate in that study, and this effect
 should be taken into account when designing samples of ecological networks in
-the future. We see a similar qualitative pattern in  @fig:geometric(d) where the
-FNR drops off quickly as a function of observation effort, mediated by total
-richness. The practical consequence of the bottom row of @fig:geometric is
-whether the total number of observations of all species (the x-axis) for the
-threshold FNR we deem acceptable (the y-axis) is feasible. This raises two
-points: first, empirical data on interactions are subject to the practical
-limitations of funding and human-work hours, and therefore existing data tend to
-fall on the order of hundreds or thousands observations of individuals per site.
-Clear aggregation of data on sampling effort has proven difficult to find and a
-meta-analysis of network data and sampling effort seems both pertinent and
-necessary, in addition to the effects of aggregation of interactions across
-taxonomic scales [@Gauzens2013FooAgg; @Giacomuzzo2021FooWeb]. This inherent
-limitation on in-situ sampling means we should optimize where we sample across
-space so that for a given number of samples, we obtain the maximum information
-possible.  Second, what is meant by “acceptable” FNR? This raises the question:
-does a shifting FNR lead to rapid transitions in our ability inference and
-predictions about the structure and dynamics of networks, or does it produce a
-roughly linear decay in model efficacy? We explore this in the next section.
+the future. We see a similar qualitative pattern in empirical networks
+(@fig:geometric(d)) where the FNR drops off quickly as a function of observation
+effort, mediated by total richness. The practical consequence of the bottom row
+of @fig:geometric when conducting an analysis is whether there are enough total
+number of observed interactions (the x-axis) for the threshold FNR we deem
+acceptable (the y-axis) is feasible. This raises two points: first, empirical
+data on interactions are subject to the practical limitations of funding and
+human-work hours, and therefore existing data tend to fall on the order of
+hundreds or thousands observations of individuals per site. Clear aggregation of
+data on sampling effort has proven difficult to find and a meta-analysis of
+network data and sampling effort seems both pertinent and necessary, in addition
+to the effects of aggregation of interactions across taxonomic scales
+[@Gauzens2013FooAgg; @Giacomuzzo2021FooWeb]. This inherent limitation on in-situ
+sampling means we should optimize where we sample across space so that for a
+given number of samples, we obtain the maximum information possible.  Second,
+what is meant by “acceptable” FNR? This raises the question: does a shifting FNR
+lead to rapid transitions in our ability inference and predictions about the
+structure and dynamics of networks, or does it produce a roughly linear decay in
+model efficacy? We explore this in the final section.
 
 We conclude this section by advocating for the use of neutral models similar to
-above to generate expectations about the number of false-negatives in a data set
+above to generate expectations about the number of false-negatives in a dataset
 of a given size. This could prove fruitful both for designing surveys of
 interactions but also because we may want to incorporate models of imperfect
 detection error into predictive interactions models, as @Joseph2020NeuHie does
@@ -284,13 +283,12 @@ typically yield a probability of interaction between each pair of species,
 $p_{ij}$. When these are considered with uncertainty, it is usually
 model-uncertainty, e.g. the variance in the interaction probability prediction
 across several cross-validation folds, where the data is split into training and
-test sets several times.  The method we introduce adjusts the value of a model's
-predictions to produce a distribution of interaction probabilities, which are
-adjusted by a given false-negative-rate $p_{fn}$ and false-positive-rate
-$p_{fp}$ (outlined in figure @fig:resampling_concept). We describe first how to
-sample from this distribution of adjusted interaction probabilities via
-simulation, and show that this distribution can be well-approximated
-analytically. 
+test sets several times. The method we introduce adjusts the value of a model's
+predictions to produce a distribution of interaction probabilities corrected by
+a given false-negative-rate $p_{fn}$ and false-positive-rate $p_{fp}$ (outlined
+in figure @fig:resampling_concept). First we describe how to sample from this
+distribution of adjusted interaction probabilities via simulation, and show that
+this distribution can be well-approximated analytically. 
 
 ![(a) The process for estimating the false-negative-rate (FNR) for an
 interaction dataset consisting of $N$ total observed interactions. (b) The
@@ -302,19 +300,19 @@ a vertical dashed line. The histogram is simulated from the resampling process,
 and the line indicates the gaussian approximation to this distribution. Both
 resampling simulations and the gaussian approximation is applied with $n_p =150$ ](./figures/uncertainty_sampler.png){#fig:resampling_concept}
 
-We then consider the output prediction from an arbitrary prediction model, which
-is the probability $p_{ij}$ that two species $i$ and $j$ interact. To get an
-estimate of $p_{ij}$ that accounts for observation error, we resample the
-probability of each interaction $p_{ij}$ by simulating a set of several
-'particles', where each particle is a realization of an interaction occurring
-(either true or false with probabilities $p_{ij}$ and $1-p_{ij}$ respectively)
-and then being correctly observed with probabilities given by $p_{fp}$ and
-$p_{fn}$ to yield a single boolean outcome for each particle (“Resampling”
-within @fig:resampling_concept(b)). Across of many particles, the
-resulting frequency of ‘true’ outcomes is a single resample of the interaction
-probability $p_{ij}^*$. Across several samples each of several particles, this
-forms a distribution of probabilities which are adjusted by the true and false
-negative rates.
+To get an estimate of each interaction probability that accounts for observation
+error, we resample the output prediction from an arbitrary model for each
+interaction $p_{ij}$ by simulating a set of several 'particles'. Each particle
+is a realization of an interaction _actually occurring_ assuming $p_{ij}$ is a
+correct estimate of the probability of an interaction being _observed_. Each
+particle starts as being drawn as true or false according to $p_{ij}$, and then
+adjusting this by the rate of observation error given by $p_{fp}$ and $p_{fn}$
+to yield a single boolean outcome for each particle (“Resampling” within
+@fig:resampling_concept(b)). Across of many particles, the resulting frequency
+of ‘true’ outcomes is a single resample of the probability $p_{ij}^*$ that the
+interaction actually _occurred_, not just that it was _observed_. Across several
+samples each of several particles, this forms a distribution of probabilities
+which are adjusted by the true and false-negative-rates.
 
 There is also an analytic way to approximate this distribution using the normal
 approximation to binomial. As a reminder, as the total number of samples $N$
@@ -478,8 +476,8 @@ classification---three often used machine-learning (ML) methods (Boosted
 Regression Tree (BRT), Random Forest (RF), Decision Tree (DT)), and one naive
 model from classic statistics (Logistic Regression (LR)). Each of the ML models
 are bootstrap aggregated (or bagged) with 100 replicates each. We partition the
-data into 80-20 training-test split, and then seed the training data with false
-negatives at varying rates, but crucially do nothing to the test data. We fit
+data into 80-20 training-test splits, and then seed the training data with false
+negatives at varying rates, but crucially do _nothing_ to the test data. We fit
 all of these models using MLJ.jl, a high-level Julia framework for a
 wide-variety of ML models [@Blaom2020MljJul]. We evaluate the efficacy of these
 models using two common measures of binary classifier performance: the area
