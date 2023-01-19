@@ -35,11 +35,11 @@ Last revision: \emph{\today}
 ${ abstractdata:_render_abstract.tex() }
 \vfill
 
-${ if(metadata.keywords) }\marginpar{\vskip 1em\flushright
+${ if(metadata.keywords) }
 {\small{\bfseries Keywords}:\par
 ${ for(metadata.keywords) }${ it }\\${ endfor }}
-}
 $endif$
+\vfill
 
 \clearpage
 \linenumbers
