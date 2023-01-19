@@ -9,7 +9,7 @@ abstract["abstractdata"] = {}
 if type(metadata["abstract"]) == dict:
     abstract["abstractdata"]["structured"] = True
     abstract["abstractdata"]["content"] = [{"key": header, "value": metadata["abstract"][header]} for header in metadata["abstract"]]
-
+    print("hello from abstract.py")
 if type(metadata["abstract"]) == list:
     abstract["abstractdata"]["itemized"] = True
     abstract["abstractdata"]["content"] = [header for header in metadata["abstract"]]
