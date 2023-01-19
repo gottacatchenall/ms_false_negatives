@@ -15,7 +15,7 @@ diffs = CSV.read(joinpath("src", "artifacts", "joint_marginal_diffs.csv"), DataF
 metadata = CSV.read(joinpath("src", "artifacts", "metadata.csv"), DataFrame)
 
 titles = Dict(
-    "kolpelke_et_al_2017" => "Kopelke et al. (2017)",
+    "kolpelke_et_al_2017" => "Kolpelke et al. (2017)",
     "hadfield_2014" => "Hadfield et al. (2014)",
     "havens_1992" => "Havens (1992)", 
     "ponisio_2017" => "Ponisio et al. (2017)",
