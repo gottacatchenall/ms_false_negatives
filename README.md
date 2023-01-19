@@ -230,14 +230,15 @@ random niche model food-web as
 
 $$L \sim  \text{BetaBinomial}(S^2-S+1,\mu\phi, 1-\mu\phi)$$
 
-where the maximum _a posteriori_ (MAP) estimate of $(\mu, \phi)$ applied to Mangal data from
-[@MacDonald2020RevLin] is $(\mu=0.086, \phi=24.3)$. All simulations were done
-with 500 independent replicates of unique niche model networks per unique number
-of total interactions observed $n$. All analyses presented here are done in Julia v1.8
-[@Bezanson2015JulFre] using both EcologicalNetworks.jl v0.5 and Mangal.jl v0.4
-[@Banville2021ManJl] and are hosted on \href{https://github.com/gottacatchenall/ms_false_negatives/tree/main/src}{Github}). Note that the
-empirical data, for the reasons described above, very likely already contains
-many false-negatives, we'll revisit this issue in the final section.
+where the maximum _a posteriori_ (MAP) estimate of $(\mu, \phi)$ applied to
+Mangal data from [@MacDonald2020RevLin] is $(\mu=0.086, \phi=24.3)$. All
+simulations were done with 500 independent replicates of unique niche model
+networks per unique number of total interactions observed $n$. All analyses
+presented here are done in Julia v1.8 [@Bezanson2015JulFre] using both
+EcologicalNetworks.jl v0.5 and Mangal.jl v0.4 [@Banville2021ManJl] and are
+hosted on \href{}{Github} (**link removed for double-blind review**). Note that
+the empirical data, for the reasons described above, very likely already
+contains many false-negatives, we'll revisit this issue in the final section.
 
 From @fig:geometric(c) it is evident that the number of species considered in a
 study is inseparable from the false-negative-rate in that study, and this effect
