@@ -611,9 +611,4 @@ time of an ecological community at a given spatial extent and temporal
 resolution, and to determine what the sampling effort required should be prior to
 sampling.
 
-# Acknowledgements
-
-AG & MDC acknowledge the support of the Liber Ero Chair for Biodiversity
-conservation and NSERC.  
-
 # References
