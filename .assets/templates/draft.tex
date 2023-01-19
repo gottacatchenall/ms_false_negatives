@@ -35,9 +35,9 @@ Last revision: \emph{\today}
 ${ abstractdata:_render_abstract.tex() }
 \vfill
 
-${ if(keywords) }\marginpar{\vskip 1em\flushright
+${ if(metadata.keywords) }\marginpar{\vskip 1em\flushright
 {\small{\bfseries Keywords}:\par
-${ for(keywords) }${ it }\\${ endfor }}
+${ for(metadata.keywords) }${ it }\\${ endfor }}
 }
 $endif$
 
