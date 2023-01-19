@@ -374,7 +374,7 @@ most unsure about whether this interaction exists. Improving the incorporation
 of different forms of uncertainty in probabilistic interaction predictions seems
 a necessary next step toward understanding what pairs of species we know the
 least about, in order to prioritize sampling to provide the most new information
-possible. 
+possible.  
 
 
 # Positive associations in co-occurrence increase the false-negative-rate
