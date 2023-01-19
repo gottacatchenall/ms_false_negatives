@@ -10,11 +10,9 @@ ${ endfor }
 </ol>
 ${ endif }
 
+
 ${ if(it.structured) }
-<dl>
     ${ for(it.content) }
-    <dt>${ it.key }</dt>
-    <dd>${ it.value }</dd>
+    {\bfseries ${ it.key }:}\,${ it.value }\\%
     ${ endfor }
-</dl>
 ${ endif }
