@@ -208,11 +208,7 @@ matrix $M$ (i.e. $M_{ij}=1$) we estimate the probability of observing both
 species $i$ and $j$ at a given place and time by simulating $n$ observations of
 all individuals of any species, where the species of the individual observed at
 the $\{1,2,\dots,n\}$-th observation is drawn from the generated categorical
-distribution of abundances. For each pair of species $(i,j)$, if both $i$ and
-$j$ are observed within the n-observations, the interaction is tallied as a true
-positive if $M_{ij}=1$. If only one of $i$ or $j$ are observed---but not
-both---in these $n$ observations, but $M_{ij}=1$, this is counted as a
-false-negative, and a true-negative otherwise. For each pair of species $(i,j)$,
+distribution of abundances. For each pair of species $(i,j)$,
 if both $i$ and $j$ are observed within the n-observations, the interaction is
 tallied as a true positive if $M_{ij}=1$. If only one of $i$ or $j$ are
 observed---but not both---in these $n$ observations, but $M_{ij}=1$, this is

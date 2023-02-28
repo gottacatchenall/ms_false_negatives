@@ -42,12 +42,12 @@ cooc = CooccurrenceMatrix([M.T,M.B], C)
 ints = InteractionsMatrix([M.T,M.B], N)
 
 exp_fpr = Exponential(0.02)
-cooccurrence_sample = InteractionUncertaintySampler.sample(CooccurrenceSampler(relabd), 1000)
+cooccurrence_sample = sample(CooccurrenceSampler(relabd), 1000)
 mean_fnr = FNR(cooccurrence_sample, C, M)
 
 
 using DataFrames, CSV
-df = CSV.read("modelfit.csv", DataFrame)
+df = CSV.read("./src/resampling/src/modelfit.csv", DataFrame)
 
 # predicted prob metaweb
 P = zeros(size(M))
